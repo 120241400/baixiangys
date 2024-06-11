@@ -967,7 +967,7 @@
       "type": 3,
       "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
       "searchable": 1,
-      "ext": "/zhanjs/好趣网.js"
+      "ext": "./zhanjs/好趣网.js"
     },
     {
       "key": "push_agent",
