@@ -7,7 +7,7 @@
       "name": "👑骚火高清",
       "type": 3,
       "playerType": "2",
-      "api": "https://fastidious-kitsune-9ab51c.netlify.app/xiutan/drpy2.min.js",
+      "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/骚火.js"
     },          
     {
