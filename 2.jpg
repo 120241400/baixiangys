@@ -1,0 +1,313 @@
+{
+"spider": "https://fastidious-kitsune-9ab51c.netlify.app/jar/meow1.jar;md5;D1115D99527D75948D095085B1407ADD",
+  "wallpaper": "http://maoyingshi.cc/api.php",
+  "sites": [
+         {
+      "key": "牛牛",
+      "name": "🔱聚合一站",
+      "type": 1,
+      "api": "https://vipcj.timizy.top/api.php/provide/vod/",
+      "playUrl": "https://jx.jsonplayer.com/player/?url=",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "电影",
+        "国产剧",
+        "综艺",
+        "动漫",
+        "体育",
+        "日剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
+    },         
+        {
+      "key": "爱看",
+      "name": "🔱聚合二站",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/ikanbot2.js"
+    },
+    {
+      "key": "哔哩直播",
+      "name": "🦄哔哩直播",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/哔哩直播.js"
+    },
+    {
+      "key": "斗鱼直播",
+      "name": "🐟斗鱼直播",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/斗鱼直播.js"
+    },
+    {
+      "key": "虎牙直播",
+      "name": "🦷虎牙直播",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/虎牙直播.js"
+    },
+    {
+      "key": "JustLive",
+      "name": "🔰聚合直播",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/JustLive.js"
+    },
+    {
+      "key": "企鹅体育",
+      "name": "🏀企鹅体育",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://tv.wangqing.vip/zhanjs/企鹅体育.json?http://cdn.teyonds.com/xp/企鹅体育.json"
+    },
+    {
+      "key": "JR直播",
+      "name": "🏀进啊体育",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/JRKAN直播.js"
+    },
+    {
+      "key": "88看球",
+      "name": "🏀八八体育",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/88看球.js"
+    },
+    {
+      "key": "drpy_js_310直播",
+      "name": "🏀三一体育",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/310直播.js"
+    },
+    {
+      "key": "量子",
+      "name": "🏀体育录像",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "体育赛事",
+        "足球",
+        "篮球",
+        "网球",
+        "斯诺克"
+      ]
+    },
+    {
+      "key": "拳皇",
+      "name": "🥊拳皇赛事",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/拳皇.js"
+    },
+    {
+      "key": "drpy_js_DJ音乐",
+      "name": "🎵呦呦音乐",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/DJ音乐.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_啦啦DJ",
+      "name": "🎵啦啦音乐",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/苹果DJ.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_清风DJ",
+      "name": "🎵清风音乐",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/清风DJ.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_种子音乐",
+      "name": "🎵种子音乐",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/种子音乐.js"
+    },
+     {
+      "key": "drpy_js_酷奇MV",
+      "name": "🎵酷奇音乐",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/酷奇MV.js"
+    },
+    {
+      "key": "蜻蜓FM",
+      "name": "📻蜻蜓广播",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/蜻蜓FM.js",
+      "playerType": "2"
+    },
+{
+      "key": "广播迷FM",
+      "name": "📻各地广播",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/广播迷FM.js"
+    },
+    {
+      "key": "drpy_js_相声随身听",
+      "name": "📻名人相声",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/相声随身听.js",
+      "playerType": "2"
+    },
+    {
+      "key": "评书",
+      "name": "📻名人评书",
+      "type": 3,
+      "searchable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "quickSearch": 0,
+      "api": "csp_XBPQ",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;1484e86a3a4463eaf8ef41c6832a1df0",
+      "ext": {
+        "主页url": "https://www.psmp3.com",
+        "数组二次截取": "<ul id=\"post_list_box\">&&</ul",
+        "数组": "<li class=\"www_psmp3_com post_list_li\">&&</div>",
+        "图片": "https://bkimg.cdn.bcebos.com/pic/86d6277f9e2f07084e3cb402ee24b899a901f2f3",
+        "标题": "title=\"&&\"",
+        "副标题": ">&&</a",
+        "链接": "href=\"&&\"",
+        "播放二次截取": "autoplay&&;</script>",
+        "播放数组": "\\[&&\\]",
+        "播放列表": "{&&}",
+        "播放链接": "url*\"&&\"",
+        "播放标题": "name*\"&&\"",
+        "播放副标题": "artist*\"&&\"",
+        "线路数组": "评书随身听",
+        "线路标题": "评书随身听",
+        "导演": "小米",
+        "主演": "评书明星",
+        "简介": "评书合集",
+        "分类url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
+        "分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
+      }
+    },
+{
+      "key": "海洋听书",
+      "name": "📚海洋听书",
+      "type": 3,
+      "api": "https://tv.wangqing.vip/xiutan/drpy2.min.js",
+      "ext": "https://tv.wangqing.vip/zhanjs/海洋听书.js"
+    },
+    {
+      "key": "drpy_js_i275听书",
+      "name": "📚二七听书",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/i275听书.js",
+      "playerType": "2"
+    },
+    {
+      "key": "喜马拉雅",
+      "name": "📚喜马听书",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/喜马拉雅.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_博看听书",
+      "name": "📚博看听书",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/博看听书.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_海洋听书",
+      "name": "📚海洋听书",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/海洋听书.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_听书网",
+      "name": "📚在线听书",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/听书网.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_有声小说",
+      "name": "📚有声听书",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/有声小说吧.js",
+      "playerType": "2"
+    },
+    {
+      "key": "drpy_js_短视频",
+      "name": "🎥聚合视频",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/短视频.js"
+    },
+    {
+      "key": "drpy_js_酷6网",
+      "name": "🎥酷六视频",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/酷6网.js"
+    },
+    {
+      "key": "drpy_js_网易公版影像",
+      "name": "🎥网易影像",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/网易公版影像.js"
+    },
+    {
+      "key": "push_agent",
+      "name": "视频广告全是骗人",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://d.kstore.space/download/2883/20240210.txt?http://meowtv.cn/zb",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ]
+}
