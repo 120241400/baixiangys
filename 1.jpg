@@ -8,7 +8,7 @@
       "type": 3,
       "playerType": "2",
       "api": "https://fastidious-kitsune-9ab51c.netlify.app/xiutan/drpy2.min.js",
-      "ext": "https://fastidious-kitsune-9ab51c.netlify.app/zhanjs/骚火.js"
+      "ext": "./zhanjs/骚火.js"
     },          
     {
       "key": "时光",
