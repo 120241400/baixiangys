@@ -104,7 +104,7 @@
       "name": "👑官方高清",
       "type": 1,
       "api": "https://vipcj.timizy.top/api.php/provide/vod/",
-      "playUrl": "https://jx.jsonplayer.com/player/?url=",
+      "playUrl": "https://player.mrgaocloud.com/player/?url=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
