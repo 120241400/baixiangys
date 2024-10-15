@@ -697,7 +697,7 @@
       "name": "🖤木耳资源",
       "type": 1,
       "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
-      "playUrl": "https://hoplayer.com/index.html?url=",
+"playUrl": "json:https://47.96.255.149/api.php?url=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
