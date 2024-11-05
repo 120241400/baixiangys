@@ -171,7 +171,6 @@
       "name": "🐔爱坤资源",
       "type": 1,
       "api": "https://ikzy9.com/api.php/provide/vod/form/ikm3u8",
-"playUrl": "json:",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
