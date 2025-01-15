@@ -99,12 +99,59 @@
       "searchable": 1,
       "ext": "./zhanjs/星辰影视.js"
     },
+{
+      "key": "聚一（官）",
+      "name": "👑聚一高清",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/聚一（官）.js"
+    },
+    {
+      "key": "聚二（官）",
+      "name": "👑聚二高清",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/聚二（官）.js"
+    },
+    {
+      "key": "酷酷（官）",
+      "name": "👑酷酷高清",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/酷酷（官）.js"
+    },
+    {
+      "key": "奇奇（官）",
+      "name": "👑奇奇高清",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "searchable": 1,
+      "ext": "./zhanjs/奇奇（官）.js"
+    },
+    {
+      "key": "腾腾（官）",
+      "name": "👑腾腾高清",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/腾腾（官）.js"
+    },
+    {
+      "key": "芒芒（官）",
+      "name": "👑芒芒高清",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "searchable": 1,
+      "ext": "./zhanjs/芒芒（官）.js"
+    },
    {
       "key": "牛牛",
-      "name": "👑官方高清",
+      "name": "👑一九高清",
       "type": 1,
       "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod?https://vipcj.timizy.top/api.php/provide/vod/",
-      "playUrl": "https://jx.xmflv.com?url=",
+      "playUrl": "https://z1.m1907.top/?jx=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
