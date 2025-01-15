@@ -958,12 +958,11 @@
       "key": "cctv大全",
       "name": "🌎央视大全",
       "type": 3,
-      "api": "csp_CCTV",
+      "api": "py_cctv",
       "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "ext": "http://yydf.540734621.xyz/yydf/yydf/bd/yydf/央视大全.json",
-      "jar": "http://yydf.540734621.xyz/yydf/yydf/bd/yydf/cctv.jar;md5;25d9c3d97411a77f12652fde9b88dbc5"
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./zhanjs/cctv.py"
     },
     {
       "key": "直播转点播",
@@ -991,6 +990,11 @@
       "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"
     }
   ],
+"parses": [
+{"name":"🌐解析1","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","imgo","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","芒果"],"header":{"User-Agent":"okhttp/3.12.0"}}},
+{"name":"🌐解析2","type":0,"url":"https://jx.xymp4.cc/?url=","ext":{"flag":["爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","imgo","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","芒果"],"header":{"User-Agent":"okhttp/3.12.0"}}},
+{"name":"🌐聚合3","type":0,"url":"https://nojx.cc/juhe/?url=","ext":{"flag":["爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","imgo","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","芒果"],"header":{"User-Agent":"okhttp/3.12.0"}}}
+],
   "lives": [
     {
       "name": "live",
