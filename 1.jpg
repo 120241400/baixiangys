@@ -69,14 +69,6 @@
       "ext": "./zhanjs/尘落影视.js"
     },
     {
-      "key": "两个BT",
-      "name": "👑两个高清",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "searchable": 1,
-      "ext": "./zhanjs/两个BT.js"
-    },
-    {
       "key": "素白影视",
       "name": "👑素白高清",
       "type": 3,
