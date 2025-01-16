@@ -293,7 +293,7 @@
       "key": "二",
       "name": "🏄新浪资源",
       "type": 1,
-      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8",
+      "api": "https://xinlangzy.com/xinlangapi.php/provide/vod/from/xlm3u8",
       "searchable": 0,
       "filterable": 0,
       "changeable": 1,
