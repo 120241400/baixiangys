@@ -878,7 +878,7 @@
     "searchable":0,
     "filterable":0,
     "jar":"./jar/HCCX.jar",
-    "ext":"./zhanjs/cctv.py"
+    "ext":"./zhanjs/央视少儿.py"
     },
     {
       "key": "cctv大全",
