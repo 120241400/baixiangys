@@ -861,6 +861,26 @@
       "ext": "./zhanjs/拳皇.js"
     },
     {
+    "key":"cctv",
+    "name":"📺央视大全",
+    "type":3,
+    "api":"csp_CCTV",
+    "searchable":0,
+    "filterable":0,
+    "jar":"./jar/HCCX.jar",
+    "ext":"./zhanjs/央视大全.json"
+    },
+{
+    "key":"cctvser",
+    "name":"📺央视少儿",
+    "type":3,
+    "api":"csp_CCTV",
+    "searchable":0,
+    "filterable":0,
+    "jar":"./jar/HCCX.jar",
+    "ext":"./zhanjs/cctv.py"
+    },
+    {
       "key": "cctv大全",
       "name": "🌎央视大全",
       "type": 3,
