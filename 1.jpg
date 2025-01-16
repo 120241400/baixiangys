@@ -35,14 +35,6 @@
       "ext": "./zhanjs/ddys.js"
     },
     {
-      "key": "尘落",
-      "name": "👑尘落高清",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/尘落影视.js"
-    },
-    {
       "key": "素白影视",
       "name": "👑素白高清",
       "type": 3,
