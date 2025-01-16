@@ -715,9 +715,9 @@
     },
     {
       "key": "三十",
-      "name": "🍀四九资源",
+      "name": "🍀油库资源",
       "type": 1,
-      "api": "https://49zyw.com/api.php/provide/vod/",
+      "api": "https://api.ukuapi88.com/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
