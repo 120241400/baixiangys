@@ -11,14 +11,6 @@
       "ext": "./zhanjs/骚火.js"
     },          
     {
-      "key": "时光",
-      "name": "👑时光高清",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/时光影视.js"
-    },
-    {
       "key": "胖虎",
       "name": "👑胖虎高清",
       "type": 3,
