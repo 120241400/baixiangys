@@ -874,7 +874,7 @@
     "key":"cctvser",
     "name":"📺央视少儿",
     "type":3,
-    "api":"csp_CCTV",
+    "api":"py_cctv_full",
     "searchable":0,
     "filterable":0,
     "jar":"./jar/HCCX.jar",
