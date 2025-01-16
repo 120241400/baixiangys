@@ -34,16 +34,6 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/ddys.js"
     },
-   {
-      "key": "七七",
-      "name": "👑七七高清",
-      "type": 0,
-      "api": "http://103.97.176.128:9527/api.php/provide/vod/at/xml",
-      "playUrl": "https://jx.xmflv.com/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
     {
       "key": "尘落",
       "name": "👑尘落高清",
