@@ -715,7 +715,7 @@
     },
     {
       "key": "三十",
-      "name": "🍀油库资源",
+      "name": "🛢️油库资源",
       "type": 1,
       "api": "https://api.ukuapi88.com/api.php/provide/vod/",
       "searchable": 1,
