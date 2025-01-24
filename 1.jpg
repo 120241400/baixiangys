@@ -332,6 +332,7 @@
       "name": "🐉卧龙资源",
       "type": 1,
       "api": "https://collect.wolongzyw.com/api.php/provide/vod/from/wlm3u8",
+      "playUrl": "https://jx.ksdiy.cn/?url=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
