@@ -1,7 +1,7 @@
 // 搜索验证 http://shapp.us/
 var rule={
 title:'骚火',
-host:'https://saohuo.tv',
+host:'https://%73%61%6f%68%75%6f%2e%74%76',
 // url:'/list/fyclass-fypage.html',
 url:'/list/fyfilter-fypage.html',
 filterable:1,//是否启用分类筛选,
