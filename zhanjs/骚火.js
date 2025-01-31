@@ -19,7 +19,7 @@ searchable:2,
 quickSearch:0,
 
 headers:{'User-Agent':'MOBILE_UA', },
-class_name:'电影&电视剧&动漫&白象影视祝大家&吉祥如意万事大吉',
+class_name:'电影&电视剧&动漫&白象影视 祝大家&万事如意 心想事成',
 class_url:'1&2&4&22&23',
 // 推荐:'.v_list li;a&&title;.lazyload&&data-original;.v_note&&Text;a&&href',
 推荐:'*',
