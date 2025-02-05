@@ -58,71 +58,37 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/聚一（官）.js"
     },
-    {
-      "key": "聚二（官）",
-      "name": "👑聚二高清",
+      {
+      "key": "csp_七新",
+      "name": "💐君赢|七新秒播",
       "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/聚二（官）.js"
-    },
-    {
-      "key": "酷酷（官）",
-      "name": "👑酷酷高清",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/酷酷（官）.js"
-    },
-    {
-      "key": "奇奇（官）",
-      "name": "👑奇奇高清",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
+      "api": "csp_XBPQ",
       "searchable": 1,
-      "ext": "./zhanjs/奇奇（官）.js"
-    },
-    {
-      "key": "腾腾（官）",
-      "name": "👑腾腾高清",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/腾腾（官）.js"
-    },
-    {
-      "key": "芒芒（官）",
-      "name": "👑芒芒高清",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "searchable": 1,
-      "ext": "./zhanjs/芒芒（官）.js"
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/zikaibox/wo/-/raw/main/mb/lib/七新影视.json",
+      "jar": "https://jihulab.com/zikaibox/wo/-/raw/main/mb/lib/秒播11.txt"
     },
    {
-      "key": "牛牛",
-      "name": "👑一九高清",
-      "type": 1,
-      "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod?https://vipcj.timizy.top/api.php/provide/vod/",
-      "playUrl": "https://jx.xmflv.com/?url=",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "国产剧",
-        "综艺",
-        "动漫",
-        "体育",
-        "日剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ]
+      "key": "csp_Wwys",
+      "name": "💐君赢|农民影视",
+      "type": 3,
+      "playerType": 2,
+      "changeable": 0,
+      "api": "csp_Wwys",
+      "ext": "https://www.wwgz.cn/",
+      "jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734406105614/xiaoyii.jar"
+    }, 
+          {
+      "key": "蝶儿",
+      "name": "💐君赢|蝶儿视频",
+      "type": 3,
+      "api": "csp_Hudie",
+      "jar": "http://cdn.qiaoji8.com/fix241229.jar;md5;e2f6fb5ea2da8edfd8e321f8eb5a8b48",
+      "playerType": 2,
+      "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
     },
+ {"key":"极品","name":"💐君赢|极品影音","type":3,"jar":"http://tv.laohu.cool/lh241229.jar;md5;cd2f361ce27e1f47fbd0052d3f3562e3","api":"csp_Jpys","playerType":1,"ext":"caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="},
     { "key": "vids",
             "name": "🎲聚合影视",
             "type": 3,
