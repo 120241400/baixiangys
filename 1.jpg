@@ -52,7 +52,7 @@
     },
 {
       "key": "聚一（官）",
-      "name": "👑聚一高清",
+      "name": "👑官方高清",
       "type": 3,
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
@@ -60,7 +60,7 @@
     },
       {
       "key": "csp_七新",
-      "name": "💐君赢|七新秒播",
+      "name": "👑七新秒播",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -71,26 +71,34 @@
     },
    {
       "key": "csp_Wwys",
-      "name": "💐君赢|农民影视",
+      "name": "👑农民影视",
       "type": 3,
       "playerType": 2,
       "changeable": 0,
       "api": "csp_Wwys",
       "ext": "https://www.wwgz.cn/",
       "jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734406105614/xiaoyii.jar"
-    }, 
-          {
+     }, 
+     {
       "key": "蝶儿",
-      "name": "💐君赢|蝶儿视频",
+      "name": "👑蝶儿视频",
       "type": 3,
       "api": "csp_Hudie",
       "jar": "http://cdn.qiaoji8.com/fix241229.jar;md5;e2f6fb5ea2da8edfd8e321f8eb5a8b48",
       "playerType": 2,
       "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
     },
- {"key":"极品","name":"💐君赢|极品影音","type":3,"jar":"http://tv.laohu.cool/lh241229.jar;md5;cd2f361ce27e1f47fbd0052d3f3562e3","api":"csp_Jpys","playerType":1,"ext":"caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="},
+    {
+    "key":"极品",
+    "name":"👑极品影音",
+    "type":3,
+    "jar":"http://tv.laohu.cool/lh241229.jar;md5;cd2f361ce27e1f47fbd0052d3f3562e3",
+    "api":"csp_Jpys",
+    "playerType":1,
+    "ext":"caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
+    },
     { "key": "vids",
-            "name": "🎲聚合影视",
+            "name": "🎲聚合无广",
             "type": 3,
             
             "api": "csp_XBPQ",
@@ -100,8 +108,19 @@
             "分类url":"https://ys.vidz.asia/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}/"
 
             }
-        },                
-{
+        }, 
+     {
+     "key":"csp_Ikanbot",
+     "name":"🎲聚合有广",
+     "type":3,
+     "api":"csp_Ikanbot",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":1,
+     "ext":"https://v.ikanbot.com",
+     "jar":"http://a25070202.3vzhuji.cc/zy/custom_spider.jar"
+     },
+     {
       "key": "旺旺",
       "name": "🧸旺旺短剧",
       "type": 0,
