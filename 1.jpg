@@ -873,7 +873,7 @@
       "name": "📺聚合电视",
       "type": 3,
       "api": "./xiutan/live2vod.js",
-      "ext": "./zhanjs/tv.txt"
+      "ext": "https://d.kstore.dev/download/4635/央视/直播接口.txt?./zhanjs/tv.txt"
     },
     {
       "key": "好趣",
