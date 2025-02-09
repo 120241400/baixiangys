@@ -118,7 +118,7 @@
      "quickSearch":1,
      "filterable":1,
      "ext":"https://v.ikanbot.com",
-     "jar":"http://a25070202.3vzhuji.cc/zy/custom_spider.jar"
+     "jar":"./zhanjs/ikanbot.jar"
      },
      {
       "key": "旺旺",
