@@ -291,7 +291,7 @@
       "name": "🛸光速资源",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8",
-      "searchable": 1,
+      "searchable": 0,
       "filterable": 0,
       "changeable": 1,
       "categories": [
