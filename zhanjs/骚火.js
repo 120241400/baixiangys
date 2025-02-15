@@ -20,7 +20,7 @@ quickSearch:0,
 
 headers:{'User-Agent':'MOBILE_UA', },
 class_name:'电影&电视剧&动漫&勿信视频中广告&公众号 白象影视',
-class_url:'1&2&4&22&23',
+class_url:'1&20&4&2&23',
 // 推荐:'.v_list li;a&&title;.lazyload&&data-original;.v_note&&Text;a&&href',
 推荐:'*',
 一级:'.v_list li;a&&title;.lazyload&&data-original;.v_note&&Text;a&&href',
