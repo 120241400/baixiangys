@@ -97,18 +97,25 @@
     "playerType":1,
     "ext":"caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
     },
-{ "key": "影视工厂", "name": "影视 | 影视工厂", "type": 3, "api": "csp_XBPQ", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "分类url:https://www.ysgc.fun/vodtype/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html,分类:电影$1#电视剧$2#综艺$3#动漫$4" },
-    { "key": "vids",
-            "name": "🎲聚合无广",
-            "type": 3,
-            
-            "api": "csp_XBPQ",
-            "ext":{  
-
+    { 
+    "key": "影视工厂", 
+    "name": "👑影视工厂", 
+    "type": 3, 
+    "api": "csp_XBPQ", 
+    "searchable": 1, 
+    "quickSearch": 1, 
+    "filterable": 1, 
+    "ext": "分类url:https://www.ysgc.fun/vodtype/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html,分类:电影$1#电视剧$2#综艺$3#动漫$4" 
+    },
+    { 
+    "key": "vids",
+    "name": "🎲聚合无广",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext":{  
 "分类":"电影$1#电视剧$2#综艺$3#动漫$DM#短剧$DJ",
-            "分类url":"https://ys.vidz.asia/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}/"
-
-            }
+ "分类url":"https://ys.vidz.asia/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}/"
+       }
         }, 
      {
      "key":"csp_Ikanbot",
