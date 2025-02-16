@@ -97,6 +97,7 @@
     "playerType":1,
     "ext":"caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
     },
+{ "key": "影视工厂", "name": "影视 | 影视工厂", "type": 3, "api": "csp_XBPQ", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "分类url:https://www.ysgc.fun/vodtype/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html,分类:电影$1#电视剧$2#综艺$3#动漫$4" },
     { "key": "vids",
             "name": "🎲聚合无广",
             "type": 3,
@@ -130,15 +131,6 @@
       "quickSearch": 1,
       "filterable": 0
     },
-   {
-            "key": "Wexduanjuvop",
-            "name": "👠秒播短剧",
-            "type": 3,
-            "api": "csp_Wexduanjuvop",
-            "jar":"https://cloud.lxweb.cn/f/apVxt6/fn.jar;md5;18eedce2077dc99c909607aa71ff50ac",
-            "searchable": 1,
-            "changeable": 1
-        },
     {
       "key": "爱坤",
       "name": "🐔爱坤资源",
