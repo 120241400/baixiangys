@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <title>忘情ffplayer</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://nojx.cc/bfq/ffplayer/share.css">
+
+<body onload="init()">
+
+        <div class="gaog" id="gaog">
+            <!--广告添加区域-->
+            <div class="gaog-var">
+
+            </div>
+        </div>
+
+        <div id="a1"></div>
+
+        <div style="display:none" name="playtime" value="1716"></div>
+        <div style="display:none" name="sizeview" value="109471412"></div>
+
+<script src="https://nojx.cc/bfq/ffplayer/artplayer.js"></script>
+<script src="https://nojx.cc/bfq/ffplayer/hls.min.js"></script>
+		                <script type="text/javascript">
+            var video_player= 'dplayer'
+            var tracker_url = ''
+            var signaler_url = ''
+            var auto_play = ''
+            var hosts = '';
+            var redirecturl = "https://wangqing.vip";
+            var videoid = "98f13708210194c475687be6106a3b84";
+
+            var id = '98f13708210194c475687be6106a3b84'
+            var     l = ''
+            var     r= ''
+            var     t= '15'
+            var     d= ''
+            var     u= ''
+
+            var main = "";
+			
+            var xml = "";
+            var pic = "/20221010/20_0d345d0f/1.jpg";
+            var thumbnails = "/20221010/20_0d345d0f/thumbnails.jpg";
+        </script>
+        <script type="text/javascript">
+                    Artplayer.DEGUG = false;
+
+function crossdomainCheck() {
+	if (!hosts) return;
+	var referagent = document.referrer;
+	if (redirecturl.indexOf("http") != 0)
+		redirecturl = "http://" + redirecturl
+	if (!referagent)
+		return top.location.href = redirecturl;
+
+	var hostsarr = hosts.split("|");
+	var refer = false;
+	var url = referagent;
+	var reg = /^http(s)?:\/\/(.*?)\//;
+
+	for (var i = 0; i <= hostsarr.length; i++) {
+		if (reg.exec(url) && reg.exec(url)[2].indexOf(hostsarr[i]) >= 0) {
+			refer = true;
+			break;
+		}
+	};
+	if (!refer) {
+		top.location.href = redirecturl;
+	};
+}
+crossdomainCheck();
+var time = 0;
+var _CK_ = null;
+var bOpen = 0;
+var bObj = null;
+var msgcache = {}
+var player = null;
+var player;
+function SetCookie(name, value) {
+	var Days = 30;
+	var exp = new Date();
+	exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+	document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+}
+function getCookie(name) {
+	var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+	if (arr != null) return unescape(arr[2]); return null;
+}
+window.onerror = function () {
+	return true;
+}
+function init() {
+	play(main, xml);
+}
+function timeHandler(t) {
+	console.log("time handler")
+	if (t > -1)
+		SetCookie(videoid + "_time", t);
+}
+function loadHandler() {
+	player.addListener('time', timeHandler); //鐩戝惉鎾斁鏃堕棿
+}
+function play(main, xml) {
+	var hostname = window.location.hostname
+	var port = window.location.port || '80';
+	var picurl = window.location.protocol + "//" + window.location.host + pic;
+	var url = window.location.protocol + "//" + window.location.host + main
+	xml = window.location.protocol + "//" + window.location.host + xml
+	if(location.search){
+				var myurl=new URLSearchParams(location.search.substring(1)).get('url')
+				if (myurl){
+					url=myurl;
+					console.log("main updated to ", myurl)
+				}
+			}
+	var isiPad = navigator.userAgent.match(/iPhone|Linux|Android|iPod|ios|iOS|Windows Phone|Phone|WebOS/i) != null;
+	var iPad = navigator.userAgent.match(/iPad/i) != null;
+	if (iPad){
+	document.getElementById('a1').innerHTML = '<video src="'+url+'" controls webkit-playsinline="true" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0);" width="100%" height="100%"></video>'
+	}else if (isiPad){
+	var videoObject = {
+		container: '#a1',
+		variable: 'player',
+		loaded: 'loadHandler',
+		autoplay: false,
+		poster: picurl,
+		adfront: l, //鍓嶇疆骞垮憡
+		adfronttime: t,
+		adfrontlink: r,
+		adpause: d,//鏆傚仠骞垮憡
+		adpausetime: t,
+		adpauselink: u,
+		video: url
+	};
+	}else{
+    var videoObject = {
+		container: '#a1',
+		variable: 'player',
+		loaded: 'loadHandler',
+		autoplay: true,
+		poster: picurl,
+		adfront: l, //鍓嶇疆骞垮憡
+		adfronttime: t,
+		adfrontlink: r,
+		adpause: d,//鏆傚仠骞垮憡
+		adpausetime: t,
+		adpauselink: u,
+		video: url
+	};
+	}
+	var cookieTime = getCookie(videoid + "_time"); //璋冪敤宸茶褰曠殑time
+	if (!cookieTime || cookieTime == undefined) { //濡傛灉娌℃湁璁板綍鍊硷紝鍒欒缃椂闂�0寮€濮嬫挱鏀�
+		cookieTime = 0;
+	}
+	if (cookieTime > 0) {
+		videoObject['seek'] = cookieTime;
+	}
+
+		    new Artplayer({
+			    container: '#a1',
+				url: url,
+			autoplay: true,
+			autoSize: false,
+			loop: false,
+			mutex: true,
+			pip: true,
+			setting: true,
+			flip: false,
+			lock: true,
+			fastForward: true,
+			playbackRate: true,
+			aspectRatio: true,
+			theme: '#ff0057',
+			fullscreen: true,
+			fullscreenWeb: true,
+			miniProgressBar: true,
+			autoOrientation: true,
+			airplay: false,
+			whitelist: ['*'],
+            whitelist: ['*'],
+                customType: {
+                    m3u8: function (video, url) {
+                        if (Hls.isSupported()) {
+                            const hls = new Hls();
+                            hls.loadSource(url);
+                            hls.attachMedia(video);
+                        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                            video.src = url;
+                        } else {
+                            art.notice.show = '不支持播放格式：m3u8';
+                        }
+                    },
+                }
+			});
+		
+
+}
+        </script>
+
+    <!--/广告添加区域-->
+</body>
+
+</html>
