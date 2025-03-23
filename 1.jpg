@@ -786,6 +786,16 @@
       "quickSearch": 1,
       "filterable": 0
     },
+    {
+      "key": "魔爪",
+      "name": "✋魔爪资源",
+      "type": 0,
+      "api": "https://mozhuazy.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
      {
       "key": "哔哩直播",
       "name": "🦄哔哩直播",
