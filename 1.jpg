@@ -903,6 +903,61 @@
       "searchable": 1,
       "ext": "./zhanjs/好趣网.js"
     },
+   {
+      "key": "Bili_youer",
+      "name": "幼儿┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "ext": "https://raw.githubusercontent.com/mygoww/xoxo/main/ext/youer.json"
+    },
+    {
+      "key": "Bili_xiaoxue",
+      "name": "小学┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "ext": "https://raw.githubusercontent.com/mygoww/xoxo/main/ext/xiaoxue.json"
+    },
+    {
+      "key": "Bili_chuzhong",
+      "name": "初中┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "ext": "https://raw.githubusercontent.com/mygoww/xoxo/main/ext/chuzhong.json"
+    },
+    {
+      "key": "Bili_gaozhong",
+      "name": "高中┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "ext": "https://raw.githubusercontent.com/mygoww/xoxo/main/ext/gaozhong.json"
+    },
+    {
+      "key": "Bili_zhongyi",
+      "name": "中医┃基础",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "jar": "https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "ext": "https://raw.githubusercontent.com/mygoww/xoxo/main/ext/zhongyi.json"
+    },
     {
       "key": "push_agent",
       "name": "视频广告全是骗人",
