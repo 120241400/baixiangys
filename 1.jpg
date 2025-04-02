@@ -923,7 +923,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/xiaoxue.json"
+      "ext": "./zhanjs/bili小学.json"
     },
     {
       "key": "Bili_chuzhong",
@@ -934,7 +934,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/chuzhong.json"
+      "ext": "./zhanjs/bili初中.json"
     },
     {
       "key": "Bili_gaozhong",
@@ -945,7 +945,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/gaozhong.json"
+      "ext": "./zhanjs/bili高中.json"
     },
     {
       "key": "Bili_zhongyi",
@@ -956,7 +956,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/zhongyi.json"
+      "ext": "./zhanjs/bili中医.json"
     },
     {
       "key": "push_agent",
