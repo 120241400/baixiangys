@@ -911,8 +911,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/youer.json"
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "ext": "./zhanjs/bili幼儿.json"
     },
     {
       "key": "Bili_xiaoxue",
@@ -922,7 +922,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/xiaoxue.json"
     },
     {
@@ -933,7 +933,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/chuzhong.json"
     },
     {
@@ -944,7 +944,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/gaozhong.json"
     },
     {
@@ -955,7 +955,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/mygoww/xoxo/main/ext/zhongyi.json"
     },
     {
