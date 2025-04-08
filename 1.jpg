@@ -871,6 +871,13 @@
     "jar":"./jar/HCCX.jar",
     "ext":"./zhanjs/央视大全.json"
     },
+    {
+    "key": "央视片库", 
+    "name": "🇨🇳央视片库", 
+    "type": 3, 
+    "api":"./xiutan/drpy2.min.js", 
+    "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/央视片库.js" 
+     },
 {
     "key":"cctvser",
     "name":"📺央视少儿",
