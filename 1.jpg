@@ -885,26 +885,6 @@
     "api":"./xiutan2/drpy2.min.js?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", 
     "ext": "./zhanjs/央视片库.js" 
      },
-{
-    "key":"cctvser",
-    "name":"📺央视少儿",
-    "type":3,
-    "api":"py_cctv_full",
-    "searchable":0,
-    "filterable":0,
-    "jar":"./jar/HCCX.jar",
-    "ext":"./zhanjs/央视少儿.py"
-    },
-    {
-      "key": "cctv大全",
-      "name": "🌎央视大全",
-      "type": 3,
-      "api": "py_cctv",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./zhanjs/cctv.py"
-    },
     {
       "key": "直播转点播",
       "name": "📺聚合电视",
