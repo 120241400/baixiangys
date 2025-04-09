@@ -882,7 +882,7 @@
     "key": "央视片库", 
     "name": "📺央视片库", 
     "type": 3, 
-    "api":"./xiutan6/drpy2.min.js?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", 
+    "api":"./xiutan2/drpy2.min.js?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", 
     "ext": "./zhanjs/央视片库.js" 
      },
     {
