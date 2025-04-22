@@ -586,7 +586,7 @@
       "name": "🦊火狐资源",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8",
-      "searchable": 0,
+      "searchable": 1,
       "filterable": 0,
       "changeable": 1,
       "categories": [
@@ -793,6 +793,15 @@
       "quickSearch": 1,
       "filterable": 0
     },
+    {
+    "key":"祥祥资源",
+    "name":"🫕祥子采集",
+    "type":1,
+     "api":"http://141.147.146.105/api.php/provide/vod/",
+   "searchable":1,
+   "quickSearch":1,
+   "filterable":1
+    }, 
     {
       "key": "魔爪",
       "name": "✋魔爪资源",
