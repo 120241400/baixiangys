@@ -794,13 +794,13 @@
       "filterable": 0
     },
     {
-    "key":"祥祥资源",
-    "name":"🫕祥子采集",
+    "key":"黑木资源",
+    "name":"♟黑木资源",
     "type":1,
-     "api":"http://141.147.146.105/api.php/provide/vod/",
+     "api":"https://heimuer.ggff.net/api.php/tvbox/",
    "searchable":1,
    "quickSearch":1,
-   "filterable":1
+   "filterable":0
     }, 
     {
       "key": "魔爪",
