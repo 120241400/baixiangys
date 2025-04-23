@@ -116,7 +116,6 @@
     "api":"./xiutan2/drpy2.min.js",         "type": 3, 		       "searchable": 1, 		       "changeable": 0, 		       "quickSearch": 1, 		       "playerType": "2", 
     "ext": "./zhanjs/百姓高清.json" 
       },
-	{ "key": "drpy_bx", "name": "💖分享百姓", "api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/000/master/js/drpy2.min.js", "type": 3, 			"searchable": 1, 			"changeable": 0, 			"quickSearch": 1, 			"playerType": "2", "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/XBPQ/分享BX.json" },
     {
     "key": "唐人", 
     "name": "👑唐人影视", 
