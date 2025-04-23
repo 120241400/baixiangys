@@ -10,7 +10,8 @@
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/骚火.js"
-    },          
+    },  
+{"key":"csp_Bd","name":"👑哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/享.txt","ext":"https://v.xlys.ltd.ua"}, 
     {
       "key": "八号",
       "name": "👑八号高清",
