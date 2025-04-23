@@ -16,7 +16,7 @@
       "name": "👑瓜子高清",
       "type": 3,
       "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
+      "api": "./xiutan2/drpy2.min.js",
       "ext": "./zhanjs/瓜子.js"
     },  
 {"key":"csp_Bd","name":"👑哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/享.txt","ext":"https://v.xlys.ltd.ua"}, 
