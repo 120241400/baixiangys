@@ -11,6 +11,14 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/骚火.js"
     },  
+     {
+      "key": "瓜子",
+      "name": "👑瓜子高清",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/瓜子.js"
+    },  
 {"key":"csp_Bd","name":"👑哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/享.txt","ext":"https://v.xlys.ltd.ua"}, 
 { "key": "drpyS_盘它[盘]", "name": "👑网盘蓝光", "type": 4, "api": "https://zhxy.eu.org/api/盘它[盘]", "searchable": 1, "filterable": 0, "quickSearch": 1, "ext": "" },
     {
