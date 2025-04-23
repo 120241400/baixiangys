@@ -12,6 +12,7 @@
       "ext": "./zhanjs/骚火.js"
     },  
 {"key":"csp_Bd","name":"👑哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/享.txt","ext":"https://v.xlys.ltd.ua"}, 
+{ "key": "drpyS_盘它[盘]", "name": "👑网盘蓝光", "type": 4, "api": "https://zhxy.eu.org/api/盘它[盘]", "searchable": 1, "filterable": 0, "quickSearch": 1, "ext": "" },
     {
       "key": "八号",
       "name": "👑八号高清",
