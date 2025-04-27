@@ -587,7 +587,7 @@
       "name": "🦊火狐资源",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8",
-      "searchable": 1,
+      "searchable": 0,
       "filterable": 0,
       "changeable": 1,
       "categories": [
