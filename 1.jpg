@@ -20,6 +20,8 @@
       "ext": "./zhanjs/瓜子.js"
     },  
 { "key": "来看点播", "name": "👑来看影视", "type": 3, "searchable": 1, "quickSearch": 1, "api": "csp_XBPQ", "jar":"", "ext": "https://gitee.com/kongkong1982/dy/raw/main/js/%E6%9D%A5%E7%9C%8B%E7%82%B9%E6%92%AD.json" },
+{ "key": "雨滴", "name": "👑雨滴影视", "type": 3, "api": "csp_Xdai", "jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/jar/分享者配置.jar", "playerType": 1, "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw" },
+{ "key":"huarenoktv", "name":"👑华人️影视", "type":1, "api":"https://huaren.live/api.php/tvbox", "playUrl":"json:https://parse.okhuaren.com/?url=", "searchable":1, "quickSearch":1, "filterable":1, "header":{ "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36", "Referer":"test" } },
 { 	"key": "hipy_js_fxztx1", 	"name": "👑分享腾腾", 	"type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", 	"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享TT.js" }, 
 { "key": "drpyS_盘它[盘]", "name": "👑网盘蓝光", "type": 4, "api": "https://zhxy.eu.org/api/盘它[盘]", "searchable": 1, "filterable": 0, "quickSearch": 1, "ext": "" },
     {
