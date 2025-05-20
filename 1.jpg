@@ -76,7 +76,7 @@
       "key": "耀久",
       "name": "??耀久高清",
       "type": 0,
-      "api": "https://mfgc.iwsyy.xyz/api.php/provide/vod/?ac=list",
+      "api": "https://mfgc.iwsyy.xyz/api.php/provide/vod/",
       "playUrl": "https://120241400.com/app/lele/youhou/jx2.html?url=",
       "searchable": 1,
       "quickSearch": 1,
