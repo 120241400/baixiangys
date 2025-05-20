@@ -64,13 +64,23 @@
       "searchable": 1,
       "ext": "./zhanjs/星辰影视.js"
     },
-{
+   {
       "key": "聚一（官）",
       "name": "👑官方高清",
       "type": 3,
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/聚一（官）.js"
+    },
+   {
+      "key": "七七",
+      "name": "??七七高清",
+      "type": 0,
+      "api": "https://mfgc.iwsyy.xyz/api.php/provide/vod/?ac=list",
+      "playUrl": "https://120241400.com/app/lele/youhou/jx1.html?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
       {
       "key": "csp_七新",
