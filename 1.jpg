@@ -72,16 +72,6 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/聚一（官）.js"
     },
-   {
-      "key": "耀久",
-      "name": "??耀久高清",
-      "type": 0,
-      "api": "https://mfgc.iwsyy.xyz/api.php/provide/vod/",
-      "playUrl": "https://120241400.com/app/lele/youhou/jx2.html?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
       {
       "key": "csp_七新",
       "name": "👑七新秒播",
@@ -129,6 +119,32 @@
     "api":"./xiutan2/drpy2.min.js",         "type": 3, 		       "searchable": 1, 		       "changeable": 0, 		       "quickSearch": 1, 		       "playerType": "2", 
     "ext": "./zhanjs/百姓高清.json" 
       },
+   {
+      "key": "牛牛",
+      "name": "🌟耀九高清",
+      "type": 1,
+      "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod?",
+      "playUrl": "https://120241400.com/app/lele/youhou/jx2.html?url=",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "国产剧",
+        "综艺",
+        "动漫",
+        "体育",
+        "日剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
+    },
     { 
     "key": "vids",
     "name": "🎲聚合无广",
