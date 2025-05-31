@@ -72,17 +72,6 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/聚一（官）.js"
     },
-      {
-      "key": "csp_七新",
-      "name": "👑七新秒播",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/zikaibox/wo/-/raw/main/mb/lib/七新影视.json",
-      "jar": "https://jihulab.com/zikaibox/wo/-/raw/main/mb/lib/秒播11.txt"
-    },
    {
       "key": "csp_Wwys",
       "name": "👑农民影视",
