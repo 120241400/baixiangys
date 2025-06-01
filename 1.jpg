@@ -38,7 +38,6 @@
       "playerType": "2",
       "api": "./xiutan2/drpy2.min.js",
       "ext": "./zhanjs/六度TV.js"
-      "searchable": 0
     },
     {
       "key": "低端",
