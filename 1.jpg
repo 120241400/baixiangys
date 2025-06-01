@@ -38,22 +38,7 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/ddys.js"
     },
-    {
-      "key": "素白影视",
-      "name": "👑素白高清",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "searchable": 1,
-      "ext": "./zhanjs/素白白.js"
-    },
-    {
-      "key": "星辰影视",
-      "name": "👑星辰高清",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "searchable": 1,
-      "ext": "./zhanjs/星辰影视.js"
-    },
+
    {
       "key": "聚一（官）",
       "name": "👑官方高清",
