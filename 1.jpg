@@ -56,23 +56,6 @@
       "playerType": 2,
       "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
     },
-    {
-    "key":"极品",
-    "name":"👑极品影音",
-    "type":3,
-    "jar":"http://tv.laohu.cool/lh241229.jar;md5;cd2f361ce27e1f47fbd0052d3f3562e3",
-    "api":"csp_Jpys",
-    "playerType":1,
-    "ext":"caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
-    },
-    { 
-    "key": "百姓", 
-    "name": "👑百姓高清",  
-    "type": 3,
-    "playerType": "2",
-    "api":"./xiutan2/drpy2.min.js",         "type": 3, 		       "searchable": 1, 		       "changeable": 0, 		       "quickSearch": 1, 		       "playerType": "2", 
-    "ext": "./zhanjs/百姓高清.json" 
-      },
    {
       "key": "牛牛",
       "name": "🌟耀九高清",
