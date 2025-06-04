@@ -38,7 +38,14 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/ddys.js"
     },
-
+   {
+      "key": "农民",
+      "name": "👑农民高清",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/剧圈圈）.js"
+    },
    {
       "key": "聚一（官）",
       "name": "👑官方高清",
