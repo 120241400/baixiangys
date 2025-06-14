@@ -3,6 +3,31 @@
   "logo": "https://baixiangys.netlify.app/shouye/logo.png",
   "wallpaper": "https://szyyds.cn/电视壁纸.php?https://picsum.photos/1300/600?grayscale",
   "sites": [
+     {
+      "key": "天涯1",
+      "name": "📡天涯资源",
+      "type": 1,
+      "api": "https://ty.tyyszy5.com/api.php/provide/vod/from/tym3u8",
+      "playUrl": "",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "短剧",
+        "国产动漫",
+        "大陆综艺",
+        "日本动漫",
+        "韩国剧",
+        "日本剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片"
+      ]
+    },
       {
       "key": "骚火",
       "name": "👑骚火高清",
