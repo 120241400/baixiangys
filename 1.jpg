@@ -3,7 +3,42 @@
   "logo": "https://baixiangys.netlify.app/shouye/logo.png",
   "wallpaper": "https://szyyds.cn/电视壁纸.php?https://picsum.photos/1300/600?grayscale",
   "sites": [
+         {
+      "key": "秀儿影视",
+      "name": "👑秀儿影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://4708.kstore.space/svip/XBPQ/秀儿影视.json"
+    },
+        {
+      "key": "罗刹影视",
+      "name": "👑罗刹影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://4708.kstore.space/svip/XBPQ/罗刹影视.json"
+    },
      {
+      "key": "白白",
+      "name": "👑素白影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://4708.kstore.space/svip/XBPQ/素白白.json"
+    },
+     {
+      "key": "永乐影视",
+      "name": "👑永乐影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://4708.kstore.space/svip/XBPQ/永乐影视.json"
+    },
+     {
+      "key": "海纳影视",
+      "name": "👑海纳影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://4708.kstore.space/svip/XBPQ/海纳影视.json"
+    },
+{
       "key": "天涯1",
       "name": "📡天涯资源",
       "type": 1,
