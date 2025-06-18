@@ -3,6 +3,13 @@
   "logo": "https://baixiangys.netlify.app/shouye/logo.png",
   "wallpaper": "https://szyyds.cn/电视壁纸.php?https://picsum.photos/1300/600?grayscale",
   "sites": [
+    {
+      "key": "白白",
+      "name": "👑素白影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://4708.kstore.space/svip/XBPQ/素白白.json"
+    },
          {
       "key": "秀儿影视",
       "name": "👑秀儿影视",
@@ -16,13 +23,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "https://4708.kstore.space/svip/XBPQ/罗刹影视.json"
-    },
-     {
-      "key": "白白",
-      "name": "👑素白影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://4708.kstore.space/svip/XBPQ/素白白.json"
     },
      {
       "key": "永乐影视",
@@ -64,8 +64,8 @@
       ]
     },
       {
-      "key": "骚火",
-      "name": "👑骚火高清",
+      "key": "骚火影視",
+      "name": "👑骚火影視",
       "type": 3,
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
