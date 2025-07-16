@@ -860,6 +860,16 @@
       "quickSearch": 1,
       "filterable": 0
     },
+    {
+      "key": "电影天堂",
+      "name": "👽天堂资源",
+      "type": 0,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
+      "playUrl": "https://jx.ksdiy.cn/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
 {
       "key": "奇异",
       "name": "🍀奇异资源",
