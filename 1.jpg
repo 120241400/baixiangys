@@ -4,6 +4,14 @@
   "wallpaper": "https://szyyds.cn/电视壁纸.php?https://picsum.photos/1300/600?grayscale",
   "sites": [
     {
+      "key": "聚一（官）",
+      "name": "👑官方高清",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/聚一（官）.js"
+    },
+    {
       "key": "白白",
       "name": "👑素白影视",
       "type": 3,
@@ -66,14 +74,6 @@
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/剧圈圈.js"
-    },
-   {
-      "key": "聚一（官）",
-      "name": "👑官方高清",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/聚一（官）.js"
     },
      {
       "key": "蝶儿",
