@@ -125,6 +125,7 @@
       "quickSearch": 1,
       "filterable": 0
     },
+{"key":"星芽短剧2","name":"🐻星芽短剧","type":3,"api":"https://weixine.net/js/lib/drpy2.min.js","ext": "https://weixine.net/js/xingya.js"},
     {
       "key": "爱坤",
       "name": "🐔爱坤资源",
