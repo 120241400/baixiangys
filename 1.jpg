@@ -19,9 +19,10 @@
       "name": "👑骚火影視",
       "type": 3,
       "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/骚火.js"
-    },  
+      "api": "csp_SaoHuo", 
+      "jar": "./jar/肥猫.jar", 
+      "ext": "https://shdy5.us"
+     },
      {
       "key": "瓜子",
       "name": "👑瓜子高清",
