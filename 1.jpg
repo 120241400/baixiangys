@@ -567,26 +567,12 @@
     {
       "key": "十九",
       "name": "🦊火狐资源",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 1,
-      "categories": [
-        "内地剧",
-        "短剧",
-        "中国动漫",
-        "大陆综艺",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片"
-      ]
+      "type": 0,
+      "api": "https://hhzyzy.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "二十一",
