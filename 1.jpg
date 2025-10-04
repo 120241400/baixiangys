@@ -22,6 +22,15 @@
       "jar": "./jar/肥猫.jar", 
       "ext": "https://shdy5.us"
      },
+        {
+            "key": "qingfeng",
+            "name": "👑清风超清",
+            "type": 4,
+            "api": "http://我不是.摸鱼儿.com/api/yuyutx.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
     {
       "key": "斗量",
       "name": "👑南瓜极速",
