@@ -22,6 +22,16 @@
       "jar": "./jar/肥猫.jar", 
       "ext": "https://shdy5.us"
      },
+    {
+      "key": "斗量",
+      "name": "👑南瓜极速",
+      "type": 3,
+      "jar": "https://tv.youdu.fan:666/duhe/jars/dl.jar",
+      "api": "csp_NanGua",
+      "quickSearch": 0,
+      "playerType": 2,
+      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+    },
      {
       "key": "瓜子",
       "name": "👑瓜子高清",
