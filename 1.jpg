@@ -39,7 +39,8 @@
       "playerType": "2",
       "api": "./xiutan2/drpy2.min.js",
       "ext": "https://weixine.net/js/guazi.js"
-    },  
+    },
+{	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
 { "key": "hipy_js_fxztx1", "name": "👑分享腾腾", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", 	"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享TT.js" }, 
     {
       "key": "六度",
