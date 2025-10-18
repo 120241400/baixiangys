@@ -66,17 +66,15 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/剧圈圈.js"
     },
-     {
-      "key": "蝶儿",
-      "name": "👑蝶儿视频",
-"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1749474115109/lh250220.jpg;md5;6878c4945c8ddfa80b052f14311377f2",
-"type":3,
-"api":"csp_Hudie",
-"searchable":1,
-"changeable":1,
-"playerType":2,
-"ext":"eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-},
+   {
+      "key": "醉挽清风",
+      "name": "👑摸鱼超清",
+      "type": 4,
+      "api": "http://我不是.摸鱼儿.top/api/yuyutx.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
    {
       "key": "牛牛",
       "name": "🌟耀九高清",
