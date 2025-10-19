@@ -45,7 +45,7 @@
 
 { 			"key": "天天", 			"name": "👑天天高清", 			"jar": "https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar", 			"type": 3, 		 "api": "csp_TTian", 		 "playerType": 2, 		 "ext": "7lj763gg0939791h1l3888jig44gi291li" 		},
 
-{ 			"key":"剧评","name":"👑剧评高清","type":3,"api":"csp_Jpys","playerType":1, 			"jar": "https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar", 			"ext":"7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l" 		},
+{ 			"key":"剧评","name":"👑剧评超清","type":3,"api":"csp_Jpys","playerType":1, 			"jar": "https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar", 			"ext":"7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l" 		},
 {
 "key":"追剧",
 "name":"👑追剧高清",
