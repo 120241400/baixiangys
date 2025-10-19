@@ -41,7 +41,7 @@
       "ext": "https://weixine.net/js/guazi.js"
     },
 {	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
-{ "key": "hipy_js_fxztx1", "name": "👑分享腾腾", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js", 	"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享TT.js" }, 
+{"key":"柠檬","name":"👑柠檬高清","type":3,"api":"csp_Nmvod","playerType":2,"jar":"https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E","ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"},
     {
       "key": "六度",
       "name": "👑六度高清",
