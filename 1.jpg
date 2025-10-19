@@ -41,7 +41,13 @@
       "ext": "https://weixine.net/js/guazi.js"
     },
 {	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
-{"key":"柠檬","name":"👑柠檬高清","type":3,"api":"csp_Nmvod","playerType":2,"jar":"https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E","ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"},
+{ 			"key": "一碗", 			"name": "👑一碗高清", 			"type": 3, 			"api": "csp_AppGet", 			"jar": "https://gitee.com/senno/tvbox/raw/master/jar/肥猫.jar", 				"ext": { 			"url": "https://bind.315999.xyz/89.txt", 				"dataKey": "#getapp@TMD@2025", 				"siteApi": "get", 				"version": "102" 			} 		},
+
+{ 			"key": "huomaoys", 			"name": "👑火猫影视", 			"type": 3, 			"api": "csp_Muou", 			"playerType": 2, 			"jar": "./jar/巧技.jar", 			"ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602" 		},
+
+{ 			"key": "天天", 			"name": "👑天天高清", 			"jar": "https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar", 			"type": 3, 		 "api": "csp_TTian", 		 "playerType": 2, 		 "ext": "7lj763gg0939791h1l3888jig44gi291li" 		},
+
+{ 			"key":"剧评","name":"👑剧评高清","type":3,"api":"csp_Jpys","playerType":1, 			"jar": "./jar/巧技.jar", 			"ext":"7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l" 		},
     {
       "key": "六度",
       "name": "👑六度高清",
