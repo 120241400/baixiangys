@@ -39,14 +39,7 @@
       "playerType": 2,
       "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
     },
-     {
-      "key": "瓜子",
-      "name": "👑瓜子高清",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan2/drpy2.min.js",
-      "ext": "https://weixine.net/js/guazi.js"
-    },
+		{ 			"key": "橘子巧计", 			"name": "👑️橘子影视", 			"type": 3, 			"searchable": 1, 			"quickSearch": 0, 			"api": "csp_Muou", 			"jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/714c5f6aa89af46f/071.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10", 			"playerType": 2, 			"ext": "7lj763gg0939790i5g649ki3hj5k98jil1g6jqiaoji6jg2458hhjjh9i4i62271j0hj124lj80ll9i8" 		},
 {	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
 { 			"key": "huomaoys", 			"name": "👑火猫影视", 			"type": 3, 			"api": "csp_Muou", 			"playerType": 2, 			"jar": "https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar", 			"ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602" 		},
 
