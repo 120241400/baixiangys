@@ -74,6 +74,14 @@
       "ext": "./zhanjs/剧圈圈.js"
     },
    {
+      "key": "两个",
+      "name": "👑两个高清",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/两个BT.js"
+    },
+   {
       "key": "醉挽清风",
       "name": "👑摸鱼超清",
       "type": 4,
