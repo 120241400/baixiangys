@@ -2,7 +2,7 @@
 var rule = {
     title:'两个BT',
     // host:'https://www.bttwoo.com',
-    host:'https://www.bttwo.com',
+    host:'https://www.bttwo.me',
     // url:'/fyclass/page/fypage',
     url:'/fyclassfyfilter',
 	filterable:1,//是否启用分类筛选,
