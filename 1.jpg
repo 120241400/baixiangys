@@ -22,6 +22,28 @@
       "jar": "./jar/肥猫.jar", 
       "ext": "https://shdy5.us"
      },
+          {
+            "key":"柠檬","name":"👑柠檬影视","type":3,
+            "api":"csp_Nmvod","playerType":2,                "jar":"https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar",           "ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+        },
+       {
+            "key": "闪影",
+            "name": "👑闪影高清",
+            "type": 3,
+            "api": "csp_AppYs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "jar":"https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
+            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
+            "categories": [
+            "电影",
+            "剧集",
+            "短剧",
+            "综艺",
+            "动漫"
+            ]
+        },
     {
       "key": "dr金牌",
       "name": "👑金牌超清",
