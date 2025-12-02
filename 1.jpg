@@ -95,15 +95,6 @@
       "ext": "./zhanjs/两个BT.js"
     },
    {
-      "key": "醉挽清风",
-      "name": "👑摸鱼超清",
-      "type": 4,
-      "api": "http://我不是.摸鱼儿.top/api/yuyutx.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-   {
       "key": "牛牛",
       "name": "🌟耀九高清",
       "type": 1,
