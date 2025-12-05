@@ -28,17 +28,6 @@
             "type":3,"api":"csp_Gz360","searchable":1,"quickSearch":0,
             "filterable":1
         },
-        {
-            "key": "顾我",
-            "name": "👑顾我高清",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar":"https://gitee.com/senno/tvbox/raw/master/jar/小米.jar",
-            "ext": "Ruh/okyt5lxEpcdQOao0NkSkj8M9vdB0soaZbGJldzA3817rfAzlvyWHCewZEFD4QM0qe2RsdUi4EV2ahfsS3A/es1YdDklLhx2rV41bMRA1+i9FBFm7jabuulzVlSRY"
-        },
           {
             "key":"柠檬","name":"👑柠檬影视","type":3,
             "api":"csp_Nmvod","playerType":2,                "jar":"https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar",           "ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
