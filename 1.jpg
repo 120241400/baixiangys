@@ -188,7 +188,7 @@
       "key": "优质",
       "name": "💪优质资源",
       "type": 1,
-      "api": "https://api.yzzy-api.com/inc/ldg_api.php",
+      "api": "https://api.yzzy-api.com/inc/api_mac10.php",
       "playUrl": "https://jx.ksdiy.cn/?url=",
       "searchable": 1,
       "filterable": 0,
