@@ -184,12 +184,38 @@
         "剧情片"
       ]
     },
+ {
+      "key": "优质",
+      "name": "💪优质资源",
+      "type": 1,
+      "api": "https://api.yzzy-api.com/inc/ldg_api.php",
+      "playUrl": "https://jx.ksdiy.cn/?url=",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "短剧大全",
+        "国产动漫",
+        "日本动漫",
+        "大陆综艺",
+        "欧美剧",
+        "韩国剧",
+        "战争片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片"
+      ]
+    },
     {
       "key": "零",
       "name": "📡量子资源",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
-      "playUrl": "",
+      "playUrl": "https://jx.ksdiy.cn/?url=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
