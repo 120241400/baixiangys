@@ -186,11 +186,11 @@
     },
  {
       "key": "优质",
-      "name": "💪优质资源",
+      "name": "🦄优质资源",
       "type": 1,
       "api": "https://api.yzzy-api.com/inc/api_mac10.php",
       "playUrl": "https://jx.ksdiy.cn/?url=",
-      "searchable": 1,
+      "searchable": 0,
       "filterable": 0,
       "changeable": 1,
       "categories": [
