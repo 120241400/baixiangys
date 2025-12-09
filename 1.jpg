@@ -92,14 +92,7 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/剧圈圈.js"
     },
-   {
-      "key": "两个",
-      "name": "👑两个高清",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/两个BT.js"
-    },
+{ "key": "90", "name": "👑玖玲高清", "type": 1, "api": "https://90sr.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "playurl": "https://jsjiexi.com/play/?url=", "categories": [ "电影", "连续剧", "综艺", "动漫", "短剧" ] },
    {
       "key": "牛牛",
       "name": "🌟耀九高清",
