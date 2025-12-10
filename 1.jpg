@@ -90,7 +90,7 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/剧圈圈.js"
     },
-{ "key": "90", "name": "👑玖玲高清", "type": 1, "api": "https://90sr.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "playurl": "https://bfq.90sr.com/player/?url=", "categories": [ "电影", "国剧", "综艺", "动漫", "短剧" ] },
+{ "key": "90", "name": "👑玖玲高清", "type": 1, "api": "https://90sr.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1, "playurl": "https://jx.ksdiy.cn/?url=", "categories": [ "电影", "国剧", "综艺", "动漫", "短剧" ] },
    {
       "key": "牛牛",
       "name": "🌟耀九高清",
