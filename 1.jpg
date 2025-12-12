@@ -69,8 +69,6 @@
       "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
     },
 {	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
-{ 			"key": "天天", 			"name": "👑天天高清", 			"jar": "https://gitee.com/senno/tvbox/raw/master/jar/巧技.jar", 			"type": 3, 		 "api": "csp_TTian", 		 "playerType": 2, 		 "ext": "7lj763gg0939791h1l3888jig44gi291li" 		},
-
 {
 "key":"追剧",
 "name":"👑追剧高清",
