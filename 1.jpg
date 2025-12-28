@@ -91,20 +91,13 @@
     },
    {
       "key": "90",
-      "name": "👑酒令高清",
-      "type": 1,
-      "api": "https://90sr.com/api.php/provide/vod/?ac=list",
-      "playUrl": "https://jx.ksdiy.cn/?url=",
+      "name": "👑观坊高清",
+      "type": 0,
+      "api": "https://api.yparse.com/api/m3u8/xml",
+      "playUrl": "https://jx.playerjy.com/?ads=0&url=",
       "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "categories": [
-        "动作",
-        "国剧",
-        "国综",
-        "大陆漫",
-        "短剧"
-      ]
+      "quickSearch": 1,
+      "filterable": 0
     },
    {
       "key": "牛牛",
