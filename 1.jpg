@@ -13,7 +13,6 @@
       "jar": "./jar/肥猫.jar", 
       "ext": "https://shdy5.us"
      },
-{ "key": "XBPQ_黑狐影院", "name": "👑黑狐影院", "type": 3, "api": "csp_XBPQ", "changeable": 1, "searchable": 1, "quickSearch": 1, "filterable": 1, "jar": "http://fmys.top/lib/XBPQ.jar;md5;423e33ec108c0f7816200cebaf18fb69", "ext": "http://fmys.top/lib/hhyy.json" },
     {
       "key": "聚一（官）",
       "name": "👑官方高清",
