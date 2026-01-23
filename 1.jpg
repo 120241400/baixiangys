@@ -138,17 +138,6 @@
       "quickSearch": 1,
       "filterable": 0
     },
-        {
-            "key": "河马短剧",
-            "name": "🐻河马短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-"jar":"https://cors.eu.org/cdn.jsdelivr.net/gh/maoystv/api@master/spider.jar",
-            "ext": "https://cors.eu.org/cdn.jsdelivr.net/gh/maoystv/api@master/XYQHiker/河马短剧.json"
-        },
     {
       "key": "爱坤",
       "name": "🐔爱坤资源",
