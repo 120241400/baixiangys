@@ -750,15 +750,31 @@
       "quickSearch": 1,
       "filterable": 0
     },
-    {
-      "key": "电影天堂",
+   {
+      "key": "天堂",
       "name": "👽天堂资源",
-      "type": 0,
+      "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list",
       "playUrl": "https://jx.ksdiy.cn/?url=",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "短剧",
+        "国产动漫",
+        "电影解说",
+        "大陆综艺",
+        "日本动漫",
+        "韩国剧",
+        "日本剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片"
+      ]
     },
 {
       "key": "奇异",
