@@ -69,7 +69,6 @@
       "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
     },
 {	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
-{	 	 	"key":"达达影视","name":"👑达达高清","type":3,"api":"csp_XBPQ", 	 	"jar": "./jar/荷城茶秀.jar", 	 	"ext":"./zhanjs/达达趣.json" 	 },
 {
 "key":"追剧",
 "name":"👑追剧高清",
