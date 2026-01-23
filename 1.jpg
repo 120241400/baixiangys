@@ -138,7 +138,16 @@
       "quickSearch": 1,
       "filterable": 0
     },
-{"key":"星芽短剧2","name":"🐻星芽短剧","type":3,"api":"https://weixine.net/js/lib/drpy2.min.js","ext": "https://weixine.net/js/xingya.js"},
+        {
+            "key": "河马短剧",
+            "name": "🐻河马短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://cors.eu.org/cdn.jsdelivr.net/gh/maoystv/api@master/XYQHiker/河马短剧.json"
+        },
     {
       "key": "爱坤",
       "name": "🐔爱坤资源",
