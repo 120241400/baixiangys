@@ -3,7 +3,7 @@
   "logo": "https://baixiangys.netlify.app/shouye/logo.png",
   "wallpaper": "https://szyyds.cn/电视壁纸.php?https://picsum.photos/1300/600?grayscale",
   "sites": [
-{ "key": "豆瓣", "name": "豆瓣热播", "type": 3, "api": "./xiutan/drpy2.min.js", "ext": "./zhanjs/豆瓣.js"
+{ "key": "豆瓣", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js", "ext": "./zhanjs/豆瓣.js"
 {"key":"巧技2","name":"👑聚合超清","type":3,"searchable":1,"quickSearch":1,"api":"csp_qiao2","playerType":2,"jar":"./zhanjs/juhegaoqing.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10","ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
       {
       "key": "骚火视频",
