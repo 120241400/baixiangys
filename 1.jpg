@@ -31,13 +31,7 @@
             "type":3,"api":"csp_Gz360","searchable":1,"quickSearch":0,
             "filterable":1
         },
-    {
-      "key": "云播",
-      "name": "👑云播超清",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js"
-    },
+    {"key": "云播影视","name": "👑云播影视","type": 3,"playerType": "2","api": "https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
        {
             "key": "闪影",
             "name": "👑闪影高清",
