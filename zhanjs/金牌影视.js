@@ -1,3 +1,8 @@
+// https://xsxys.com
+// https://jpyy2.com
+// https://m.vv3nwjk.com
+// https://m.6nczbqxw9.com
+// https://m.sunnafh.com
 var rule = {
   title: '金牌影院',
   host: 'https://m.sunnafh.com',
