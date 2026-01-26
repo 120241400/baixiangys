@@ -586,7 +586,7 @@
     },
     {
       "key": "二十八",
-      "name": "♾️最大资源",
+      "name": "🎗️最大资源",
       "type": 1,
       "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8",
       "searchable": 1,
