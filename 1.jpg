@@ -27,11 +27,11 @@
 
         {
             "key":"瓜子影视","name":"👑瓜子超清",
-            "jar": "https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
+            "jar": "./jar/欧歌.jar?https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
             "type":3,"api":"csp_Gz360","searchable":1,"quickSearch":0,
             "filterable":1
         },
-    {"key": "云播影视","name": "👑云播影视","type": 3,"playerType": "2","api": "https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
+    {"key": "云播影视","name": "👑云播影视","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "./jar/Panda.jar?https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
        {
             "key": "闪影",
             "name": "👑闪影高清",
@@ -40,7 +40,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar":"https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
+            "jar":"./jar/欧歌.jar?https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
             "categories": [
             "电影",
@@ -61,16 +61,16 @@
       "key": "斗量",
       "name": "👑南瓜极速",
       "type": 3,
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar",
+      "jar": "./jar/fxz250711.jar?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar",
       "api": "csp_NanGua",
       "quickSearch": 0,
       "playerType": 2,
       "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
     },
-{	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
+{	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "./jar/荷城茶秀.jar?https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"./zhanjs/永乐影视.json?https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
 { "key": "UVod", "name": "👑柚子高清", "type": 4, "api": "http://zhangqun1818.serv00.net:5052/?sp=UVod", "style": { "type": "rect", "ratio": 1.33 }, "changeable": 1 },
-{"key":"柠檬","name":"👑柠檬高清","type":3,"api":"csp_Nmvod","playerType":2,"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"}, 
-{"key":"热播","name":"👑热播高清","type":3,"api":"csp_TTian","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg0939791h1l3888jig44gi291li"},
+{"key":"柠檬","name":"👑柠檬高清","type":3,"api":"csp_Nmvod","playerType":2,"jar": "./jar/fxz250711.jar?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"}, 
+{"key":"热播","name":"👑热播高清","type":3,"api":"csp_TTian","playerType":2,"jar":"./jar/fxz250711.jar?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg0939791h1l3888jig44gi291li"},
    {
       "key": "牛牛",
       "name": "🌟耀九高清",
