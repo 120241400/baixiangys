@@ -715,26 +715,6 @@
       "quickSearch": 1,
       "filterable": 0
     },
-{
-      "key": "蜂巢",
-      "name": "🐝蜂巢资源",
-      "type": 0,
-      "api": "https://api.fczy888.me/api.php/provide/vod/from/fcm3u8/at/xml",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-{
-      "key": "天涯",
-      "name": "🗻天涯资源",
-      "type": 0,
-      "api": "https://ty.tyyszy5.com/api.php/provide/vod/from/tym3u8/at/xml/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
    {
       "key": "天堂",
       "name": "👽天堂资源",
