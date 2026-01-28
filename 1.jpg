@@ -379,9 +379,35 @@
         "剧情片"
       ]
     },
+   {
+      "key": "牛牛",
+      "name": "🐮牛牛资源",
+      "type": 1,
+      "api": "http://niuniuzy3.com/api.php/provide/vod/from/nnm3u8",
+      "playUrl": "",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "爽文短剧",
+        "影视解说",
+        "大陆综艺",
+        "欧美剧",
+        "韩国剧",
+        "战争片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片"
+      ]
+    },
     {
       "key": "八",
-      "name": "🐮红牛资源",
+      "name": "🐂红牛资源",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8",
       "searchable": 1,
