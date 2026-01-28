@@ -1,9 +1,9 @@
 ﻿[
 {"name":"第一","url":"http://rihou.cc:555/gggg.nzk&&&https://picsum.photos/200/298"},
-{"name":"第二","url":"http://xtvantsc.xyz/litv_ts.php&&&https://picsum.photos/200/299"},
-{"name":"第三","url":"https://pan.baidu.re/down.php/567afd373a94cb753551bd6047a83350.txt&&&https://picsum.photos/200/300"},
-{"name":"第四","url":"https://wp.szyyds.cn/f/265ca/%E7%BB%9F%E4%B8%80.txt&&&https://picsum.photos/200/301"},
-{"name":"第五","url":"https://freetv.fun/test_channels_all.txt&&&https://picsum.photos/200/302"},
+{"name":"第二","url":"https://cors.eu.org/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt&&&https://picsum.photos/200/299"},
+{"name":"第三","url":"https://bc.188766.xyz/?ip=&mishitong=true&mima=bingcha1130&json=true&&&https://picsum.photos/200/300"},
+{"name":"第四","url":"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/529EAA1_773_jsyd_20251205182514164newMediaFile.bmp&&&https://picsum.photos/200/301"},
+{"name":"第五","url":"https://ds65.tv1288.xyz&&&https://picsum.photos/200/302"},
 {"name":"第六","url":"https://seep.eu.org/raw.githubusercontent.com/Guovin/TV/gd/output/result.txt&&&https://picsum.photos/200/306"},
 {"name":"第七","url":"https://seep.eu.org/https://live.izbds.com/tv/iptv4.txt&&&https://picsum.photos/200/304"},
 {"name":"第八","url":"https://seep.eu.org/https://upld.zone.id/uploads/q9iq9e5iq/lvse.txt&&&https://picsum.photos/200/305"},
@@ -18,5 +18,6 @@
 {"name":"十七","url":"https://fy.iptv1.ggff.net/?url=http://www.douzhicloud.site:35455&&&https://picsum.photos/200/314"}
 
 ]
+
 
 
