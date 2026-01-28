@@ -212,7 +212,7 @@
       "key": "花旗",
       "name": "🎈花旗资源",
       "type": 1,
-      "api": "https://www.seacms.org/api.php/provide/vod/?ac=list",
+      "api": "https://www.seacms.org/api.php/provide/vod/jsm3u8",
       "playUrl": "",
       "searchable": 1,
       "filterable": 0,
