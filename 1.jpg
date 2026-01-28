@@ -363,6 +363,7 @@
       "name": "🎯非凡资源",
       "type": 1,
       "api": "http://ffzy1.tv/api.php/provide/vod/from/ffm3u8",
+      "playUrl": "https://jx.ksdiy.cn/?url=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
