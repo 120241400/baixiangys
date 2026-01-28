@@ -5,7 +5,7 @@
     "编码": "UTF-8",
     "请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
     "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36#Referer$https://lkvod.me",
-    "主页url": "https://lkvod.me",
+    "主页url": "https://nkvod.me",
     "首页": "60",
     "起始页": "1",
     "分类url": "https://lkvod.me/show/{cateId}--{by}------{catePg}---{year}.html;;rc",
@@ -38,4 +38,5 @@
     "年份": "2010-2024",
     "年份值": "*",
     "排序": "按最新$time#按最热$hits#按评分$score"
+
 }
