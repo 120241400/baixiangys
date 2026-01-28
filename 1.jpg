@@ -579,7 +579,7 @@
     },
     {
       "key": "二十八",
-      "name": "🎗️最大资源",
+      "name": "✊最大资源",
       "type": 1,
       "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8",
       "searchable": 1,
@@ -685,7 +685,7 @@
         ]
      },
     {
-      "key": "豆瓣",
+      "key": "豆瓣资源",
       "name": "🥜豆瓣资源",
       "type": 0,
       "api": "https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/xml/",
