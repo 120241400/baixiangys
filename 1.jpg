@@ -29,11 +29,11 @@
 
         {
             "key":"瓜子影视","name":"👑瓜子超清",
-            "jar": "./jar/欧歌.jar?https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
+            "jar": "https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
             "type":3,"api":"csp_Gz360","searchable":1,"quickSearch":0,
             "filterable":1
         },
-    {"key": "云播影视","name": "👑云播影视","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "./jar/Panda.jar?https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
+    {"key": "云播影视","name": "👑云播影视","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "https://cors.eu.org/https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
     {
       "key": "dr金牌",
       "name": "👑金牌超清",
