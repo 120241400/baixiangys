@@ -34,24 +34,6 @@
             "filterable":1
         },
     {"key": "云播影视","name": "👑云播影视","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "./jar/Panda.jar?https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
-       {
-            "key": "闪影",
-            "name": "👑闪影高清",
-            "type": 3,
-            "api": "csp_AppYs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "jar":"./jar/欧歌.jar?https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
-            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
-            "categories": [
-            "电影",
-            "剧集",
-            "短剧",
-            "综艺",
-            "动漫"
-            ]
-        },
     {
       "key": "dr金牌",
       "name": "👑金牌超清",
@@ -130,32 +112,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    },
-   {
-      "key": "闪影1",
-      "name": "闪影资源",
-      "type": 1,
-      "api": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
-      "playUrl": "https://jx.ksdiy.cn/?url=",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "categories": [
-        "国产剧",
-        "国产动漫",
-        "爽文短剧",
-        "影视解说",
-        "大陆综艺",
-        "欧美剧",
-        "韩国剧",
-        "战争片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片"
-      ]
     },
     {
       "key": "爱坤",
