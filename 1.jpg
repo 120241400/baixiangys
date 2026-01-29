@@ -117,7 +117,7 @@
       "key": "爱坤",
       "name": "🐔爱坤资源",
       "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/form/ikm3u8",
+      "api": "https://cors.eu.org/https://ikunzyapi.com/api.php/provide/vod/form/ikm3u8",
       "playUrl": "https://jx.ksdiy.cn/?url=",
       "searchable": 1,
       "filterable": 0,
