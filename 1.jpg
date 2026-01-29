@@ -44,6 +44,7 @@
             "filterable": 0,
             "jar":"./jar/欧歌.jar?https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
+            "playUrl": "https://jx.ksdiy.cn/?url=",
             "categories": [
             "电影",
             "剧集",
