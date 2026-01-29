@@ -132,7 +132,7 @@
       "filterable": 0
     },
    {
-      "key": "闪影",
+      "key": "闪影1",
       "name": "闪影资源",
       "type": 1,
       "api": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
