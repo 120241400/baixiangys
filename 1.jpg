@@ -44,7 +44,6 @@
             "filterable": 0,
             "jar":"./jar/欧歌.jar?https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
-            "playUrl": "https://jx.ksdiy.cn/?url=",
             "categories": [
             "电影",
             "剧集",
@@ -132,6 +131,32 @@
       "quickSearch": 1,
       "filterable": 0
     },
+   {
+      "key": "闪影",
+      "name": "闪影资源",
+      "type": 1,
+      "api": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
+      "playUrl": "https://jx.ksdiy.cn/?url=",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "爽文短剧",
+        "影视解说",
+        "大陆综艺",
+        "欧美剧",
+        "韩国剧",
+        "战争片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片"
+      ]
+    },
     {
       "key": "爱坤",
       "name": "🐔爱坤资源",
@@ -161,7 +186,7 @@
       "key": "优质",
       "name": "🦄优质资源",
       "type": 1,
-      "api": "https://api.yzzy-api.com/inc/api_mac10.php",
+      "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
       "playUrl": "https://jx.ksdiy.cn/?url=",
       "searchable": 0,
       "filterable": 0,
