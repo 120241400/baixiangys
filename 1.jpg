@@ -239,7 +239,7 @@
       "name": "💦三六资源",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod/from/360zy",
-      "playUrl": "https://cors.eu.org/",
+      "playUrl": "https://www.360jiexi.com/player/?url=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
