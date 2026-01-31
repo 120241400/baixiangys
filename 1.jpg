@@ -5,14 +5,14 @@
   "sites": [
 { "key": "豆瓣热播", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js", "ext": "./zhanjs/douban.js"
 },
-{"key":"巧技2","name":"👑聚合超清","type":3,"searchable":1,"quickSearch":1,"api":"csp_qiao2","playerType":2,"jar":"./zhanjs/juhegaoqing.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10","ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
+{"key":"巧技2","name":"👑聚合超清","type":3,"searchable":1,"quickSearch":1,"api":"csp_qiao2","playerType":2,"jar":"https://cors.eu.org/baixiangys.netlify.app/zhanjs/juhegaoqing.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10","ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
       {
       "key": "骚火视频",
       "name": "👑骚火影视",
       "type": 3,
       "playerType": "2",
       "api": "csp_SaoHuo", 
-      "jar": "./jar/肥猫.jar", 
+      "jar": "https://cors.eu.org/baixiangys.netlify.app/jar/肥猫.jar", 
       "ext": "https://shdy5.us"
      },
     {
@@ -51,7 +51,7 @@
       "playerType": 2,
       "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
     },
-{	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "./jar/荷城茶秀.jar?https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"./zhanjs/永乐影视.json?https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
+{	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"./zhanjs/永乐影视.json?https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
 { "key": "UVod", "name": "👑柚子高清", "type": 4, "api": "http://zhangqun1818.serv00.net:5052/?sp=UVod", "style": { "type": "rect", "ratio": 1.33 }, "changeable": 1 },
 {"key":"柠檬","name":"👑柠檬高清","type":3,"api":"csp_Nmvod","playerType":2,"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"}, 
 {"key":"热播","name":"👑热播高清","type":3,"api":"csp_TTian","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg0939791h1l3888jig44gi291li"},
@@ -152,7 +152,7 @@
      "quickSearch":1,
      "filterable":1,
      "ext":"https://v.ikanbot.com",
-     "jar":"./zhanjs/ikanbot.jar"
+     "jar":"https://cors.eu.org/baixiangys.netlify.app/zhanjs/ikanbot.jar"
      },
 {"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
      {
