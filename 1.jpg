@@ -23,7 +23,7 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/聚一（官）.js"
     },
-{"key":"影视大全","name":"👑影视大全","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.iysdq.cc/vodshow/{cateId}-{area}-------{catePg}---.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"}},
+{"key":"影视大全","name":"👑大全高清","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.iysdq.cc/vodshow/{cateId}-{area}-------{catePg}---.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"}},
 
 { "key": "来看高清", "name": "👑来看高清", "type": 3, "searchable": 1, "quickSearch": 1, "api": "csp_XBPQ", "jar":"", "ext": "./zhanjs/来看影视.json" },
 
@@ -33,7 +33,7 @@
             "type":3,"api":"csp_Gz360","searchable":1,"quickSearch":0,
             "filterable":1
         },
-    {"key": "云播影视","name": "👑云播影视","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "https://cors.eu.org/https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
+    {"key": "云播影视","name": "👑云播高清","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "https://cors.eu.org/https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
     {
       "key": "dr金牌",
       "name": "👑金牌超清",
