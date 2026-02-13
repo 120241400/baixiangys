@@ -1,6 +1,6 @@
 {
   "spider": "https://cors.eu.org/baixiangys.netlify.app/jar/meow1.jar;md5;D1115D99527D75948D095085B1407ADD",
-  "logo": "https://baixiangys.netlify.app/shouye/logo.png",
+  "logo": "https://i0.wp.com/baixiangys.netlify.app/shouye/logo.png",
   "wallpaper": "https://深色壁纸.xxooo.cf?https://picsum.photos/1300/600?grayscale",
   "sites": [
 { "key": "豆瓣热播", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js", "ext": "./zhanjs/douban.js"
