@@ -1,11 +1,11 @@
 {
-  "spider": "https://cors.eu.org/baixiangys.netlify.app/jar/meow1.jar;md5;D1115D99527D75948D095085B1407ADD",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/jar/meow1.jar;md5;D1115D99527D75948D095085B1407ADD",
   "logo": "https://i0.wp.com/baixiangys.netlify.app/shouye/logo.png",
   "wallpaper": "https://深色壁纸.xxooo.cf?https://picsum.photos/1300/600?grayscale",
   "sites": [
 { "key": "豆瓣热播", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js", "ext": "./zhanjs/douban.js"
 },
-{"key":"巧技2","name":"👑聚合超清","type":3,"searchable":1,"quickSearch":1,"api":"csp_qiao2","playerType":2,"jar":"https://cors.eu.org/baixiangys.netlify.app/zhanjs/juhegaoqing.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10","ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
+{"key":"巧技2","name":"👑聚合超清","type":3,"searchable":1,"quickSearch":1,"api":"csp_qiao2","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/zhanjs/juhegaoqing.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10","ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
       {
       "key": "骚火视频",
       "name": "👑骚火影视",
@@ -151,7 +151,7 @@
      "quickSearch":1,
      "filterable":1,
      "ext":"https://v.ikanbot.com",
-     "jar":"https://cors.eu.org/baixiangys.netlify.app/zhanjs/ikanbot.jar"
+     "jar":"https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/zhanjs/ikanbot.jar"
      },
 {"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
      {
