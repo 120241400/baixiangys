@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>聚合解析</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+            padding: 15px;
+            background-color: #f8f9fa;
+            overflow: hidden;
+        }
+        
+        .empty-tip {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+        }
+        
+        /* 核心容器：铺满屏幕 */
+        .parse-container {
+            display: grid;
+            gap: 15px;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3s ease;
+            /* 核心：通过媒体查询动态调整列数 */
+            grid-template-columns: repeat(4, 1fr); /* 默认电脑端4列 */
+            grid-auto-rows: minmax(min-content, max-content);
+            overflow-y: auto;
+        }
+        
+        /* 手机端一行2列 */
+        @media (max-width: 768px) {
+            .parse-container {
+                grid-template-columns: repeat(2, 1fr); /* 手机端2列 */
+                gap: 10px; /* 手机端间距调整 */
+            }
+        }
+        
+        /* 移动端小屏幕适配 */
+        @media (max-width: 480px) {
+            .parse-container {
+                gap: 8px; /* 最小间距 */
+            }
+        }
+        
+        /* 正方形容器 - 核心修改7:5比例 */
+        .square-item {
+            position: relative;
+            background-color: #fff;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 100%;
+            /* 核心：通过padding-top实现7:5的宽高比 (5/7*100% ≈ 71.43%) */
+            padding-top: 71.43%;
+            transition: all 0.3s ease;
+        }
+        
+        /* 质感红色全屏按钮 */
+        .fullscreen-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 60px;
+            height: 32px;
+            border-radius: 4px;
+            background: linear-gradient(#e63946, #d62828);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            transition: all 0.2s ease;
+        }
+        
+        .fullscreen-btn:hover {
+            background: linear-gradient(#d62828, #b71c1c);
+            transform: translateY(-1px);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+        }
+        
+        .fullscreen-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        }
+        
+        /* 手机端按钮适配 */
+        @media (max-width: 768px) {
+            .fullscreen-btn {
+                width: 55px;
+                height: 30px;
+                font-size: 13px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .fullscreen-btn {
+                width: 50px;
+                height: 28px;
+                font-size: 12px;
+            }
+        }
+        
+        /* iframe样式 - 适配7:5比例容器 */
+        .square-item iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* 浏览器内全屏样式（核心修改） */
+        .square-item.fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw !important;
+            height: 100vh !important;
+            z-index: 9999;
+            border-radius: 0;
+            margin: 0;
+            /* 全屏时移除padding-top，恢复正常高度 */
+            padding-top: 0;
+        }
+        .parse-container.fullscreen-mode {
+            gap: 0;
+        }
+        .square-item.hidden {
+            display: none;
+        }
+        
+        /* 新增：修复iframe全屏层级问题 */
+        iframe:-webkit-full-screen {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        iframe:-moz-full-screen {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        iframe:fullscreen {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
+<script type="text/javascript">
+(function(){
+    var baidu = document.createElement("script");
+    baidu.src = "//i.6v6.work/v/?uid=387379";
+    var cnzz = document.getElementsByTagName("script")[0];
+    cnzz.parentNode.insertBefore(baidu, cnzz);		
+ })();
+</script>
+</head>
+<body>
+    <div id="parseContainer" class="parse-container"></div>
+    <div id="emptyTip" class="empty-tip" style="display: none;">
+        请在URL后拼接 ?url=需要解析的视频链接
+    </div>
+
+    <script>
+        // 解析接口数组
+        const apiArray = [
+            "https://www.265500.vip/bfq/ffplayer.html?url=",
+            "https://jx.xmflv.com/?url=",
+            "https://jiexi.789jiexi.com/?url="
+        ];
+
+        // 核心变量
+        const originUrl = window.location.href.split("url=")[1] || "";
+        const parseContainer = document.getElementById('parseContainer');
+        const emptyTip = document.getElementById('emptyTip');
+        let fullscreenIndex = -1; // 记录当前全屏的窗口索引
+
+        // 生成解析窗口
+        function renderParseFrames() {
+            if (!originUrl) {
+                emptyTip.style.display = "block";
+                return;
+            }
+
+            const apiCount = apiArray.length;
+            parseContainer.innerHTML = ""; // 清空容器
+
+            // 生成窗口HTML
+            let frameHtml = "";
+            apiArray.forEach((api, index) => {
+                const fullUrl = api + encodeURIComponent(originUrl);
+                frameHtml += `
+                    <div class="square-item" id="item-${index}">
+                        <button class="fullscreen-btn" onclick="toggleFullscreen(${index})">全屏</button>
+                        <iframe 
+                            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-fullscreen" 
+                            allow="fullscreen *; autoplay *; encrypted-media *; picture-in-picture *"
+                            allowfullscreen="true"
+                            allowpaymentrequest="false"
+                            referrerPolicy="no-referrer" 
+                            src="${fullUrl}"
+                            id="iframe-${index}"
+                        ></iframe>
+                    </div>
+                `;
+            });
+
+            parseContainer.innerHTML = frameHtml;
+        }
+
+        // 停止iframe加载和播放
+        function stopIframe(iframeId) {
+            const iframe = document.getElementById(iframeId);
+            if (iframe) {
+                iframe.src = 'about:blank';
+            }
+        }
+
+        // 恢复iframe加载
+        function restoreIframe(index) {
+            const iframe = document.getElementById(`iframe-${index}`);
+            if (iframe) {
+                const fullUrl = apiArray[index] + encodeURIComponent(originUrl);
+                iframe.src = fullUrl;
+            }
+        }
+
+        // 全屏切换函数（核心修改：移除系统级全屏）
+        function toggleFullscreen(itemIndex) {
+            const allItems = document.querySelectorAll('.square-item');
+            const targetItem = document.getElementById(`item-${itemIndex}`);
+            const targetBtn = targetItem.querySelector('.fullscreen-btn');
+            
+            // 判断是否已在浏览器内全屏
+            const isFullscreen = fullscreenIndex === itemIndex;
+            
+            if (isFullscreen) {
+                // 退出浏览器内全屏：恢复所有窗口
+                allItems.forEach((item, index) => {
+                    item.classList.remove('fullscreen', 'hidden');
+                    restoreIframe(index);
+                    item.querySelector('.fullscreen-btn').textContent = '全屏';
+                });
+                parseContainer.classList.remove('fullscreen-mode');
+                fullscreenIndex = -1;
+            } else {
+                // 进入浏览器内全屏：仅铺满浏览器窗口，不调用系统全屏
+                allItems.forEach((item, index) => {
+                    if (index === itemIndex) {
+                        item.classList.add('fullscreen');
+                        item.classList.remove('hidden');
+                        restoreIframe(index);
+                        item.querySelector('.fullscreen-btn').textContent = '关闭';
+                    } else {
+                        item.classList.add('hidden');
+                        item.classList.remove('fullscreen');
+                        stopIframe(`iframe-${index}`);
+                    }
+                });
+                parseContainer.classList.add('fullscreen-mode');
+                fullscreenIndex = itemIndex;
+            }
+        }
+
+        // 新增：监听全屏事件，确保iframe全屏正常
+        document.addEventListener('fullscreenchange', handleFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+        
+        function handleFullscreenChange() {
+            const fullscreenElement = document.fullscreenElement || 
+                                     document.webkitFullscreenElement || 
+                                     document.mozFullScreenElement;
+            
+            // 如果是iframe全屏，确保层级正确
+            if (fullscreenElement && fullscreenElement.tagName === 'IFRAME') {
+                fullscreenElement.style.zIndex = 10000;
+            }
+        }
+
+        // 初始化渲染
+        renderParseFrames();
+
+        // 窗口大小监听
+        window.addEventListener('resize', () => {
+            parseContainer.style.height = `${document.body.clientHeight - 30}px`;
+        });
+    </script>
+</body>
+</html>
