@@ -15,6 +15,15 @@
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/jar/肥猫.jar", 
       "ext": "https://shdy5.us"
      },
+      {
+      "key": "蛋鸡视频",
+      "name": "👑蛋鸡影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_SaoHuo", 
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/jar/肥猫.jar", 
+      "ext": "https://dandanji.cc"
+     },
     {
       "key": "聚一（官）",
       "name": "👑官方高清",
