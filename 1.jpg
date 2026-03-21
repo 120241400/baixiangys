@@ -91,17 +91,6 @@
       "filterable": 1,
       "ext": "https://tvbox.catvod.com/js/4k.json"
     },
-       {
-      "key": "仓鼠",
-      "name": "👑仓鼠高清",
-      "type": 3,
-      "api": "csp_AppGetV2",
-      "changeable": "1",
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "https://img2.gelonghui.com/library/09c63-3288508f-cf34-4dbc-88d4-fbfd845b891a.txt;md5;09c634709dc18668b1bfaacbd4dc7459",
-      "ext": "pghUv+IPbIqGFEhny2nISo6q1U3I9nHoNa/iHpCGtvb/Z7AclrLHwfwwyHDOwlw+atwP39gPrsYXKDI2Mngr/+2oFaQiwYBOw20A/zpOef2PJhp0gISCLDyOOYtqku0RNCx0R7ClMxfgscA//pQaZEjeTx4K6ZolxVEj8KM1Vv6EI90iHnRKqIp1svmftZHfi/GL/C7LAEWfo0g8L8lEqe4nNXFecvk0JibeCb5FKCpck8aCsVSlrjVmbYCEHCTIXRYssqMokxKNEVvEqFB7p2DOoScmKCoVjSE0AWhBaykPGZXJG0SdnhBlNDNtBJD/"
-    },
     {
       "key": "云速",
       "name": "👑云云蓝光",
