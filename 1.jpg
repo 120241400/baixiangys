@@ -196,6 +196,30 @@
         "剧情片"
       ]
     },
+   {
+      "key": "无印",
+      "name": "无印资源",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8",
+      "playUrl": "",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "日韩动漫",
+        "大陆综艺",
+        "韩国剧",
+        "日本剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片"
+      ]
+    },
  {
       "key": "优质",
       "name": "🦄优质资源",
