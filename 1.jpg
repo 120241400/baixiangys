@@ -198,7 +198,7 @@
     },
    {
       "key": "无印",
-      "name": "无印资源",
+      "name": "🍳无印资源",
       "type": 1,
       "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8",
       "playUrl": "",
