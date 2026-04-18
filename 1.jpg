@@ -5,7 +5,6 @@
   "sites": [
 { "key": "豆瓣热播", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js", "ext": "./zhanjs/douban.js"
 },
-{"key":"巧技2","name":"👑聚合超清","type":3,"searchable":1,"quickSearch":1,"api":"csp_qiao2","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/zhanjs/juhegaoqing.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10","ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
       {
       "key": "骚火视频",
       "name": "👑骚火影视",
@@ -32,9 +31,6 @@
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/聚一（官）.js"
     },
-
-{ "key": "来看高清", "name": "👑来看高清", "type": 3, "searchable": 1, "quickSearch": 1, "api": "csp_XBPQ", "jar":"", "ext": "./zhanjs/来看影视.json" },
-
         {
             "key":"瓜子影视","name":"👑瓜子超清",
             "jar": "https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
@@ -61,16 +57,8 @@
     },
 {	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"./zhanjs/永乐影视.json?https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
 { "key": "UVod", "name": "👑柚子高清", "type": 4, "api": "http://zhangqun1818.serv00.net:5052/?sp=UVod", "style": { "type": "rect", "ratio": 1.33 }, "changeable": 1 },
-{"key":"柠檬","name":"👑柠檬高清","type":3,"api":"csp_Nmvod","playerType":2,"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"}, 
 {"key":"热播","name":"👑热播高清","type":3,"api":"csp_TTian","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg0939791h1l3888jig44gi291li"},
-         {
-      "key": "csp_Wwys",
-      "name": "👑农民影视",
-      "type": 3,
-      "api": "csp_Wwys",
-      "jar": "https://img2.gelonghui.com/library/09c63-3288508f-cf34-4dbc-88d4-fbfd845b891a.txt;md5;09c634709dc18668b1bfaacbd4dc7459",
-      "ext": "https://vip.wwgz.cn:5200"
-    },
+
     {
       "key": "qiyou",
       "name": "👑奇优高清",
@@ -80,38 +68,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://tvbox.catvod.com/js/qiyou.json"
-    },
-    {
-      "key": "4k",
-      "name": "👑四凯超清",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/4k.json"
-    },
-    {
-      "key": "云速",
-      "name": "👑云云蓝光",
-      "type": 3,
-      "api": "csp_AppGetV2",
-      "changeable": "1",
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "https://img2.gelonghui.com/library/09c63-3288508f-cf34-4dbc-88d4-fbfd845b891a.txt;md5;09c634709dc18668b1bfaacbd4dc7459",
-      "ext": "pghUv+IPbIqGFEhny2nISqwnd+ZrLZS4oOovoDKrPwYhc6bnxBhXj1yUmpQGo2dda4yKJA0rzNerKhlHbvHl2NW8J2/czPb8KoXWysWftEuunGdjctZYVk9kaYo9OOTce8YVqdhI8ypdGZCEcUzz2pWMwXc39sUREXkM2amM4x0Gl/gkP1RjYRQL3DAR1p96sdLh6Es3IRBp6pTNo5dRq8O3FFYM5IsRns9nK3/E1xuw4B7dLtmmtV+DuxfedWwn4SvT2c9mBH5Z+0qwyZtR2C647k60KDtO8wb6sSYYFsjA/CmuM5PTIx03nY2J3EQEuiBIm29b7NB7zZEWmPR34U//7AYgoku20jOO0uigRZf5oPzxxQzu+7pc+aSufNUb"
-    },
-    {
-      "key": "橘子",
-      "name": "👑橘子蓝光",
-      "type": 3,
-      "api": "csp_AppGetV2",
-      "changeable": "1",
-      "quickSearch": 0,
-      "filterable": 1,
-      "jar": "https://img2.gelonghui.com/library/09c63-3288508f-cf34-4dbc-88d4-fbfd845b891a.txt;md5;09c634709dc18668b1bfaacbd4dc7459",
-      "ext": "pghUv+IPbIqGFEhny2nISk+xygMDLIUeoyKFU8yxKlNVrgrcirdV3YINpNZnwDWWlJoI1+YwCT971kI1lcLM0tzIyHBz96Ly2iz/tFqjAerxg6klaKzTwi6jg5OOo6Mwvnbg/KZWUzU+J7aDaHc72Nucd9aASNNVEfOZ2/3HXtYs3eu8yJM7+mLSvr5mRz9+k4L/WI59yc+PqdX8OqL8HylGowei2F3008X+DCyhFqONooDf9IEFgJXOExW3L3Wb3a0nnnfyr0HqRDiEaoEW2qcVMVHR0CvPhnSp/eEmlvQQ94YDUCH/YVORQoZMD5LteQKiOzSjZbmRbCWxP3hc1A=="
     },
    {
       "key": "官方解析",
