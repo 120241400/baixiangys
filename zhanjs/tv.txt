@@ -1,7 +1,7 @@
 ﻿[
 {"name":"第一","url":"http://rihou.cc:555/gggg.nzk&&&https://picsum.photos/200/298"},
 {"name":"第二","url":"https://cors.eu.org/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt&&&https://picsum.photos/200/299"},
-{"name":"第三","url":"https://bc.188766.xyz/?ip=&mishitong=true&mima=bingcha1130&json=true&&&https://picsum.photos/200/300"},
+{"name":"第三","url":"http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt&&&https://picsum.photos/200/300"},
 {"name":"第四","url":"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/529EAA1_773_jsyd_20251205182514164newMediaFile.bmp&&&https://picsum.photos/200/301"},
 {"name":"第五","url":"https://ds65.tv1288.xyz&&&https://picsum.photos/200/302"},
 {"name":"第六","url":"https://seep.eu.org/raw.githubusercontent.com/Guovin/TV/gd/output/result.txt&&&https://picsum.photos/200/306"},
