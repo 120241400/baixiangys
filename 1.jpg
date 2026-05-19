@@ -113,7 +113,7 @@
      "searchable":1,
      "quickSearch":1,
      "filterable":1,
-     "ext":"https://v.ikanbot.com",
+     "ext":"https://v.aikanbot.com",
      "jar":"https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/zhanjs/ikanbot.jar"
      },
 {"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
