@@ -108,14 +108,11 @@
      {
      "key":"csp_Ikanbot",
      "name":"🎲聚合有广",
-     "type":3,
-     "api":"csp_Ikanbot",
-     "searchable":1,
-     "quickSearch":1,
-     "filterable":1,
-     "ext":"https://v.aikanbot.com",
-     "jar":"https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/zhanjs/ikanbot.jar"
-     },
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js?https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "./zhanjs/ikanbot.js?https://file.uhsea.com/2603/c2ff3c59b5ea0338f8f2583b75bc443255.js?https://tvbox.catvod.com/js/ik.js"
+    },
 {"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
      {
       "key": "旺旺",
