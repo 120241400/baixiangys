@@ -843,14 +843,26 @@
       "ext": "./zhanjs/bili中医.json"
     },
     {
-      "key": "push_agent",
-      "name": "视频广告全是骗人",
-      "type": 3,
-      "api": "csp_Push",
+      "key": "警告1",
+      "name": "勿信视频中广告",
+      "type": 0,
+      "api": "
+https://purge.jsdelivr.net/gh/120241400/baixiangys/1.jpg",
+      "playUrl": "",
       "searchable": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "警告2",
+      "name": "本软件永久免费",
+      "type": 0,
+      "api": "
+https://purge.jsdelivr.net/gh/120241400/baixiangys/gd.jpg",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     }
   ],
 "parses": [
