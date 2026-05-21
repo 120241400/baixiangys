@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>加载中</title>
+    <title>请在微信外浏览器打开</title>
     <style>
         *{
             margin:0;
@@ -14,7 +14,7 @@
             width:100%;
             height:100%;
             overflow:hidden;
-            background:#999999;
+            background:#666666;
         }
         .mask{
             position:fixed;
@@ -25,7 +25,6 @@
             display:flex;
             justify-content:center;
         }
-        /* 宽度全屏贴合，高度等比例不变形 */
         .mask img{
             width:100%;
             height:auto;
@@ -35,7 +34,7 @@
 </head>
 <body>
 <div class="mask">
-    <img src="https://i0.wp.com/www.baixiangys.vip/888/neiqianye/zhedang1.png" alt="遮挡图">
+    <img src="https://www.baixiangys.vip/888/neiqianye/zhedang1.png" alt="遮挡图">
 </div>
 
 <script>
@@ -47,9 +46,9 @@ function getTargetUrl(){
     let target = getTargetUrl();
     if(!target)return;
     let isWechat = /MicroMessenger/i.test(navigator.userAgent);
-    if(isWechat){
-        window.location.href = target;
-    }else{
+    // 微信内只显示遮挡图 不跳转
+    if(!isWechat){
+        // 普通浏览器才自动跳转目标网址
         window.location.href = target;
     }
 })();
