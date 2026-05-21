@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>加载中</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        html,body{
+            width:100%;
+            height:100%;
+            overflow:hidden;
+            background:#999999;
+        }
+        .mask{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            z-index:999999;
+            display:flex;
+            justify-content:center;
+        }
+        /* 宽度全屏贴合，高度等比例不变形 */
+        .mask img{
+            width:100%;
+            height:auto;
+            display:block;
+        }
+    </style>
+</head>
+<body>
+<div class="mask">
+    <img src="https://i0.wp.com/www.baixiangys.vip/888/neiqianye/zhedang1.png" alt="遮挡图">
+</div>
+
+<script>
+function getTargetUrl(){
+    const params = new URLSearchParams(window.location.search);
+    return params.get('url');
+}
+(function(){
+    let target = getTargetUrl();
+    if(!target)return;
+    let isWechat = /MicroMessenger/i.test(navigator.userAgent);
+    if(isWechat){
+        window.location.href = target;
+    }else{
+        window.location.href = target;
+    }
+})();
+</script>
+</body>
+</html>
