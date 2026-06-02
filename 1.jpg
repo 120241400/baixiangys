@@ -1,32 +1,17 @@
 {
-"spider": "https://fastidious-kitsune-9ab51c.netlify.app/jar/meow1.jar;md5;D1115D99527D75948D095085B1407ADD",
+"spider": "https://fastidious-kitsune-9ab51c.netlify.app/jar/me88ow1.jar;md5;D1115D99527D75948D095085B1407ADD",
   "wallpaper": "http://maoyingshi.cc/api.php",
   "sites": [
-         {
-      "key": "牛牛",
-      "name": "🔱聚合一站",
-      "type": 1,
-      "api": "https://vipcj.timizy.top/api.php/provide/vod/",
-      "playUrl": "https://jx.jsonplayer.com/player/?url=",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "categories": [
-        "电影",
-        "国产剧",
-        "综艺",
-        "动漫",
-        "体育",
-        "日剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ]
-    },         
+         { "key": "豆瓣热播", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js?", "ext": "./zhanjs/douban.js"
+},
+{
+     "key":"csp_Ikanbot",
+     "name":"🎲聚合有广",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js?https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "./zhanjs/ikanbot.js?https://file.uhsea.com/2603/c2ff3c59b5ea0338f8f2583b75bc443255.js?https://tvbox.catvod.com/js/ik.js"
+    },
         {
       "key": "爱看",
       "name": "🔱聚合二站",
