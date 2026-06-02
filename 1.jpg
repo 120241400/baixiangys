@@ -67,14 +67,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/qiyou.json"
+      "ext": "https://tvbox.catvod.com/js/qiyou测试.json"
     },
    {
       "key": "官方解析",
       "name": "🌟耀九高清",
       "type": 1,
       "api": "https://zy.jinchancaiji.com/api.php/provide/vod/?http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod?",
-      "playUrl": "https://jx.xmflv.com/?url=",
+      "playUrl": "https://jx.xmflv.cc/?url=",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
@@ -113,7 +113,7 @@
       "api": "./xiutan/drpy2.min.js?https://tvbox.catvod.com/js/drpy2.min.js",
       "ext": "./zhanjs/ikanbot.js?https://file.uhsea.com/2603/c2ff3c59b5ea0338f8f2583b75bc443255.js?https://tvbox.catvod.com/js/ik.js"
     },
-{"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
+{"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt测试.jar"}, 	
      {
       "key": "旺旺",
       "name": "🧸旺旺短剧",
@@ -128,7 +128,7 @@
       "key": "爱坤",
       "name": "🐔爱坤资源",
       "type": 1,
-      "api": "https://cors.eu.org/https://ikunzyapi.com/api.php/provide/vod/form/ikm3u8",
+      "api": "https://seep.eu.org/https://ikunzyapi.com/api.php/provide/vod/form/ikm3u8",
       "playUrl": "",
       "searchable": 1,
       "filterable": 0,
@@ -704,7 +704,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "playerType": 1,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播测试.js"
     },
     {
       "key": "虎牙直播",
@@ -728,7 +728,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./zhanjs/企鹅体育.json?http://cdn.teyonds.com/xp/企鹅体育.json"
+      "ext": "./zhanjs/企鹅体育测试.json?http://cdn.teyonds.com/xp/企鹅体育.json"
     },
     {
       "key": "赛事",
@@ -761,7 +761,7 @@
     "api":"csp_CCTV",
     "searchable":0,
     "filterable":0,
-    "jar":"./jar/HCCX.jar",
+    "jar":"./jar/HCCX测试.jar",
     "ext":"./zhanjs/央视大全.json"
     },
     {
@@ -806,7 +806,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili小学.json"
     },
     {
@@ -817,7 +817,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili初中.json"
     },
     {
@@ -828,7 +828,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili高中.json"
     },
     {
@@ -839,7 +839,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili中医.json"
     },
     {
