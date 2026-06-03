@@ -133,7 +133,7 @@ VOD.vod_name = ' '+pdfh(html, 'h1&&Text');
 VOD.vod_area = pdfh(html, '.module-info-tag-link:eq(1)&&Text');
  VOD.vod_director = pdfh(html, '.module-info-item:contains(导演)&&Text').replace('导演：','');
  VOD.vod_actor = pdfh(html, '.module-info-item:contains(主演)&&Text').replace('主演：','');
- VOD.vod_content = '一个分享者祝您观影愉快！剧情介绍:' + pdfh(html, '.module-info-introduction-content&&Text');
+ VOD.vod_content = '剧情介绍:' + pdfh(html, '.module-info-introduction-content&&Text');
  
  let r_ktabs = pdfa(html,'#y-playList&&span');
  let ktabs = r_ktabs.map(it => pdfh(it, 'Text'));
