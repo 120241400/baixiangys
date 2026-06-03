@@ -11,7 +11,7 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_SaoHuo", 
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/jar/肥猫1.jar", 
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/jar/肥猫.jar", 
       "ext": "https://shdy5.us"
      },
       {
@@ -20,7 +20,7 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_SaoHuo", 
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/jar/肥猫1.jar", 
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/jar/肥猫.jar", 
       "ext": "https://dandanji.cc"
      },
     {
@@ -33,31 +33,31 @@
     },
         {
             "key":"瓜子影视","name":"👑瓜子超清",
-            "jar": "https://gitee.com/senno/tvbox/raw/master/jar/欧歌1.jar",
+            "jar": "https://gitee.com/senno/tvbox/raw/master/jar/欧歌.jar",
             "type":3,"api":"csp_Gz360","searchable":1,"quickSearch":0,
             "filterable":1
         },
-    {"key": "云播影视","name": "👑云播高清","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "https://cors.eu.org/https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda8.jar" },
+    {"key": "云播影视","name": "👑云播高清","type": 3,"playerType": "2","api": "./xiutan/drpy2.min.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/drpy2.min.js","ext": "./zhanjs/TVB云播.js?https://gcore.jsdelivr.net/gh/liu673cn/box@main/libs/js/TVB云播.js","jar": "https://seep.eu.org/https://raw.githubusercontent.com/liu673cn/box/refs/heads/main/libs/jar/Panda.jar" },
     {
       "key": "dr金牌",
       "name": "👑金牌超清",
       "type": 3,
       "api": "./xiutan/drpy2.min.js?https://seep.eu.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
-      "ext": "./zhanjs/金牌影视.js?https://cors.eu.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/金牌影视.js"
+      "ext": "./zhanjs/金牌影视.js?https://seep.eu.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/金牌影视.js"
     },
     {
       "key": "斗量",
       "name": "👑南瓜极速",
       "type": 3,
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711测试.jar",
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar",
       "api": "csp_NanGua",
       "quickSearch": 0,
       "playerType": 2,
       "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
     },
-{	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀测试.jar", 	 	"ext":"./zhanjs/永乐影视.json?https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
+{	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"./zhanjs/永乐影视.json?https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
 { "key": "UVod", "name": "👑柚子高清", "type": 4, "api": "http://zhangqun1818.serv00.net:5052/?sp=UVod", "style": { "type": "rect", "ratio": 1.33 }, "changeable": 1 },
-{"key":"热播","name":"👑热播高清","type":3,"api":"csp_TTian","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711测试.jar","ext":"7lj763gg0939791h1l3888jig44gi291li"},
+{"key":"热播","name":"👑热播高清","type":3,"api":"csp_TTian","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg0939791h1l3888jig44gi291li"},
 
     {
       "key": "qiyou",
@@ -67,7 +67,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/qiyou测试.json"
+      "ext": "https://tvbox.catvod.com/js/qiyou.json"
     },
    {
       "key": "官方解析",
@@ -113,7 +113,7 @@
       "api": "./xiutan/drpy2.min.js?https://tvbox.catvod.com/js/drpy2.min.js",
       "ext": "./zhanjs/ikanbot.js?https://file.uhsea.com/2603/c2ff3c59b5ea0338f8f2583b75bc443255.js?https://tvbox.catvod.com/js/ik.js"
     },
-{"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt测试.jar"}, 	
+{"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
      {
       "key": "旺旺",
       "name": "🧸旺旺短剧",
@@ -806,7 +806,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili小学.json"
     },
     {
@@ -817,7 +817,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili初中.json"
     },
     {
@@ -828,7 +828,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili高中.json"
     },
     {
@@ -839,7 +839,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "./jar/Bili测试.jar;md5;9aa3056172a51253a05157850fc5920b",
+      "jar": "./jar/Bili.jar;md5;9aa3056172a51253a05157850fc5920b",
       "ext": "./zhanjs/bili中医.json"
     },
     {
