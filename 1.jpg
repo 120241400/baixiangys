@@ -56,9 +56,32 @@
       "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
     },
 {	 	 	"key":"永乐影视","name":"👑永乐高清","type":3,"api":"csp_XBPQ", 	 	"jar": "https://gitee.com/senno/tvbox/raw/master/jar/荷城茶秀.jar", 	 	"ext":"./zhanjs/永乐影视.json?https://gitee.com/senno/tvbox/raw/master/json/永乐影视.json" 	 },
-{ "key": "UVod", "name": "👑柚子高清", "type": 4, "api": "http://zhangqun1818.serv00.net:5052/?sp=UVod", "style": { "type": "rect", "ratio": 1.33 }, "changeable": 1 },
+    {
+      "key": "柠檬",
+      "name": "👑柠檬影视",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+    },
 {"key":"热播","name":"👑热播高清","type":3,"api":"csp_TTian","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg0939791h1l3888jig44gi291li"},
 
+        {
+      "key": "泥巴视频",
+      "name": "👑泥巴影视",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/分享泥巴.js"
+    },
+    {
+      "key": "麦田",
+      "name": "👑麦田影视",
+      "type": 3,
+      "api": "csp_AppV6",
+      "ext": "http://172.247.227.203:25321/mtys.php",
+      "jar":"http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
     {
       "key": "qiyou",
       "name": "👑奇优高清",
