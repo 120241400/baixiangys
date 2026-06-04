@@ -97,31 +97,6 @@
       ]
     },
     {
-      "key": "爱坤",
-      "name": "🐔爱坤资源",
-      "type": 1,
-      "api": "https://seep.eu.org/https://ikunzyapi.com/api.php/provide/vod/form/ikm3u8",
-      "playUrl": "",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "categories": [
-        "国产剧",
-        "国产动漫",
-        "日本动漫",
-        "大陆综艺",
-        "欧美剧",
-        "韩国剧",
-        "战争片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片"
-      ]
-    },
- {
       "key": "优质",
       "name": "🦄优质资源",
       "type": 1,
@@ -626,16 +601,6 @@
         "恐怖片",
         "剧情片"
       ]
-    },
-{
-      "key": "奇异",
-      "name": "🍀奇异资源",
-      "type": 0,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod/from/iqym3u8/at/xml",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
     {
       "key": "虎牙直播",
