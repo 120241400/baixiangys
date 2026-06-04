@@ -1,6 +1,7 @@
 var rule={
     title:'厂长资源',
     // host:'https://czspp.com', 
+    // host:'https://czzy.site', 
     // host:'https://czz9.com', 
     host:'https://www.4kcz.com/',
     hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});HOST = jsp.pdfh(html,"h3&&a&&href")',
