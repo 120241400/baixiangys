@@ -102,7 +102,7 @@
       "type": 1,
       "api": "https://api.yyzy-tv.vip/inc/api_mac10.php",
       "playUrl": "",
-      "searchable": 0,
+      "searchable": 1,
       "filterable": 0,
       "changeable": 1,
       "categories": [
@@ -202,7 +202,7 @@
       "name": "🛸光速资源",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8",
-      "searchable": 0,
+      "searchable": 1,
       "filterable": 0,
       "changeable": 1,
       "categories": [
