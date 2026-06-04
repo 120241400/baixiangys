@@ -605,7 +605,7 @@
     {
       "key": "虎牙直播",
       "name": "🦷虎牙直播",
-      "searchable": 1,
+      "searchable": 0,
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/虎牙直播.js"
