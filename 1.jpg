@@ -99,7 +99,7 @@
       "key": "aik视频",
       "name": "👑爱看视频",
       "type": 3,
-      "api": "https://seep.eu.org/https://raw.liucn.cc/box/libs/js/drpy2.min.js",
+      "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/爱看.js"
     },
     {
