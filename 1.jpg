@@ -78,28 +78,28 @@
       "key": "厂长视频",
       "name": "👑厂长视频",
       "type": 3,
-      "api": "./xiutan/drpy2.min.js",
+      "api": "./xiutan2/drpy2.min.js",
       "ext": "./zhanjs/czspp.js"
     },
     {
       "key": "里布视频",
       "name": "👑里布视频",
       "type": 3,
-      "api": "./xiutan/drpy2.min.js",
+      "api": "./xiutan2/drpy2.min.js",
       "ext": "./zhanjs/libvio.js"
     },
     {
       "key": "sh视频",
       "name": "👑扫伙视频",
       "type": 3,
-      "api": "./xiutan/drpy2.min.js",
+      "api": "./xiutan2/drpy2.min.js",
       "ext": "./zhanjs/saohuo.js"
     },
     {
       "key": "aik视频",
       "name": "👑爱看视频",
       "type": 3,
-      "api": "./xiutan/drpy2.min.js",
+      "api": "./xiutan2/drpy2.min.js",
       "ext": "./zhanjs/爱看.js"
     },
     {
