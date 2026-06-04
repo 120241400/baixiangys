@@ -74,6 +74,41 @@
       "api": "./xiutan/drpy2.min.js?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "ext": "./zhanjs/泥巴影视.js?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/分享泥巴.js"
     },
+{
+      "key": "厂长视频",
+      "name": "👑厂长视频",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/czspp.js"
+    },
+    {
+      "key": "里布视频",
+      "name": "👑里布视频",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/libvio.js"
+    },
+    {
+      "key": "sh视频",
+      "name": "👑扫伙视频",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/saohuo.js"
+    },
+    {
+      "key": "aik视频",
+      "name": "👑爱看视频",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/爱看.js"
+    },
+    {
+      "key": "奇优视频",
+      "name": "👑奇优视频",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/奇优.js"
+    },
     {
       "key": "麦田",
       "name": "👑麦田影视",
@@ -135,6 +170,13 @@
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js?https://tvbox.catvod.com/js/drpy2.min.js",
       "ext": "./zhanjs/ikanbot.js?https://file.uhsea.com/2603/c2ff3c59b5ea0338f8f2583b75bc443255.js?https://tvbox.catvod.com/js/ik.js"
+    },
+    {
+      "key": "555视频",
+      "name": "🎲聚合555",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/555.js"
     },
 {"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
      {
