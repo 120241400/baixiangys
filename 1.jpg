@@ -82,17 +82,10 @@
       "ext": "./zhanjs/czspp.js"
     },
     {
-      "key": "里布视频",
-      "name": "👑里布视频",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/libvio.js"
-    },
-    {
       "key": "sh视频",
       "name": "👑扫伙视频",
       "type": 3,
-      "api": "https://seep.eu.org/https://raw.liucn.cc/box/libs/js/drpy2.min.js",
+      "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/saohuo.js"
     },
     {
