@@ -420,7 +420,7 @@
       "key": "十",
       "name": "🌪️暴风资源",
       "type": 1,
-      "api": "http://app.bfzyapi.com/api.php/provide/vod/",
+      "api": "http://bfzyapi.com/api.php/provide/vod/",
       "playUrl": "",
       "searchable": 1,
       "filterable": 0,
