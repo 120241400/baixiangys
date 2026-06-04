@@ -2,7 +2,8 @@
 var rule={
     title:'骚火电影',
     // host:'https://saohuo.vip/',
-    host:'http://shapp.us',
+    // host:'https://shapp.us/',
+    host:'http://shdy2.com',
     hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"a:eq(2)&&href");print(src);HOST=src',
     // url:'/list/fyclass-fypage.html',
     url:'/list/fyfilter-fypage.html',
