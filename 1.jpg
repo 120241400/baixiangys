@@ -5,6 +5,14 @@
   "sites": [
 { "key": "豆瓣热播", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js?", "ext": "./zhanjs/douban.js"
 },
+{
+     "key":"csp_Ikanbot",
+     "name":"🎲聚合有广",
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/ikanbot.js"
+    },
     {
       "key": "聚二（官）",
       "name": "👑官方高清",
@@ -19,6 +27,13 @@
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/金牌影视.js"
+    },
+    {
+      "key": "永乐视频",
+      "name": "👑永乐视频",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/永乐视频.js"
     },
         {
       "key": "泥巴视频",
@@ -40,13 +55,6 @@
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/saohuo.js"
-    },
-    {
-      "key": "金拍视频",
-      "name": "👑永可视频",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/永乐视频.js"
     },
     {
       "key": "aik视频",
@@ -87,24 +95,6 @@
         "剧情片",
         "战争片"
       ]
-    },
-    { 
-    "key": "vids",
-    "name": "🎲聚合无广",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "ext":{  
-"分类":"电影$1#电视剧$2#综艺$3#动漫$DM#短剧$DJ",
- "分类url":"https://ys.vidz.asia/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}/"
-       }
-        }, 
-     {
-     "key":"csp_Ikanbot",
-     "name":"🎲聚合有广",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/ikanbot.js"
     },
      {
       "key": "旺旺",
