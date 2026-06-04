@@ -93,7 +93,7 @@
       "name": "👑永可视频",
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/永乐影视.js"
+      "ext": "./zhanjs/永乐视频.js"
     },
     {
       "key": "aik视频",
