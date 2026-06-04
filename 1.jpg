@@ -103,17 +103,9 @@
      "name":"🎲聚合有广",
       "type": 3,
       "playerType": "2",
-      "api": "./xiutan/drpy2.min.js?https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "./zhanjs/ikanbot.js?https://file.uhsea.com/2603/c2ff3c59b5ea0338f8f2583b75bc443255.js?https://tvbox.catvod.com/js/ik.js"
-    },
-    {
-      "key": "555视频",
-      "name": "🎲聚合555",
-      "type": 3,
       "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/555.js"
+      "ext": "./zhanjs/ikanbot.js"
     },
-{"key":"PTT影视", 	"name":"🎲聚合PTT", 	"type":3, 	"api":"csp_PTT", 	"searchable":1, 	"changeable":1, 	"jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/ptt.jar"}, 	
      {
       "key": "旺旺",
       "name": "🧸旺旺短剧",
