@@ -610,11 +610,11 @@
       "ext": "./zhanjs/虎牙直播.js"
     },
     {
-      "key": "JustLive",
+      "key": "聚合直播",
       "name": "🔰聚合直播",
       "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/JustLive.js"
+      "api": "./xiutan/live2vod.js",
+      "ext": "http://rihou.cc:88/json/feimaolive.json"
     },
     {
       "key": "企鹅体育",
