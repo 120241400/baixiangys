@@ -397,7 +397,7 @@
       "key": "九",
       "name": "🦷虎牙资源",
       "type": 1,
-      "api": "https://www.huyazy.com/api.php/provide/vod/from/hym3u8",
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "searchable": 0,
       "filterable": 0,
       "changeable": 1,
