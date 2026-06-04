@@ -3,7 +3,13 @@
   "logo": "https://i0.wp.com/baixiangys.netlify.app/shouye/logo.png?",
   "wallpaper": "https://深色壁纸.xxooo.cf?https://picsum.photos/1300/600?grayscale",
   "sites": [
-    { "key": "豆瓣热播", "name": "🍎热播榜单", "type": 3, "api": "./xiutan/drpy2.min.js?", "ext": "./zhanjs/douban.js" },
+    { 
+      "key": "豆瓣热播", 
+      "name": "🍎热播榜单", 
+      "type": 3, 
+      "api": "./xiutan/drpy2.min.js?", 
+      "ext": "./zhanjs/douban.js" 
+    },
     {
       "key": "csp_Ikanbot",
       "name": "🎲聚合有广",
