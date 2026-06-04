@@ -100,7 +100,7 @@
       "key": "优质",
       "name": "🦄优质资源",
       "type": 1,
-      "api": "https://api.yyzy-tv.vip/inc/api_mac10.php",
+      "api": "https://api.yyzy-tv.vip/inc/feifei3/",
       "playUrl": "",
       "searchable": 1,
       "filterable": 0,
@@ -605,6 +605,7 @@
     {
       "key": "虎牙直播",
       "name": "🦷虎牙直播",
+      "searchable": 1,
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/虎牙直播.js"
