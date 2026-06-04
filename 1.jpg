@@ -100,9 +100,9 @@
       "key": "优质",
       "name": "🦄优质资源",
       "type": 1,
-      "api": "https://api.yyzy-tv.vip/inc/feifei3/",
+      "api": "https://api.yyzy-tv.vip/inc/api_mac10.php",
       "playUrl": "",
-      "searchable": 1,
+      "searchable": 0,
       "filterable": 0,
       "changeable": 1,
       "categories": [
@@ -667,7 +667,13 @@
       "searchable": 1,
       "ext": "./zhanjs/好趣网.js"
     },
-{ "key" : "js_亲子", "name" : "🎈亲子教育", "type" : 3, "api" : "./xiutan/drpy2.min.js", "ext" : "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/童趣.js" },
+{ 
+"key" : "js_亲子", 
+"name" : "🎈亲子教育", 
+"searchable": 0,
+"type" : 3, 
+"api" : "./xiutan/drpy2.min.js", 
+"ext" : "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/童趣.js" },
     {
       "key": "警告1",
       "name": "勿信视频中广告",
