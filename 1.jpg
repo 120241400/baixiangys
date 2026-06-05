@@ -33,6 +33,13 @@
       "ext": "./zhanjs/金牌影视.js"
     },
     {
+      "key": "dr银牌",
+      "name": "👑银牌超清",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/银牌影视.js"
+    },
+    {
       "key": "永乐视频",
       "name": "👑永乐视频",
       "type": 3,
