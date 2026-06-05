@@ -41,6 +41,13 @@
       "ext": "./zhanjs/永乐视频.js"
     },
     {
+      "key": "人人视频",
+      "name": "👑人人影视",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/人人影视.js"
+    },
+    {
       "key": "泥巴视频",
       "name": "👑泥巴影视",
       "type": 3,
@@ -74,6 +81,13 @@
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/奇优.js"
+    },
+    {
+      "key": "小镇影视",
+      "name": "👑小镇影视",
+      "type": 3,
+      "api": "./xiutan/drpy2.min.js",
+      "ext": "./zhanjs/小镇影视.js"
     },
     {
       "key": "官方解析",
@@ -689,16 +703,16 @@
       "key": "央视片库",
       "name": "📺央视片库",
       "type": 3,
-      "api": "./xiutan2/drpy2.min.js?https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "./xiutan2/drpy2.min.js",
       "ext": "./zhanjs/央视片库.js"
     },
     {
       "key": "网易影视",
       "name": "🎹网易影视",
       "type": 3,
-      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "api": "./xiutan2/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/js/网易公版影像.js"
+      "ext": "./zhanjs/网易公版影像.js"
     },
     {
       "key": "直播转点播",
