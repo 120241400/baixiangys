@@ -140,6 +140,8 @@ var rule = {
     tab_order:['bfzym3u8','1080zyk','kuaikan','lzm3u8','ffm3u8','snm3u8','qhm3u8','gsm3u8','zuidam3u8','bjm3u8','wolong','xlm3u8','yhm3u8'],
     // 线路名替换
     tab_rename:{
+        'rym3u8':'如意',
+        'xiguam3u8':'西瓜',
         'bfzym3u8':'暴风',
         '1080zyk':'优质',
         'kuaikan':'快看',
