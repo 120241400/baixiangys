@@ -14,7 +14,7 @@ try {
     VOD.vod_content = "";
     log(VOD);
     var v_tks = '';
-    input = "https://v.aikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2"+"&token="+v_tks;
+    input = "https://www1.aikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2"+"&token="+v_tks;
     let html = request(input, {
         headers: {
             'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
@@ -56,14 +56,14 @@ try {
 
 var rule = {
     title:'爱看机器人',
-    host:'https://v.aikanbot.com',
+    host:'https://www1.aikanbot.com',
     url:'/hot/index-fyclass-fyfilter-p-fypage.html[/hot/index-fyclass-fyfilter.html]',
     searchUrl:'/search?q=**',
     searchable:2,
     quickSearch:0,
     filterable:1,
     filter_url:'{{fl.tag}}',
-    图片来源:'@Referer=https://v.aikanbot.com/@User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+    图片来源:'@Referer=https://www1.aikanbot.com/@User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
     filter:{
         "movie":[
             {
