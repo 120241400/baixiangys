@@ -6,7 +6,7 @@
       "key": "豆瓣热播", 
       "name": "🍎热播榜单", 
       "type": 3, 
-      "api": "./xiutan/drpy2.min.js?", 
+      "api": "./xiutan/drpy2.min.js", 
       "ext": "./zhanjs/douban.js" 
     },
     {
@@ -877,7 +877,7 @@
       "name": "live",
       "type": 0,
       "playerType": 1,
-      "url": "http://rihou.cc:555/gggg.nzk?https://upld.zone.id/uploads/q9iq9e5iq/lvse.txt?https://jsdelivr.b-cdn.net/gh/PizazzGY/TVBox_warehouse/live.txt",
+      "url": "http://rihou.cc:555/gggg.nzk",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
