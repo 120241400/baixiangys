@@ -15,7 +15,7 @@
       "type": 3,
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
-      "ext": "http://rihou.cc:88/js/%E7%88%B1%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%BA%BA.js?./zhanjs/ikanbot2.js"
+      "ext": "./zhanjs/ikanbot.js"
     },
     {
       "key": "聚二（官）",
