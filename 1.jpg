@@ -40,20 +40,6 @@
       "ext": "./zhanjs/永乐视频.js"
     },
     {
-      "key": "歪比视频",
-      "name": "👑歪比视频",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/歪比视频.js"
-    },
-    {
-      "key": "追光视频",
-      "name": "👑追光视频",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/追光视频.js"
-    },
-    {
       "key": "人人视频",
       "name": "👑人人影视",
       "type": 3,
@@ -73,20 +59,6 @@
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/czspp.js"
-    },
-    {
-      "key": "sh视频",
-      "name": "👑扫伙视频",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/saohuo.js"
-    },
-    {
-      "key": "aik视频",
-      "name": "👑爱看视频",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/爱看.js"
     },
     {
       "key": "奇优视频",
