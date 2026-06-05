@@ -15,7 +15,7 @@
       "type": 3,
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/ikanbot.js"
+      "ext": "./zhanjs/ikanbot2.js"
     },
     {
       "key": "聚二（官）",
