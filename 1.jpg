@@ -716,6 +716,27 @@
       "ext": "./zhanjs/央视片库.js"
     },
     {
+      "key": "哔哩哔哩",
+      "name": "⛄哔哩哔哩",
+      "type": 3,
+      "api": "./xiutan2/drpy2.min.js",
+      "ext": "./zhanjs/哔哩哔哩.js"
+    },
+    {
+      "key": "凤凰fm",
+      "name": "🎧凤凰FM",
+      "type": 3,
+      "api": "./xiutan2/drpy2.min.js",
+      "ext": "./zhanjs/凤凰FM.js"
+    },
+    {
+      "key": "随身评书",
+      "name": "🎧随身评书",
+      "type": 3,
+      "api": "./xiutan2/drpy2.min.js",
+      "ext": "./zhanjs/随身评书.js"
+    },
+    {
       "key": "网易影视",
       "name": "🎹网易影视",
       "type": 3,
