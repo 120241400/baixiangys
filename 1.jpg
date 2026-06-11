@@ -69,6 +69,13 @@
       "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/黑狐影院.js"
     },
     {
+      "key": "两两视频",
+      "name": "👑两两视频",
+      "type": 3,
+      "api": "./xiutan2/drpy2.min.js",
+      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/人人影视.js"
+    },
+    {
       "key": "人人视频",
       "name": "👑人人影视",
       "type": 3,
