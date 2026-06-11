@@ -20,11 +20,10 @@
     {
       "key": "资源聚合",
       "name": "🎲聚二有广",
-      "type": 1,
-      "api": "http://38.47.213.61:41271/mogai_api.php/v1.vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "type": 3,
+      "playerType": "2",
+      "api": "./xiutan2/drpy2.min.js",
+      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/河狸影视[V2].js"
     },
     {
       "key": "聚二（官）",
@@ -61,6 +60,13 @@
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/永乐视频.js"
+    },
+    {
+      "key": "黑狐视频",
+      "name": "👑黑狐视频",
+      "type": 3,
+      "api": "./xiutan2/drpy2.min.js",
+      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/黑狐影院.js"
     },
     {
       "key": "人人视频",
@@ -683,6 +689,13 @@
       "type": 4,
       "api": "http://jiduo.3116598.xyz/PHP/pkty.php",
       "changeable": 1
+    },
+    {
+      "key": "360吧",
+      "name": "🏀吧球体育",
+      "type": 3,
+      "api": "./xiutan2/drpy2.min.js",
+      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/360吧[球].js"
     },
     {
       "key": "赛事",
