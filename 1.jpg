@@ -18,14 +18,6 @@
       "ext": "./zhanjs/ikanbot.js"
     },
     {
-      "key": "资源聚合",
-      "name": "🎲聚二有广",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan2/drpy2.min.js",
-      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/河狸影视[V2].js"
-    },
-    {
       "key": "聚二（官）",
       "name": "👑官方高清",
       "type": 3,
@@ -60,20 +52,6 @@
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/永乐视频.js"
-    },
-    {
-      "key": "黑狐视频",
-      "name": "👑黑狐视频",
-      "type": 3,
-      "api": "./xiutan2/drpy2.min.js",
-      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/黑狐影院.js"
-    },
-    {
-      "key": "两两视频",
-      "name": "👑两两视频",
-      "type": 3,
-      "api": "./xiutan2/drpy2.min.js",
-      "ext": "https://gitlab.com/duomv/dzhipy/-/raw/main/drpy_js/人人影视.js"
     },
     {
       "key": "人人视频",
@@ -290,9 +268,9 @@
     },
     {
       "key": "六",
-      "name": "🎯非凡资源",
+      "name": "🍉西瓜资源",
       "type": 1,
-      "api": "http://ffzy1.tv/api.php/provide/vod/from/ffm3u8",
+      "api": "http://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8",
       "playUrl": "",
       "searchable": 1,
       "filterable": 0,
