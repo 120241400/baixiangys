@@ -292,9 +292,9 @@
     },
     {
       "key": "七",
-      "name": "🚀极速资源",
+      "name": "🥜豆瓣资源",
       "type": 1,
-      "api": "https://jisuzy.com/api.php/provide/vod/from/jsm3u8/",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
