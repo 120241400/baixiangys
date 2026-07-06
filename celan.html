@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -129,6 +128,7 @@ img {
     font-size: 12px;
 }
 </style>
+<base target="_blank">
 </head>
 
 <body>
@@ -252,6 +252,17 @@ function togglePanel(header) {
     if (isCollapsed) {
         content.classList.remove('collapsed');
         header.classList.add('expanded');
+
+        // 展开后滚动到当前栏目标题，并显示内容顶部
+        setTimeout(function() {
+            var headerRect = header.getBoundingClientRect();
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            var targetY = scrollTop + headerRect.top;
+            window.scrollTo({
+                top: targetY,
+                behavior: 'smooth'
+            });
+        }, 350); // 等待展开动画完成
     }
 }
 </script>
