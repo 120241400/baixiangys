@@ -5,7 +5,7 @@
 // https://m.6nczbqxw9.com
 var rule = {
   title: '金牌影院',
-  host: 'https://m.6nczbqxw9.com',
+  host: 'https://www.chinagenetic.com',
   url: '/api/mw-movie/anonymous/video/list?pageNum=fypage&pageSize=30&sort=1&sortBy=1&type1=fyclass',
   searchUrl: '/api/mw-movie/anonymous/video/searchByWordPageable?keyword=**&pageNum=fypage&pageSize=12&type=false',
   headers: {
@@ -26,7 +26,7 @@ var rule = {
      eval(getCryptoJS);
      let signkey = 'clientType=1&id='+pid+'&nid='+nid+'&key=cb808529bae6b6be45ecfab29a4889bc&t='+t;
      const key = CryptoJS.SHA1(CryptoJS.MD5(signkey).toString()).toString();
-     let json_data = JSON.parse(request('https://m.6nczbqxw9.com/api/mw-movie/anonymous/v2/video/episode/url?clientType=1&id='+pid+'&nid='+nid,{headers: {
+     let json_data = JSON.parse(request('https://www.chinagenetic.com/api/mw-movie/anonymous/v2/video/episode/url?clientType=1&id='+pid+'&nid='+nid,{headers: {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
     'deviceid': '63ffad23-a598-4f96-85d7-7bf5f3e4a0a2',
     'sign': key,
@@ -65,7 +65,7 @@ var rule = {
     eval(getCryptoJS);
     let signkey = 'id='+kid+'&key=cb808529bae6b6be45ecfab29a4889bc&t='+t;
     let key = CryptoJS.SHA1(CryptoJS.MD5(signkey).toString()).toString();
-    let kjson = JSON.parse(request('https://m.6nczbqxw9.com/api/mw-movie/anonymous/video/detail?id='+kid,{headers:{
+    let kjson = JSON.parse(request('https://www.chinagenetic.com/api/mw-movie/anonymous/video/detail?id='+kid,{headers:{
        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/plain, */*',
         'deviceId': '63ffad23-a598-4f96-85d7-7bf5f3e4a0a2',
@@ -73,7 +73,7 @@ var rule = {
         't': t 
     }})).data;
     let kurls = kjson.episodeList.map(function(it) => {
-      return it.name + "$" + "https://m.6nczbqxw9.com/vod/play/"+kid+"/sid/"+it.nid
+      return it.name + "$" + "https://www.chinagenetic.com/vod/play/"+kid+"/sid/"+it.nid
     }).join('#');
     VOD = {
       vod_id: kid,
