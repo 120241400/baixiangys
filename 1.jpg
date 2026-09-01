@@ -15,7 +15,7 @@
       "type": 3,
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/ikanbot.js"
+      "ext": "./zhanjs/ikanbot2.js"
     },
     {
       "key": "聚二（官）",
@@ -23,7 +23,7 @@
       "type": 3,
       "playerType": "2",
       "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/酷酷（官）.js"
+      "ext": "./zhanjs/腾腾（官）.js"
     },
     {
       "key": "dr金牌",
@@ -80,13 +80,6 @@
       "type": 3,
       "api": "./xiutan/drpy2.min.js",
       "ext": "./zhanjs/奇优.js"
-    },
-    {
-      "key": "小镇影视",
-      "name": "👑小镇影视",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/小镇影视.js"
     },
     {
       "key": "官方解析",
