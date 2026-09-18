@@ -46,13 +46,6 @@
       "ext": "./zhanjs/永乐视频.js"
     },
     {
-      "key": "泥巴视频",
-      "name": "👑泥巴影视",
-      "type": 3,
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/泥巴影视.js"
-    },
-    {
       "key": "厂长视频",
       "name": "👑厂长视频",
       "type": 3,
