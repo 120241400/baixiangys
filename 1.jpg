@@ -10,14 +10,6 @@
       "ext": "./zhanjs/douban.js" 
     },
     {
-      "key": "爱看box",
-      "name": "🎲聚一有广",
-      "type": 3,
-      "playerType": "2",
-      "api": "./xiutan/drpy2.min.js",
-      "ext": "./zhanjs/ikanbot2.js"
-    },
-    {
       "key": "dr金牌",
       "name": "👑金牌超清",
       "type": 3,
