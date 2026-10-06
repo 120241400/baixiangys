@@ -80,30 +80,6 @@
       ]
     },
     {
-      "key": "巨量",
-      "name": "🐳巨量资源",
-      "type": 1,
-      "api": "https://api.juliang.live/api/provide/vod/",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "categories": [
-        "内地剧",
-        "短剧",
-        "中国动漫",
-        "大陆综艺",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片"
-      ]
-    },
-    {
       "key": "优质",
       "name": "🦄优质资源",
       "type": 1,
