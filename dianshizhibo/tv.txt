@@ -456,12 +456,13 @@ GRTN生活频道,webview://https://www.gdtv.cn/tvChannelDetail/102
 哈尔滨影视,webview://https://www.hrbtv.net/folder79/folder87/
 
 吉林频道,#genre#
-吉林卫视,webview://https://www.jlntv.cn/tv?id=104
-吉林都市,webview://https://www.jlntv.cn/tv?tag=1
-吉林生活,webview://https://www.jlntv.cn/tv?tag=2
-吉林影视,webview://https://www.jlntv.cn/tv?tag=3
-吉林乡村,webview://https://www.jlntv.cn/tv?tag=4
-吉林综艺·文化,webview://https://www.jlntv.cn/tv?tag=5
+吉林卫视,https://gh-proxy.com/https://raw.githubusercontent.com/TvWasm/cjs/main/k-web/ku9/js/jltv.js?id=jlws
+吉林都市,https://gh-proxy.com/https://raw.githubusercontent.com/TvWasm/cjs/main/k-web/ku9/js/jltv.js?id=ds
+吉林生活,https://gh-proxy.com/https://raw.githubusercontent.com/TvWasm/cjs/main/k-web/ku9/js/jltv.js?id=sh
+吉林影视,https://gh-proxy.com/https://raw.githubusercontent.com/TvWasm/cjs/main/k-web/ku9/js/jltv.js?id=ys
+吉林乡村,https://gh-proxy.com/https://raw.githubusercontent.com/TvWasm/cjs/main/k-web/ku9/js/jltv.js?id=xc
+吉林综艺文化,https://gh-proxy.com/https://raw.githubusercontent.com/TvWasm/cjs/main/k-web/ku9/js/jltv.js?id=zy
+长春综合,https://gh-proxy.com/https://raw.githubusercontent.com/TvWasm/cjs/main/k-web/ku9/js/jltv.js?id=cc
 
 四川频道,#genre#
 绵竹综合,webview://https://web.guangdianyun.tv/tv/?id=1933&uin=3277
