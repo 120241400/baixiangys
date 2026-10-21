@@ -1,4 +1,4 @@
-央视频道,#genre#
+央视高清,#genre#
 CCTV-1 综合,webview://https://yangshipin.cn/tv/home?pid=600001859
 CCTV-2 财经,webview://https://yangshipin.cn/tv/home?pid=600001800
 CCTV-3 综艺,webview://https://yangshipin.cn/tv/home?pid=600001801
@@ -57,7 +57,7 @@ CGTN俄语,webview://https://russian.cgtn.com/channel
 CGTN纪录,webview://https://www.cgtn.com/channel/documentary
 
 
-卫视频道,#genre#
+卫视高清,#genre#
 北京卫视,webview://https://yangshipin.cn/tv/home?pid=600002309
 江苏卫视,webview://https://yangshipin.cn/tv/home?pid=600002521
 东方卫视,webview://https://yangshipin.cn/tv/home?pid=600002483
