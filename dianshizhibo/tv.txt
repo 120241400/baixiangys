@@ -49,13 +49,6 @@ CCTV16,webview://https://tv.cctv.com/live/cctv16/
 CCTV17,webview://https://tv.cctv.com/live/cctv17/
 CCTV4(欧),webview://https://tv.cctv.com/live/cctveurope/
 CCTV4(美),webview://https://tv.cctv.com/live/cctvamerica/
-CGTN,webview://https://www.cgtn.com/tv
-CGTN西语,webview://https://espanol.cgtn.com/en-directo
-CGTN法语,webview://https://francais.cgtn.com/channel
-CGTN阿语,webview://https://arabic.cgtn.com/channel
-CGTN俄语,webview://https://russian.cgtn.com/channel
-CGTN纪录,webview://https://www.cgtn.com/channel/documentary
-
 
 卫视高清,#genre#
 北京卫视,webview://https://yangshipin.cn/tv/home?pid=600002309
