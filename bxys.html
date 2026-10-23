@@ -1,250 +1,568 @@
-﻿
+
 <!doctype html>
 <html lang="zh">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-    <title>白象影视-永久免费</title>
-    <link rel="shortcut icon" href="https://i0.wp.com/cdn.jsdelivr.net.cn/gh/120241400/baixiangys@HEAD/shouye/logo.png" />
-    <meta name="keywords" content="白象影视客户端下载" />
-    <meta name="description" content="每天搜集互联网最新电影和电视剧，为广大用户免费提供无广告在线观看电影和电视剧服务，及时收录最新、最热、最全的电影大片,高清正版免费看" />
-    <style>
-        article,aside,blockquote,body,code,dd,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}
-        h1,h2,h3,h4,h5,h6{font-weight:400}
-        body{font-family:Helvetica,"Microsoft YaHei";line-height:28px;font-size:14px;color:#000;-webkit-user-select:none;-webkit-text-size-adjust:none}
-        table{border-collapse:collapse;border-spacing:0}
-        fieldset,img{border:0}
-        input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit}
-        a,input{text-decoration:none;color:#1d82ff;-webkit-tap-highlight-color:none;-webkit-tap-highlight-color:transparent}
-        article,figcaption,figure,footer,header,nav,section{display:block}
-        body{background-color:#f5f5f5}
-        .ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-        .s-top{position:relative;padding-top:55.5556%}
-        .s-top img{position:absolute;left:0;top:0;width:100%;height:100%}
-        .s-app{padding:18px 12px;background-color:#fff}
-        .appcard{position:relative;display:-webkit-box;-webkit-box-align:start}
-        .appcard-item.is-pic{width:64px;border-radius:8px;overflow:hidden}
-        .appcard-item{display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-pack:center;height:64px}
-        .appcard-item img{width:100%}
-        .appcard-item.is-main{-webkit-box-flex:1}
-        .appcard-item:not(:first-child){margin-left:12px}
-        .appcard-title,.comment-title{line-height:24px;font-size:16px}
-        .linetag.is-follow{display:inline-block;max-width:100%;white-space:nowrap}
-        .linetag-wrap{display:-webkit-box;-webkit-box-align:center}
-        .linetag-left{-webkit-box-flex:1;max-width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-        .linetag-right{line-height:0}
-        .tag{display:inline-block;height:16px;line-height:16px;padding:0 4px 0;-webkit-border-radius:2px;border-radius:2px;font-size:12px;margin-left:8px;color:#fff}
-        .tag.is-blue{background-color:#1d82ff}
-        .appcard-explain{color:#969696}
-        .appcard-explain,.detail-version{line-height:22px;font-size:12px}
-        .ui-left-gap{padding-left:8px}
-        .card-box{margin:8px 0 0;padding:12px;background-color:#fff}
-        .ellipsis-explain{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical}
-        .swiper-container{overflow:hidden;position:relative}
-        .swiper-wrapper{display:flex;transition-timing-function:ease-out}
-        .swiper-slide{flex-shrink:0}
-        .swiper-slide img{height:300px;min-width:150px;max-width:100%}
-        .swiper-wrapper>div:first-child{margin-left:0}
-        .swiper-slide{margin-left:12px;box-sizing:border-box}
-        .detail-explain{margin-top:20px;color:#333}
-        .detail-explain ul li{list-style-type:square;margin-left:20px}
-        .s-fixed{position:fixed;left:0;right:0;bottom:0;padding:8px 12px;-webkit-box-shadow:0 -1px 1px rgba(0,0,0,.1);box-shadow:0 -1px 1px rgba(0,0,0,.1);background-color:#fff;text-align:center;z-index:1000}
-        .update-item {color: #333;}
-        .update-item ul {margin-left: 20px;list-style-type: square;}
-        .update-item h4{font-size: 14px;padding: 10px 0;}
-        .update-item h4 strong {font-size: 18px;margin-right: 10px;}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+<title>白象影视-永久免费</title>
+<link rel="shortcut icon" href="https://i0.wp.com/baixiangys.vercel.app/shouye/logo.png" />
+<meta name="keywords" content="白象影视客户端下载" />
+<meta name="description" content="每天搜集互联网最新电影和电视剧，为广大用户免费提供无广告在线观看电影和电视剧服务，及时收录最新、最热、最全的电影大片,高清正版免费看" />
+<style>
+:root{
+    --primary:#1d82ff;
+    --primary-2:#0b63d6;
+    --bg:#f2f4f8;
+    --text:#1b1f27;
+    --text-2:#4a5263;
+    --sub:#8b94a5;
+    --line:#eef1f6;
+    --radius:16px;
+    --shadow:0 2px 14px rgba(23,43,77,.06);
+    --maxw:760px;
+}
 
-        .expand-btn{display:block;width:100%;height:48px;line-height:48px;background-color:#1d82ff;color:#fff;text-align:center;border-radius:8px;font-size:16px;font-weight:500}
-        .expand-btn:active{opacity:.8}
+*,*::before,*::after{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{
+    margin:0;
+    padding:0 0 100px;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:14px;
+    line-height:1.6;
+    color:var(--text);
+    background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+}
+img{border:0;max-width:100%}
+a{text-decoration:none;color:inherit}
+ul,ol{list-style:none;margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:400}
 
-        .download-overlay{position:fixed;left:0;right:0;bottom:0;top:0;background:rgba(0,0,0,.6);z-index:2000;display:none;align-items:flex-end;justify-content:center}
-        .download-overlay.show{display:flex}
-        .download-panel{width:100%;max-width:480px;background:#fff;border-radius:16px 16px 0 0;padding:20px 16px 24px;animation:slideUp .3s ease-out}
-        @keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
-        .panel-title{text-align:center;font-size:18px;font-weight:600;color:#333;margin-bottom:4px}
-        .panel-subtitle{text-align:center;font-size:13px;color:#999;margin-bottom:20px}
-        .download-item{display:block;padding:14px 16px;background:#f7f8fa;border-radius:10px;margin-bottom:10px;text-align:left}
-        .download-item:last-child{margin-bottom:0}
-        .download-item:active{background:#eef0f3}
-        .item-title{font-size:16px;font-weight:600;color:#1d82ff;margin-bottom:4px}
-        .item-desc{font-size:13px;color:#666;line-height:1.5}
-        .panel-close{position:absolute;top:12px;right:16px;width:32px;height:32px;line-height:32px;text-align:center;font-size:20px;color:#999;background:none;border:none;cursor:pointer}
-        .panel-close:active{color:#666}
-    </style>
+/* ================= 通用容器 ================= */
+.page-wrap{
+    width:100%;
+    max-width:var(--maxw);
+    margin:0 auto;
+}
+
+/* ================= 顶部应用信息 ================= */
+.s-app{
+    position:relative;
+    padding:clamp(16px,4.5vw,26px) clamp(14px,4vw,24px) clamp(16px,4.5vw,24px);
+    background:linear-gradient(160deg,#e8f1ff 0%,#f5f9ff 45%,#ffffff 100%);
+    border-radius:0 0 22px 22px;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+}
+.s-app::after{
+    content:"";position:absolute;right:-70px;top:-80px;
+    width:200px;height:200px;border-radius:50%;
+    background:radial-gradient(circle,rgba(29,130,255,.16),rgba(29,130,255,0) 70%);
+    pointer-events:none;
+}
+.appcard{position:relative;z-index:1;display:flex;align-items:center;gap:clamp(10px,3vw,16px)}
+.appcard-item.is-pic{
+    flex:0 0 auto;
+    width:clamp(52px,14vw,72px);
+    height:clamp(52px,14vw,72px);
+    border-radius:16px;overflow:hidden;background:#fff;
+    box-shadow:0 6px 16px rgba(29,130,255,.22);
+}
+.appcard-item.is-pic img{display:block;width:100%;height:100%;object-fit:cover}
+.appcard-item.is-main{flex:1;min-width:0}
+.linetag-wrap{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.linetag-left{
+    font-size:clamp(16px,4.6vw,20px);
+    font-weight:700;letter-spacing:.2px;
+    overflow:hidden;white-space:nowrap;text-overflow:ellipsis;
+}
+.tag{
+    display:inline-block;height:18px;line-height:18px;padding:0 6px;
+    font-size:11px;border-radius:4px;color:#fff;
+    background:linear-gradient(135deg,#4d9bff,#1d82ff);
+}
+.appcard-explain{
+    margin-top:5px;
+    font-size:clamp(11px,3.1vw,12.5px);
+    color:var(--sub);
+    line-height:1.55;
+    display:flex;flex-wrap:wrap;column-gap:10px;row-gap:2px;
+}
+#appScore{color:#ff8a1f;font-weight:600}
+
+/* ================= 内容区 ================= */
+.page-body{padding:clamp(10px,3vw,16px)}
+.card-box{
+    background:#fff;
+    border-radius:var(--radius);
+    padding:clamp(12px,3.6vw,18px);
+    box-shadow:var(--shadow);
+    margin-bottom:clamp(10px,3vw,14px);
+}
+.card-title{
+    position:relative;padding-left:11px;
+    font-size:clamp(15px,3.9vw,16.5px);font-weight:700;margin-bottom:12px;
+}
+.card-title::before{
+    content:"";position:absolute;left:0;top:50%;
+    width:4px;height:16px;border-radius:2px;
+    transform:translateY(-50%);
+    background:linear-gradient(180deg,#4d9bff,#1d82ff);
+}
+
+/* ================= 截图轮播 ================= */
+.swiper-container{
+    position:relative;
+    overflow-x:auto;overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    overscroll-behavior-x:contain;
+    scrollbar-width:none;-ms-overflow-style:none;
+    padding-bottom:2px;
+}
+.swiper-container::-webkit-scrollbar{display:none}
+.swiper-wrapper{display:flex;gap:clamp(8px,2.4vw,12px)}
+.swiper-slide{
+    flex:0 0 auto;
+    width:clamp(132px,42vw,190px);
+    aspect-ratio:3/5;
+    border-radius:12px;overflow:hidden;background:#eef2f8;
+    box-shadow:0 6px 18px rgba(23,43,77,.10);
+}
+.swiper-slide img{display:block;width:100%;height:100%;object-fit:contain}
+
+/* ================= 列表文字 ================= */
+.detail-explain{margin-top:clamp(12px,3.4vw,16px)}
+.detail-explain li,
+.update-item li{
+    position:relative;padding-left:18px;margin-bottom:7px;
+    font-size:clamp(12.5px,3.4vw,13.5px);
+    line-height:1.75;color:var(--text-2);
+}
+.detail-explain li:last-child,
+.update-item li:last-child{margin-bottom:0}
+.detail-explain li::before{
+    content:"";position:absolute;left:4px;top:.72em;
+    width:6px;height:6px;border-radius:50%;
+    background:var(--primary);opacity:.55;
+}
+.update-item li::before{
+    content:"";position:absolute;left:4px;top:.72em;
+    width:6px;height:6px;border-radius:50%;
+    background:#ffab2e;opacity:.85;
+}
+
+/* ================= 底部固定按钮 ================= */
+.s-fixed{
+    position:fixed;left:0;right:0;bottom:0;
+    padding:10px clamp(14px,4vw,20px) calc(10px + env(safe-area-inset-bottom,0px));
+    background:rgba(255,255,255,.92);
+    -webkit-backdrop-filter:blur(12px);
+    backdrop-filter:blur(12px);
+    box-shadow:0 -2px 16px rgba(23,43,77,.08);
+    z-index:1000;
+}
+.expand-btn{
+    display:block;width:100%;max-width:520px;margin:0 auto;
+    height:clamp(46px,12vw,52px);
+    line-height:clamp(46px,12vw,52px);
+    border-radius:26px;
+    background:linear-gradient(135deg,#4d9bff,#1d82ff 55%,#0b63d6);
+    color:#fff;
+    font-size:clamp(15px,4vw,17px);
+    font-weight:600;letter-spacing:.5px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(29,130,255,.35);
+    transition:transform .15s ease,box-shadow .15s ease;
+}
+.expand-btn:active{transform:scale(.985);box-shadow:0 4px 12px rgba(29,130,255,.3)}
+
+/* ================= 下载弹层 ================= */
+.download-overlay{
+    position:fixed;inset:0;
+    display:flex;align-items:flex-end;justify-content:center;
+    background:rgba(15,23,42,.5);
+    -webkit-backdrop-filter:blur(3px);
+    backdrop-filter:blur(3px);
+    opacity:0;visibility:hidden;
+    transition:opacity .25s ease,visibility .25s ease;
+    z-index:2000;
+}
+.download-overlay.show{opacity:1;visibility:visible}
+
+.download-panel{
+    position:relative;
+    width:100%;max-width:560px;
+    max-height:90vh;
+    display:flex;flex-direction:column;
+    padding:0;background:#fff;
+    border-radius:22px 22px 0 0;
+    overflow:hidden;
+    transform:translateY(100%);
+    transition:transform .3s cubic-bezier(.32,.72,0,1);
+}
+.download-overlay.show .download-panel{transform:translateY(0)}
+
+.panel-header{
+    position:relative;flex:0 0 auto;
+    padding:22px clamp(14px,4vw,22px) 12px;
+    background:#fff;border-bottom:1px solid var(--line);
+    z-index:2;
+}
+.panel-header::before{
+    content:"";position:absolute;top:8px;left:50%;
+    width:36px;height:4px;border-radius:2px;
+    background:#e3e7ee;transform:translateX(-50%);
+}
+.panel-close{
+    position:absolute;top:16px;right:14px;
+    width:30px;height:30px;padding:0;
+    line-height:28px;text-align:center;
+    font-size:20px;color:#9aa3b2;
+    background:#f2f4f8;border:none;border-radius:50%;
+    cursor:pointer;
+}
+.panel-close:active{background:#e6eaf1;color:#5c667a}
+.panel-title{text-align:center;font-size:clamp(16px,4.2vw,18px);font-weight:700;color:var(--text)}
+.panel-subtitle{text-align:center;font-size:12px;color:var(--sub);margin-top:4px}
+
+.panel-body{
+    flex:1 1 auto;min-height:0;
+    overflow-y:auto;-webkit-overflow-scrolling:touch;
+    overscroll-behavior:contain;
+    padding:14px clamp(14px,4vw,22px) calc(22px + env(safe-area-inset-bottom,0px));
+}
+
+/* ---------- 下载项卡片 ---------- */
+.download-item{
+    padding:14px clamp(12px,3.4vw,16px);
+    margin-bottom:10px;
+    background:#f7f9fc;
+    border:1px solid var(--line);
+    border-radius:14px;
+}
+.download-item:last-child{margin-bottom:0}
+
+/* 标题与说明：居中显示 */
+.item-title{
+    font-size:clamp(14.5px,3.8vw,16px);
+    font-weight:600;color:var(--text);
+    margin-bottom:4px;
+    text-align:center;
+}
+.item-desc{
+    font-size:clamp(11.5px,3.2vw,12.5px);
+    color:var(--sub);line-height:1.6;
+    margin-bottom:12px;
+    text-align:center;
+}
+
+/* 说明中的普通行 */
+.desc-line{display:block}
+
+/* 关键词高亮 */
+.hl{color:var(--primary);font-weight:700}
+.hl-orange{color:#ff7a00;font-weight:700}
+
+/* 两个下载按钮 */
+.item-actions{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+.dl-btn{
+    display:flex;align-items:center;justify-content:center;
+    height:clamp(38px,10vw,42px);
+    border-radius:11px;
+    font-size:clamp(13px,3.5vw,14px);
+    font-weight:600;color:#fff;
+    background:linear-gradient(135deg,#4d9bff,#1d82ff 55%,#0b63d6);
+    box-shadow:0 4px 12px rgba(29,130,255,.28);
+    transition:transform .15s ease,box-shadow .15s ease,opacity .15s ease;
+}
+.dl-btn.is-ghost{
+    color:var(--primary);
+    background:#fff;
+    border:1px solid #c9ddff;
+    box-shadow:none;
+}
+.dl-btn:active{transform:scale(.97)}
+.dl-btn.is-ghost:active{background:#eef5ff}
+
+/* 网页版单项：保持整行可点 */
+.download-item.is-single{
+    display:flex;align-items:center;gap:12px;
+    transition:background .18s ease,border-color .18s ease;
+}
+.download-item.is-single:active{background:#eef5ff;border-color:#c9ddff}
+.download-item.is-single .item-body{flex:1;min-width:0}
+.download-item.is-single .item-desc{margin-bottom:0}
+.download-item.is-single::after{
+    content:"";flex:0 0 auto;
+    width:8px;height:8px;
+    border-right:2px solid #c2cbda;
+    border-bottom:2px solid #c2cbda;
+    border-radius:1px;
+    transform:rotate(-45deg);
+}
+
+/* ================= 平板 / 桌面适配 ================= */
+@media (min-width:700px){
+    body{padding-bottom:110px}
+    .s-app{border-radius:0 0 26px 26px}
+    .swiper-slide{width:196px}
+    .page-body{padding:16px}
+    .download-overlay{align-items:center}
+    .download-panel{
+        max-width:600px;max-height:82vh;
+        border-radius:20px;
+        transform:translateY(24px) scale(.96);
+        opacity:0;
+        transition:transform .28s cubic-bezier(.32,.72,0,1),opacity .28s ease;
+        box-shadow:0 24px 60px rgba(15,23,42,.28);
+    }
+    .download-overlay.show .download-panel{transform:translateY(0) scale(1);opacity:1}
+    .panel-header{padding-top:20px}
+    .panel-header::before{display:none}
+    .panel-close{top:14px;right:14px}
+}
+@media (min-width:1000px){
+    .swiper-slide{width:210px}
+}
+
+/* 超小屏 */
+@media (max-width:340px){
+    .item-actions{grid-template-columns:1fr}
+    .item-actions .dl-btn{height:40px}
+}
+</style>
 </head>
 <body>
+
+<div class="page-wrap">
+
+    <!-- 顶部应用信息 -->
     <div class="s-app download">
         <div class="appcard">
-            <div class="appcard-item is-pic icon-default" style="background: none;">
-                <img referrerpolicy="no-referrer" src="https://i0.wp.com/cdn.jsdelivr.net.cn/gh/120241400/baixiangys@HEAD/shouye/logo.png" alt="app-icon">
+            <div class="appcard-item is-pic icon-default">
+                <img referrerpolicy="no-referrer" src="https://i0.wp.com/265500.vercel.app/888/logo.png" alt="app-icon">
             </div>
             <div class="appcard-item is-main">
                 <h2 class="appcard-title">
                     <div class="linetag is-follow">
                         <div class="linetag-wrap">
                             <div class="linetag-left">白象影视</div>
-                            <div class="linetag-right">
-                                <div class="tag is-blue">官方</div>
-                            </div>
+                            <span class="tag is-blue">官方</span>
                         </div>
                     </div>
                 </h2>
                 <div class="appcard-explain">
                     <span id="appScore">9.8分</span>
-                    <span class="ui-left-gap">软件大小：48.5MB</span>
-                    <span class="ui-left-gap">版本号：1.0.4</span>
-                </div>
-                <div class="appcard-explain">
-                    <span>更新时间：2026年06月06日</span>
+                    <span>软件大小：48.5MB</span>
+                    <span>版本号：1.0.4</span>
+                    <span>更新时间：2026年10月20日</span>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="card-box c-shadow">
-        <div class="swiper-container" id="swiper">
-            <div class="swiper-wrapper" id="swiper-wrapper">
-                <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/cdn.jsdelivr.net.cn/gh/120241400/baixiangys@HEAD/shouye/1.jpg"></div>
-                <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/cdn.jsdelivr.net.cn/gh/120241400/baixiangys@HEAD/shouye/2.jpg"></div>
-                <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/cdn.jsdelivr.net.cn/gh/120241400/baixiangys@HEAD/shouye/3.jpg"></div>
-                <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/cdn.jsdelivr.net.cn/gh/120241400/baixiangys@HEAD/shouye/4.jpg"></div>
-                <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/cdn.jsdelivr.net.cn/gh/120241400/baixiangys@HEAD/shouye/5.jpg"></div>
+    <div class="page-body">
+
+        <!-- 截图 + 简介 -->
+        <section class="card-box">
+            <div class="swiper-container" id="swiper">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                    <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/baixiangys.vercel.app/shouye/1.jpg" alt="截图1"></div>
+                    <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/baixiangys.vercel.app/shouye/2.jpg" alt="截图2"></div>
+                    <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/baixiangys.vercel.app/shouye/3.jpg" alt="截图3"></div>
+                    <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/baixiangys.vercel.app/shouye/4.jpg" alt="截图4"></div>
+                    <div class="swiper-slide"><img referrerpolicy="no-referrer" src="https://i0.wp.com/baixiangys.vercel.app/shouye/5.jpg" alt="截图5"></div>
+                </div>
             </div>
-        </div>
-        <div class="detail-explain ellipsis-explain">
-            <ul>
-                <li>软件24小时同步更新内容，编辑小姐姐在线帮忙找片，保证网上有的这里全都有</li>
-                <li>各种热播VIP电影、电视剧、综艺、动漫在线播放，各种超前点播，观影券全部免费观看</li>
-                <li>内置几十个播放线路，为用户提供绝对极致流畅的播放体验</li>
-                <li>提供安卓手机端和电视端两个版本，永久免费使用</li>
-            </ul>
-        </div>
-    </div>
+            <div class="detail-explain">
+                <ul>
+                    <li>软件24小时同步更新内容，编辑小姐姐在线帮忙找片，保证网上有的这里全都有</li>
+                    <li>各种热播VIP电影、电视剧、综艺、动漫在线播放，各种超前点播，观影券全部免费观看</li>
+                    <li>内置几十个播放线路，为用户提供绝对极致流畅的播放体验</li>
+                    <li>提供安卓手机端和电视端两个版本，永久免费使用</li>
+                </ul>
+            </div>
+        </section>
 
-    <div class="card-box is-newcard" style="padding-bottom: 80px;">
-        <h3>温馨提示</h3>
-        <div class="update-item">
-            <ul>
-                <li>若报毒，请下载安装包后，断网安装</li>
-                <li>请勿相信视频中的菠菜广告，违者后果自负</li>
-                <li>本程序只有安卓版本，无苹果版本</li>
-                <li>手机端首次使用，请点击左上角按钮，打开侧栏第一个使用说明，根据提示更改部分设置</li>
-                <li>电视端如果不会安装，请自行在网上搜索自己电视品牌安装应用的方法</li>
-                <li>本程序无法直接下载视频，视频缓存需要搭配另一个软件IDM下载器</li>
-                <li>觉得好用，请分享给身边的朋友，感谢支持！</li>
-            </ul>
-        </div>
-    </div>
+        <!-- 温馨提示 -->
+        <section class="card-box">
+            <h3 class="card-title">温馨提示</h3>
+            <div class="update-item">
+                <ul>
+                    <li>若报毒，请下载安装包后，断网安装</li>
+                    <li>请勿相信视频中的菠菜广告，违者后果自负</li>
+                    <li>本程序只有安卓版本，无苹果版本</li>
+                    <li>手机端首次使用，请点击左上角按钮，打开侧栏第一个使用说明，根据提示更改部分设置</li>
+                    <li>电视端如果不会安装，请自行在网上搜索自己电视品牌安装应用的方法</li>
+                    <li>本程序无法直接下载视频，视频缓存需要搭配另一个软件IDM下载器</li>
+                    <li>觉得好用，请分享给身边的朋友，感谢支持！</li>
+                </ul>
+            </div>
+        </section>
 
-    <div class="s-fixed">
-        <a href="javascript:void(0)" class="expand-btn" id="expandBtn">选择下载方式</a>
     </div>
+</div>
 
-    <div class="download-overlay" id="downloadOverlay">
-        <div class="download-panel" id="downloadPanel">
-            <button class="panel-close" id="panelClose">&times;</button>
+<!-- 底部按钮 -->
+<div class="s-fixed">
+    <a href="javascript:void(0)" class="expand-btn" id="expandBtn">选择下载方式</a>
+</div>
+
+<!-- 下载方式弹层 -->
+<div class="download-overlay" id="downloadOverlay">
+    <div class="download-panel" id="downloadPanel">
+
+        <!-- 固定头部：关闭按钮 + 标题，不随内容滚动 -->
+        <div class="panel-header">
+            <button class="panel-close" id="panelClose" aria-label="关闭">&times;</button>
             <div class="panel-title">选择下载方式</div>
             <div class="panel-subtitle">请选择适合您的下载渠道</div>
-            <a href="https://www.guangyapan.com/s/1910233428573978671_ag54GrZmURIRxCGb" target="_blank" class="download-item">
+        </div>
+
+        <!-- 可滚动内容区 -->
+        <div class="panel-body">
+
+            <!-- 安卓 32 位 -->
+            <div class="download-item">
                 <div class="item-title">安卓32位</div>
                 <div class="item-desc">适用于安卓版本比较低的老手机，与64版本界面不同，安卓版本较高的也可以尝试安装此版本，【注意下载完成后，请用断网安装】</div>
-            </a>
-            <a href="https://www.guangyapan.com/s/1910233497746427919_ag54GrZmURIRxCGb" target="_blank" class="download-item">
+                <div class="item-actions">
+                    <a class="dl-btn" href="https://streamshare.wireway.ch/download/iyzm823e" target="_blank">高速下载</a>
+                    <a class="dl-btn is-ghost" href="https://file.uhsea.com/2610/638b497e0ed3a7cf03b7d6a7af3615429U.apk" target="_blank">备用下载</a>
+                </div>
+            </div>
+
+            <!-- 安卓 64 位 -->
+            <div class="download-item">
                 <div class="item-title">安卓64位</div>
                 <div class="item-desc">适用于安卓版本比较高的手机，与32版本界面不同，安卓版本较高的也可以尝试安装32位版本，【注意下载完成后，请用断网安装】</div>
-            </a>
-            <a href="https://www.guangyapan.com/s/1910231977508364291_ag54GrZmURIRxCGb#/share" target="_blank" class="download-item">
-                <div class="item-title">电视端TV</div>
+                <div class="item-actions">
+                    <a class="dl-btn" href="https://streamshare.wireway.ch/download/8gs37ibs" target="_blank">高速下载</a>
+                    <a class="dl-btn is-ghost" href="https://file.uhsea.com/2610/5dd8213384a02c732574489fcb7394a8A6.apk" target="_blank">备用下载</a>
+                </div>
+            </div>
+
+            <!-- 影视TV端-->
+            <div class="download-item">
+                <div class="item-title">影视TV端</div>
                 <div class="item-desc">安卓横版软件，手机也可以安装，下载后根据自己家电视的品牌，自行搜索安装方法</div>
+                <div class="item-actions">
+                    <a class="dl-btn" href="https://streamshare.wireway.ch/download/ijb8of6e" target="_blank">高速下载</a>
+                    <a class="dl-btn is-ghost" href="https://file.uhsea.com/2610/269505f3414335c6756b2deb1ed7c333LW.apk" target="_blank">备用下载</a>
+                </div>
+            </div>
+
+            <!-- 直播TV端 -->
+            <div class="download-item">
+                <div class="item-title">直播TV端</div>
+                <div class="item-desc">
+                    <span class="desc-line">默认只能看央视卫视，需要额外添加接口才能看全部</span>
+                    <span class="desc-line">电视端安装后打开应用点 <span class="hl">遥控器菜单键</span> <span class="hl">手机扫码</span>打开设置页面</span>
+                    <span class="desc-line">在 <span class="hl">频道设置</span> 里的 <span class="hl">添加推荐源</span> 手动添加并开启底部的 <span class="hl-orange">自动更新频道列表</span></span>
+                </div>
+                <div class="item-actions">
+                    <a class="dl-btn" href="https://streamshare.wireway.ch/download/405iz9ux" target="_blank">高速下载</a>
+                    <a class="dl-btn is-ghost" href="https://file.uhsea.com/2610/32a1f0cc5daf2aa373b9dac19e494f9eEY.apk" target="_blank">备用下载</a>
+                </div>
+            </div>
+
+            <!-- 网页版：保持单项 -->
+            <a class="download-item is-single" href="https://265500.vip" target="_blank">
+                <div class="item-body">
+                    <div class="item-title">网页版</div>
+                    <div class="item-desc">不能成功安装app或者想在电脑上观看的，可以用这个</div>
+                </div>
             </a>
-            <a href="https://265500.vip" target="_blank" class="download-item">
-                <div class="item-title">网页版</div>
-                <div class="item-desc">不能成功安装app或者想在电脑上观看的，可以用这个</div>
-            </a>
+
         </div>
     </div>
+</div>
 
 <script>
-(function(){
+(function () {
+    /* ============ 1. 轮播：原生滚动，不会滑出空白 ============ */
     var container = document.getElementById('swiper');
-    var wrapper = document.getElementById('swiper-wrapper');
-    var slides = wrapper.children;
-    var slideWidth = 180;
-    var gap = 12;
-    var currentIndex = 0;
-    var startX = 0;
-    var currentX = 0;
-    var isDragging = false;
-    var autoPlayTimer = null;
+    var slides = Array.prototype.slice.call(container.querySelectorAll('.swiper-slide'));
+    var autoTimer = null;
+    var resumeTimer = null;
+    var INTERVAL = 3500;
 
-    function updatePosition() {
-        var offset = -currentIndex * (slideWidth + gap);
-        wrapper.style.transform = 'translateX(' + offset + 'px)';
-        wrapper.style.transition = 'transform 0.3s ease-out';
+    function stepSize() {
+        if (slides.length < 2) return 0;
+        var a = slides[0].getBoundingClientRect();
+        var b = slides[1].getBoundingClientRect();
+        return Math.max(0, b.left - a.left);
+    }
+    function maxScrollLeft() {
+        return Math.max(0, container.scrollWidth - container.clientWidth);
     }
 
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % slides.length;
-        updatePosition();
-    }
-
-    function prevSlide() {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        updatePosition();
-    }
-
-    wrapper.addEventListener('touchstart', function(e) {
-        isDragging = true;
-        startX = e.touches[0].clientX;
-        currentX = startX;
-        wrapper.style.transition = 'none';
-        clearInterval(autoPlayTimer);
-    }, {passive: true});
-
-    wrapper.addEventListener('touchmove', function(e) {
-        if (!isDragging) return;
-        currentX = e.touches[0].clientX;
-        var diff = currentX - startX;
-        var offset = -currentIndex * (slideWidth + gap) + diff;
-        wrapper.style.transform = 'translateX(' + offset + 'px)';
-    }, {passive: true});
-
-    wrapper.addEventListener('touchend', function(e) {
-        isDragging = false;
-        var diff = currentX - startX;
-        if (Math.abs(diff) > 50) {
-            if (diff > 0) {
-                prevSlide();
-            } else {
-                nextSlide();
-            }
+    function goNext() {
+        var step = stepSize();
+        if (!step) return;
+        var max = maxScrollLeft();
+        if (max <= 0) return;
+        if (container.scrollLeft >= max - 4) {
+            container.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
-            updatePosition();
+            container.scrollTo({
+                left: Math.min(container.scrollLeft + step, max),
+                behavior: 'smooth'
+            });
         }
-        autoPlayTimer = setInterval(nextSlide, 3000);
-    }, {passive: true});
+    }
 
-    autoPlayTimer = setInterval(nextSlide, 3000);
+    function stopAuto() {
+        if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+    }
+    function startAuto() {
+        stopAuto();
+        autoTimer = setInterval(goNext, INTERVAL);
+    }
+    function pauseAuto(delay) {
+        stopAuto();
+        clearTimeout(resumeTimer);
+        resumeTimer = setTimeout(startAuto, delay == null ? 4000 : delay);
+    }
 
+    container.addEventListener('touchstart', function () { pauseAuto(6000); }, { passive: true });
+    container.addEventListener('touchend', function () { pauseAuto(4000); }, { passive: true });
+    container.addEventListener('mouseenter', stopAuto);
+    container.addEventListener('mouseleave', startAuto);
+
+    document.addEventListener('visibilitychange', function () {
+        if (document.hidden) { stopAuto(); } else { startAuto(); }
+    });
+
+    if (slides.length > 1) startAuto();
+
+    /* ============ 2. 下载方式弹层 ============ */
     var expandBtn = document.getElementById('expandBtn');
     var overlay = document.getElementById('downloadOverlay');
     var panelClose = document.getElementById('panelClose');
 
-    expandBtn.addEventListener('click', function() {
+    function openOverlay() {
         overlay.classList.add('show');
         document.body.style.overflow = 'hidden';
-    });
-
-    panelClose.addEventListener('click', function() {
+    }
+    function closeOverlay() {
         overlay.classList.remove('show');
         document.body.style.overflow = '';
-    });
+    }
 
-    overlay.addEventListener('click', function(e) {
-        if (e.target === overlay) {
-            overlay.classList.remove('show');
-            document.body.style.overflow = '';
-        }
+    expandBtn.addEventListener('click', openOverlay);
+    panelClose.addEventListener('click', closeOverlay);
+    overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) closeOverlay();
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeOverlay();
     });
 })();
 </script>
