@@ -56,7 +56,7 @@
       "key": "官方解析",
       "name": "🌟官方高清",
       "type": 1,
-      "api": "https://cj.jusj.top/api.php/provide/vod/?https://www.caiji.cyou/api.php/provide/vod?https://www.seacms.org/api.php/provide/vod/?ac=list",
+      "api": "https://cj.jusj.top/api.php/provide/vod/",
       "playUrl": "https://video.isyour.love/player/getplayer_jxMore?url=",
       "searchable": 1,
       "filterable": 0,
