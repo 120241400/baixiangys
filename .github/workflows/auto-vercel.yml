@@ -1,13 +1,22 @@
-name: Keep Vercel Alive
+name: Daily Keep-Alive Commit
 on:
   schedule:
-    - cron: '0 */12 * * *' # 每12小时运行一次（UTC时间）
-  workflow_dispatch: # 允许手动触发
+    - cron: '0 0 * * *' # 每天 UTC 00:00 执行
+  workflow_dispatch: # 保留手动触发选项
+
+permissions:
+  contents: write
 
 jobs:
-  ping:
+  keep-alive:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Vercel App
+      - uses: actions/checkout@v4
+      - name: Configure Git
         run: |
-          curl -s https://baixiangys.vercel.app/ > /dev/null
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Create empty commit
+        run: git commit --allow-empty -m "Daily keep-alive commit"
+      - name: Push changes
+        run: git push
