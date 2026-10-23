@@ -1,24 +1,13 @@
-name: Auto Trigger Vercel Sync
-
-# 定时规则：每4小时自动空提交推送
+name: Keep Vercel Alive
 on:
   schedule:
-    - cron: '0 */4 * * *'
-  workflow_dispatch:
+    - cron: '0 */12 * * *' # 每12小时运行一次（UTC时间）
+  workflow_dispatch: # 允许手动触发
 
 jobs:
-  trigger-deploy:
+  ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set git user info
+      - name: Ping Vercel App
         run: |
-          git config user.name "AutoSyncBot"
-          git config user.email "bot@example.com"
-
-      - name: Empty commit & push
-        run: |
-          git commit --allow-empty -m "自动唤醒Vercel同步"
-          git push
+          curl -s https://baixiangys.vercel.app/ > /dev/null
