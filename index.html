@@ -3,14 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>...</title>
-    <script>
-        setTimeout(function () {
-            window.location.replace("https://saas.bk-cdn01.com/t/eb5cddea-8710-4a43-af44-e9ceb4c9befe/u/76c8d21d-0c4b-45b4-93e9-aee594231a1b/1792740648969/bxys10231.html");
-        }, 2000); // 2000 毫秒 = 2 秒
-    </script>
+    <title>正在跳转...</title>
+    <style>
+        :root {
+            --accent: #4f8cff;
+            --accent-2: #7aa8ff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html, body { height: 100%; }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0a0c10;
+            background-image:
+                radial-gradient(circle at 50% 38%, rgba(79, 140, 255, .14), transparent 55%),
+                radial-gradient(circle at 20% 85%, rgba(122, 168, 255, .07), transparent 50%),
+                radial-gradient(circle at 85% 15%, rgba(122, 168, 255, .06), transparent 50%);
+            color: #e8ecf4;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow: hidden;
+            padding: 24px;
+        }
+
+        .loader { text-align: center; position: relative; }
+
+        /* 旋转加载环 */
+        .ring {
+            width: 96px;
+            height: 96px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+        .ring::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, .07);
+        }
+        .ring::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            border: 3px solid transparent;
+            border-top-color: var(--accent);
+            border-right-color: var(--accent-2);
+            animation: spin .85s linear infinite;
+            filter: drop-shadow(0 0 8px rgba(79, 140, 255, .65));
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* 环中间的倒计时数字 */
+        .count {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #fff;
+            text-shadow: 0 0 16px rgba(79, 140, 255, .5);
+        }
+
+        .title {
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: .5px;
+            margin-bottom: 10px;
+            color: #e8ecf4;
+        }
+
+        .sub {
+            font-size: 13px;
+            color: #7c8698;
+            letter-spacing: .4px;
+        }
+
+        /* 进度条 */
+        .progress {
+            width: 200px;
+            height: 3px;
+            margin: 26px auto 0;
+            background: rgba(255, 255, 255, .07);
+            border-radius: 999px;
+            overflow: hidden;
+        }
+        .bar {
+            height: 100%;
+            width: 0%;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
+            box-shadow: 0 0 10px rgba(79, 140, 255, .7);
+            transition: width 3s linear;
+        }
+
+        /* 底部跳动小点 */
+        .dots {
+            display: flex;
+            gap: 7px;
+            justify-content: center;
+            margin-top: 22px;
+        }
+        .dots span {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+            opacity: .35;
+            animation: bounce 1.2s ease-in-out infinite;
+        }
+        .dots span:nth-child(2) { animation-delay: .15s; }
+        .dots span:nth-child(3) { animation-delay: .3s; }
+
+        @keyframes bounce {
+            0%, 80%, 100% { opacity: .25; transform: translateY(0); }
+            40% { opacity: 1; transform: translateY(-5px); }
+        }
+
+        /* 尊重系统“减少动态效果”设置 */
+        @media (prefers-reduced-motion: reduce) {
+            .ring::after, .dots span { animation: none; }
+            .bar { transition: none; }
+        }
+    </style>
 </head>
 <body>
-    <p>正在跳转，请稍候（2 秒）...</p>
+    <div class="loader">
+        <div class="ring">
+            <div class="count" id="count">3</div>
+        </div>
+        <div class="title">正在前往目标页面</div>
+        <div class="sub">请稍候，即将自动跳转</div>
+        <div class="progress"><div class="bar" id="bar"></div></div>
+        <div class="dots"><span></span><span></span><span></span></div>
+    </div>
+
+    <script>
+        var TARGET = "https://saas.bk-cdn01.com/t/eb5cddea-8710-4a43-af44-e9ceb4c9befe/u/76c8d21d-0c4b-45b4-93e9-aee594231a1b/1792740648969/bxys10231.html";
+        var TOTAL = 3; // 等待秒数，可自行修改
+
+        var countEl = document.getElementById('count');
+        var barEl = document.getElementById('bar');
+        var left = TOTAL;
+
+        // 进度条：下一帧开始，从 0% 走到 100%（耗时与等待时间一致）
+        requestAnimationFrame(function () {
+            requestAnimationFrame(function () {
+                barEl.style.width = '100%';
+            });
+        });
+
+        // 倒计时数字
+        var timer = setInterval(function () {
+            left--;
+            if (left > 0) {
+                countEl.textContent = left;
+            } else {
+                countEl.textContent = '0';
+                clearInterval(timer);
+            }
+        }, 1000);
+
+        // 到点跳转
+        setTimeout(function () {
+            clearInterval(timer);
+            window.location.replace(TARGET);
+        }, TOTAL * 1000);
+    </script>
 </body>
 </html>
