@@ -582,10 +582,20 @@
       "filterable": 1
     },
     {
+      "key": "巨量",
+      "name": "🦋巨量资源",
+      "type": 0,
+      "api": "https://api.juliang.live/api/provide/vod/from/jlm3u8/at/xml/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "猫眼",
       "name": "🍺猫眼资源",
       "type": 0,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml/",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
