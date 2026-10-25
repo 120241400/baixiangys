@@ -234,7 +234,7 @@
       "key": "六",
       "name": "🍉西瓜资源",
       "type": 1,
-      "api": "http://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8",
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8",
       "playUrl": "",
       "searchable": 1,
       "filterable": 0,
