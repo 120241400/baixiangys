@@ -593,7 +593,7 @@
     },
     {
       "key": "猫眼",
-      "name": "🍺猫眼资源",
+      "name": "🐱猫眼资源",
       "type": 0,
       "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml/",
       "playUrl": "",
