@@ -529,6 +529,7 @@ GRTN生活频道,webview://https://www.gdtv.cn/tvChannelDetail/102
 凤凰中文1,http://www.wangqing.vip/zhiboxiu/fenghuang2.html?m3u8
 香港台,http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8
 香港台1,http://www.wangqing.vip/zhiboxiu/fenghuang3.html?m3u8
+香港卫视,webview://https://www.hkstv.tv/live
 TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=43
 
 
