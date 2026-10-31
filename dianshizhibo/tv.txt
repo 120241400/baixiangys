@@ -611,11 +611,11 @@ CECTV-3 国际教育,http://play.cec-tv.com.cn/channel/cec-tv3.m3u8
 CECTV-4 国际健康,http://play.cec-tv.com.cn/channel/cec-tv4.m3u8
 
 港澳台频道,#genre#
-凤凰资讯,https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/fenghuang1.js
+凤凰资讯,http://www.wangqing.vip/zhiboxiu/fenghuang1.html?m3u8
 凤凰资讯,http://bobohome.ignorelist.com:20247/fengshows?id=1.m3u8
-凤凰中文,https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/fenghuang2.js
+凤凰中文,http://www.wangqing.vip/zhiboxiu/fenghuang2.html?m3u8
 凤凰中文,http://bobohome.ignorelist.com:20247/fengshows?id=2.m3u8
-凤凰香港,https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/fenghuang3.js
+凤凰香港,http://www.wangqing.vip/zhiboxiu/fenghuang3.html?m3u8
 凤凰香港,http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8
 香港卫视,https://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 三立新闻,https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
