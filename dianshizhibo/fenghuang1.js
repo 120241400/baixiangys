@@ -1,88 +1,67 @@
-﻿/*!
- * 凤凰直播 - 定时取 FLV 地址并弹窗播放
- * 用法：<script src="live-popup.js"></script>
- * 可选：window.FengLiveConfig = { minutes: 10, apiUrl: '...' }
+﻿/**
+ * 凤凰直播 - 酷9专用脚本
+ * 用法：保存到酷9的 js 文件夹，在频道列表中使用
+ * http://你的域名/ku9/js/feng-live.js?id=任意值
  */
-(function (global) {
-  'use strict';
 
-  var cfg = Object.assign({
-    apiUrl: 'https://api.fengshows.cn/hub/live/auth-url?live_qa=hd&live_id=7c96b084-60e1-40a9-89c5-682b994fb680',
-    minutes: 10
-  }, global.FengLiveConfig || {});
+function main(item) {
+    // 1. 配置 API 地址（可保留原样）
+    var apiUrl = 'https://api.fengshows.cn/hub/live/auth-url?live_qa=hd&live_id=7c96b084-60e1-40a9-89c5-682b994fb680';
 
-  var PERIOD = Math.max(1, +cfg.minutes || 10) * 60000;
-  var busy = false, timer = null, popWin = null;
+    // 2. 使用酷9内置的 request 方法请求接口
+    // ku9.request(url, method, headers, body) 是酷9提供的网络请求函数
+    var res = ku9.request(apiUrl, 'GET', {
+        'Cache-Control': 'no-store'
+    });
 
-  /* 递归找 flv 地址 */
-  function extractFlv(o, depth) {
+    // 3. 处理请求失败的情况
+    if (!res || res.code !== 200) {
+        // 返回空地址，酷9会提示播放失败
+        return { url: '' };
+    }
+
+    // 4. 解析响应数据
+    var data;
+    try {
+        // 酷9的 res.body 可能是字符串或已解析的对象，这里做兼容处理
+        data = typeof res.body === 'string' ? JSON.parse(res.body) : res.body;
+    } catch (e) {
+        return { url: '' };
+    }
+
+    // 5. 递归查找 flv 地址（逻辑与浏览器端一致）
+    var flvUrl = extractFlv(data);
+
+    // 6. 返回酷9标准格式的播放地址对象
+    if (flvUrl) {
+        return { url: flvUrl };
+    } else {
+        return { url: '' };
+    }
+}
+
+/**
+ * 递归查找 flv 地址（保留原逻辑）
+ */
+function extractFlv(o, depth) {
     depth = depth || 0;
     if (!o || depth > 6) return null;
     if (typeof o === 'string') {
-      return /^https?:\/\/\S+\.flv(\?|$)/i.test(o.trim()) ? o.trim() : null;
+        return /^https?:\/\/\S+\.flv(\?|$)/i.test(o.trim()) ? o.trim() : null;
     }
     if (Array.isArray(o)) {
-      for (var i = 0; i < o.length; i++) {
-        var r = extractFlv(o[i], depth + 1);
-        if (r) return r;
-      }
-      return null;
+        for (var i = 0; i < o.length; i++) {
+            var r = extractFlv(o[i], depth + 1);
+            if (r) return r;
+        }
+        return null;
     }
     if (typeof o === 'object') {
-      for (var k in o) {
-        if (!Object.prototype.hasOwnProperty.call(o, k)) continue;
-        var rr = extractFlv(o[k], depth + 1);
-        if (rr) return rr;
-      }
+        for (var k in o) {
+            if (!Object.prototype.hasOwnProperty.call(o, k)) continue;
+            var rr = extractFlv(o[k], depth + 1);
+            if (rr) return rr;
+        }
     }
     return null;
-  }
-
-  function getFlvUrl() {
-    return fetch(cfg.apiUrl, { cache: 'no-store', credentials: 'omit', mode: 'cors' })
-      .then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      })
-      .then(function (d) {
-        var u = extractFlv(d);
-        if (!u) throw new Error('无 flv 地址');
-        return u;
-      });
-  }
-
-  /* flv.js 弹窗播放 */
-  function openPopup(url) {
-    if (!url) return false;
-    try { if (popWin && !popWin.closed) popWin.close(); } catch (e) {}
-    var win = global.open();
-    if (!win || win.closed) return false;
-
-    win.document.write(
-      '<!DOCTYPE html><html><head><meta charset="utf-8"><title>凤凰直播</title></head>' +
-      '<body style="margin:0;background:#000">' +
-      '<video id="v" autoplay muted playsinline style="position:fixed;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>' +
-      '<script src="https://cdn.jsdelivr.net/npm/flv.js@1.6.2/dist/flv.min.js"><\/script>' +
-      '<script>' +
-      'var p=flvjs.createPlayer({type:"flv",url:' + JSON.stringify(url) + '});' +
-      'p.attachMediaElement(document.getElementById("v"));p.load();p.play();' +
-      '<\/script></body></html>'
-    );
-    win.document.close();
-    popWin = win;
-    return true;
-  }
-
-  function run() {
-    if (busy) return;
-    busy = true;
-    getFlvUrl().then(openPopup).catch(function () {}).then(function () {
-      busy = false;
-      clearTimeout(timer);
-      timer = setTimeout(run, PERIOD);
-    });
-  }
-
-  global.FengLivePopup = { start: function () { run(); }, stop: function () { clearTimeout(timer); } };
-  run();
-})(window);
+}
