@@ -146,7 +146,6 @@ CCTV-4 中文国际（美）,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cd
 潍坊高新区,webview://https://iapp.wegood.wang/share/dHZsLTQyMS0xNA.html
 长清综合,webview://https://iapp.jncqrm.cn/share/dHZsLTE3MS0y.html
 济铁电视台,webview://https://jnjapp.jntlj.com/share/dHZsLTMwMy0x.html
-平阴乡村振兴,webview://https://app.litenews.cn/share/dHZsLTI1Ny0z.html
 商河综合,webview://https://iapp.shxrmtzx.com/share/dHZsLTk3LTE.html
 商河影视,webview://https://iapp.shxrmtzx.com/share/dHZsLTk3LTI.html
 章丘综合,webview://https://app.litenews.cn/share/dHZsLTE5NS0x.html
