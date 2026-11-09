@@ -635,4 +635,19 @@ TVBS新闻,http://45.192.97.170:8880/play/779.m3u8
 LIVE三立,https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
 LIVE三立,http://45.192.97.170:8880/play/780.m3u8
 
+音乐电台,#genre#
+清晨音乐台,https://lhttp-hw.qtfm.cn/live/4915/64k.mp3
+上海动感101,https://lhttp-hw.qtfm.cn/live/274/64k.mp3
+厦门音乐台,https://lhttp-hw.qtfm.cn/live/1739/64k.mp3
+动听音乐台,https://lhttp-hw.qtfm.cn/live/5022107/64k.mp3
+浙江音乐调频,https://lhttp-hw.qtfm.cn/live/4866/64k.mp3
+顺德音乐之声,https://lhttp-hw.qtfm.cn/live/20500150/64k.mp3
+音乐怀旧好声音,https://lhttp-hw.qtfm.cn/live/5021381/64k.mp3
+广西音乐台,https://lhttp-hw.qtfm.cn/live/4875/64k.mp3
+亚洲粤语台,https://lhttp-hw.qtfm.cn/live/15318569/64k.mp3
+烟台音乐频道,https://lhttp-hw.qtfm.cn/live/1683/64k.mp3
+两广之声音乐台,https://lhttp-hw.qtfm.cn/live/1683/64k.mp3
+河北音乐广播,https://lhttp-hw.qtfm.cn/live/1649/64k.mp3
+
+
 
