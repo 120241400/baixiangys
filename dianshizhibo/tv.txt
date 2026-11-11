@@ -435,12 +435,8 @@ GRTN生活频道,webview://https://www.gdtv.cn/tvChannelDetail/102
 河源生活,webview://https://www.hyrtv.cn/itv/ggds/
 清远新闻综合,webview://https://h5.qyrb.cn/h5/nfzmy-television-and-radio/#/?channelId=1
 清远文旅生活,webview://https://h5.qyrb.cn/h5/nfzmy-television-and-radio/#/?channelId=3
-韶关,webview://https://www.sgmsw.cn/v/tv?spm=0.0.0.0.nRYAvk&id=SB05RIYZOU8JR418AUQOF62CAJQ08D0E
 肇庆综合,webview://https://zqh5.xjrb.com/h5/nfzmy-television-and-radio/#/?channelId=33
-河源综合,https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
-河源公共,https://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
 清远新闻综合,webview://https://www.qyrb.cn/tv/rM834x3d5a.html
-韶关新闻综合,webview://https://www.sgmsw.cn/v/tv?spm=0.0.0.0.HGiuAr&id=SB05RIYZOU8JR418AUQOF62CAJQ08D0E
 
 
 上海频道,#genre#
