@@ -376,9 +376,6 @@ CCTV8,webview://https://tv.cctv.com/live/cctv8/
 焦作综合,webview://https://static.hntv.tv/total/television/?id=209&u-link=1
 焦作综合,webview://http://www.jzrt.com/list-zhpd.html
 焦作文旅,webview://http://www.jzrt.com/list-ggpd.html
-焦作文旅,webview://https://jiaozuo.dxhmt.cn/api/page/goLivePage?liveId=6a8a51398cf44ad28bb7808afdc94f4d
-焦作综合,webview://https://jiaozuo.dxhmt.cn/api/page/goLivePage?liveId=a15a6b9e3e1f435584f903641e85a975&personId=cbe111e3ca12486bb64ba9fc4ffe1c7b
-焦作公共,webview://https://jiaozuo.dxhmt.cn/api/page/goLivePage?liveId=6a8a51398cf44ad28bb7808afdc94f4d&personId=cbe111e3ca12486bb64ba9fc4ffe1c7b
 濮阳综合,webview://https://static.hntv.tv/total/television/?id=219&u-link=1
 许昌综合,webview://https://static.hntv.tv/total/television/?id=220&u-link=1
 漯河综合,webview://https://static.hntv.tv/total/television/?id=221&u-link=1
