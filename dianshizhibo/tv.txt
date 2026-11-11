@@ -232,8 +232,6 @@ CCTV-4 中文国际（美）,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cd
 曲阜新闻综合,webview://https://iapp.jinriqufu.com/share/dHZsLTEzLTE.html
 任城新闻综合,webview://https://iapp.rcrmt.cn/share/dHZsLTczLTg.html
 任城影视娱乐,webview://https://iapp.rcrmt.cn/share/dHZsLTczLTk.html
-泗水新闻综合,webview://https://iapp.sishuitv.com/share/dHZsLTExNy01.html
-泗水文化生活,webview://https://iapp.sishuitv.com/share/dHZsLTExNy02.html
 汶上综合,webview://https://iapp.wstvs.com/share/dHZsLTMwMS0x.html
 鱼台新闻,webview://https://iapp.ytxrmtzx.com/share/dHZsLTYzLTU.html
 鱼台生活,webview://https://iapp.ytxrmtzx.com/share/dHZsLTYzLTE1.html
