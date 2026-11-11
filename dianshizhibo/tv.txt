@@ -610,6 +610,7 @@ CECTV-4 国际健康,http://play.cec-tv.com.cn/channel/cec-tv4.m3u8
 凤凰香港,https://gh-proxy.com/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/fenghuang3.js
 凤凰香港,http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8
 香港卫视,webview://https://hkstv.tv/live
+无线新闻,https://amg01868-amg01868c2-tvbanywhere-us-4490.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbnews-tvbanywhereus/playlist.m3u8
 三立新闻,https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
 三立新闻,http://45.192.97.170:8880/play/773.m3u8
 中天新闻,https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
@@ -625,7 +626,6 @@ TVBS新闻,http://45.192.97.170:8880/play/779.m3u8
 民视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
 民视新闻,http://45.192.97.170:8880/play/778.m3u8
 民視新聞,http://211.72.174.95:8117/0.ts
-无线新闻,https://amg01868-amg01868c2-tvbanywhere-us-4490.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbnews-tvbanywhereus/playlist.m3u8
 台视新聞,https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
 LIVE三立,https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
 LIVE三立,http://45.192.97.170:8880/play/780.m3u8
