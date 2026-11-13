@@ -306,6 +306,7 @@ CCTV-4 中文国际（美）,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cd
 郑州教育,https://livezzutv.chinamcache.com/live/zb02.m3u8
 平顶山教育,http://219.150.204.175:81/hls/live1.m3u8
 洛阳科教,https://live.lytv.com.cn/live/LYTV2.m3u8
+山东教育,https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 
 影视频道,#genre#
 CCTV6,webview://https://tv.cctv.com/live/cctv6/
