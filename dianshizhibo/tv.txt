@@ -289,15 +289,16 @@ CCTV-4 中文国际（美）,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cd
 少儿频道,#genre#
 央视少儿,webview://https://tv.cctv.com/live/cctvchild/
 山东少儿,webview://https://v.iqilu.com/live/sepd/
-金鹰卡通,webview://https://www.mgtv.com/live
 浙江少儿,webview://https://www.cztv.com/liveTV/108
-哈哈炫动,webview://https://live.kankanews.com/huikan?id=9
 深圳少儿,webview://https://www.sztv.com.cn/dianshi.shtml?id=7881
+河北少儿,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=4
 广东少儿,webview://https://www.gdtv.cn/tvChannelDetail/54
 广东卡通,webview://https://www.gdtv.cn/tvChannelDetail/66
-河北少儿,webview://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=4
+金鹰卡通,webview://https://www.mgtv.com/live
 经典卡通,http://iptv.4666888.xyz/iptv2A.php?id=41
 靖天卡通,http://iptv.4666888.xyz/iptv2A.php?id=42
+优漫卡通,webview://https://live.jstv.com/?channelId=667
+哈哈炫动,webview://https://live.kankanews.com/huikan?id=9
 
 教育频道,#genre#
 中国教育1,webview://https://www.yangshipin.cn/tv/home?pid=600171827
