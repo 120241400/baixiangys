@@ -295,8 +295,6 @@ CCTV-4 中文国际（美）,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cd
 广东少儿,webview://https://www.gdtv.cn/tvChannelDetail/54
 广东卡通,webview://https://www.gdtv.cn/tvChannelDetail/66
 金鹰卡通,webview://https://www.mgtv.com/live
-经典卡通,http://iptv.4666888.xyz/iptv2A.php?id=41
-靖天卡通,http://iptv.4666888.xyz/iptv2A.php?id=42
 优漫卡通,webview://https://live.jstv.com/?channelId=667
 哈哈炫动,webview://https://live.kankanews.com/huikan?id=9
 
@@ -630,6 +628,7 @@ TVBS新闻,http://45.192.97.170:8880/play/779.m3u8
 民视新闻,http://45.192.97.170:8880/play/778.m3u8
 民視新聞,http://211.72.174.95:8117/0.ts
 台视新聞,https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
+寰宇经济台,http://iptv.4666888.xyz/iptv2A.php?id=42
 LIVE三立,https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
 LIVE三立,http://45.192.97.170:8880/play/780.m3u8
 中視,http://211.72.174.95:8113/0.ts
