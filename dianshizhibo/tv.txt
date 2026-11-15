@@ -100,7 +100,7 @@ CCTV-10 科教,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv10_1/i
 CCTV-11 戏曲,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv11_1/index.m3u8?b=200-4000
 CCTV-12 社会与法,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv12_1/index.m3u8?b=200-4000
 CCTV-13 新闻,https://ldncctvwbcdbd.a.bdydns.com/ldncctvwbcd/cdrmldcctv13_1/index.m3u8?b=200-4000
-CCTV-14 少儿,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctvchild_1/index.m3u8?b=200-4000
+CCTV-14 少儿,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv14_1/index.m3u8?b=200-2100
 CCTV-15 音乐,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv15_1/index.m3u8?b=200-4000
 CCTV-16 奥林匹克,https://ldcctvwbcdks.v.kcdnvip.com/ldcctvwbcd/cdrmldcctv16_1/index.m3u8?b=200-4000
 CCTV-17 农业农村,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv17_1/index.m3u8?b=200-4000
@@ -287,7 +287,7 @@ CCTV-4 中文国际（美）,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cd
 菏泽二套,webview://https://web.guangdianyun.tv/tv/3493?uin=4042
 
 少儿频道,#genre#
-央视少儿,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctvchild_1/index.m3u8?b=200-4000
+央视少儿,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv14_1/index.m3u8?b=200-2100
 山东少儿,webview://https://v.iqilu.com/live/sepd/
 浙江少儿,webview://https://www.cztv.com/liveTV/108
 深圳少儿,webview://https://www.sztv.com.cn/dianshi.shtml?id=7881
