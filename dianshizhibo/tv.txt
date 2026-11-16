@@ -628,6 +628,7 @@ TVBS新闻,http://45.192.97.170:8880/play/779.m3u8
 民视新闻,http://45.192.97.170:8880/play/778.m3u8
 民視新聞,http://211.72.174.95:8117/0.ts
 台视新聞,https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
+非凡新闻,rtmp://f13h.mine.nu/sat/tv581
 寰宇经济台,http://iptv.4666888.xyz/iptv2A.php?id=42
 LIVE三立,https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
 LIVE三立,http://45.192.97.170:8880/play/780.m3u8
@@ -636,7 +637,15 @@ LIVE三立,http://45.192.97.170:8880/play/780.m3u8
 公視,http://211.72.174.95:8116/0.ts
 民視,http://211.72.174.95:8115/0.ts
 台視,http://211.72.174.95:8112/0.ts
-
+民视,rtmp://f13h.mine.nu/sat/tv051
+中视,rtmp://f13h.mine.nu/sat/tv091
+华视,rtmp://f13h.mine.nu/sat/tv111
+台视,rtmp://f13h.mine.nu/sat/tv071
+东森超视,rtmp://f13h.mine.nu/sat/tv331
+纬来育乐,rtmp://f13h.mine.nu/sat/tv701
+纬来体育,rtmp://f13h.mine.nu/sat/tv721
+DAZN-体育,rtmp://f13h.mine.nu/sat/tv741
+momo'tv,rtmp://f13h.mine.nu/sat/tv761
 
 音乐电台,#genre#
 清晨音乐台,https://lhttp-hw.qtfm.cn/live/4915/64k.mp3
