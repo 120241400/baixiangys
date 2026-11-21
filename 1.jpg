@@ -592,10 +592,20 @@
       "filterable": 0
     },
     {
-      "key": "聚合",
-      "name": "🐱聚合资源",
+      "key": "聚合1",
+      "name": "🍻聚合资源1",
       "type": 0,
       "api": "https://www.qlys.cc/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "聚合2",
+      "name": "🍻聚合资源2",
+      "type": 0,
+      "api": "http://lovedan.net/api.php/provide/vod/at/xml/",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
