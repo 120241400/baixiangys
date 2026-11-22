@@ -95,7 +95,7 @@ CCTV-5+ 体育赛事,https://ldcctvwbcdtxy.liveplay.myqcloud.com/ldcctvwbcd/cdrm
 CCTV-6 电影,https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv6_1/index.m3u8?b=200-4000
 CCTV-7 国防军事,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv7_1/index.m3u8?b=200-4000
 CCTV-8 电视剧,https://ldocctvwbcdks.v.kcdnvip.com/ldocctvwbcd/cdrmldcctv8_1/index.m3u8?b=200-4000
-CCTV-9 纪录,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctvjilu_1/index.m3u8?b=200-4000
+CCTV-9 纪录,https://ldocctvwbcdks.v.kcdnvip.com/ldocctvwbcd/cdrmldcctv9_1/index.m3u8?b=200-2100
 CCTV-10 科教,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv10_1/index.m3u8?b=200-4000
 CCTV-11 戏曲,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv11_1/index.m3u8?b=200-4000
 CCTV-12 社会与法,https://ldocctvwbcdbyte.volcfcdn.com/ldocctvwbcd/cdrmldcctv12_1/index.m3u8?b=200-4000
