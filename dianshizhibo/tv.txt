@@ -644,6 +644,7 @@ LIVE三立,http://45.192.97.170:8880/play/780.m3u8
 东森超视,rtmp://f13h.mine.nu/sat/tv331
 纬来育乐,rtmp://f13h.mine.nu/sat/tv701
 纬来体育,rtmp://f13h.mine.nu/sat/tv721
+纬来体育备用,webview://https://www.jrs03.com/wlty.html?https://www.jrkan.com/?https://www.jrs03.com/?https://www.jrkan77.com/?https://www.jrs33.com/?https://www.jrkan66.com/?https://www.jrs15.com/
 DAZN-体育,rtmp://f13h.mine.nu/sat/tv741
 momo'tv,rtmp://f13h.mine.nu/sat/tv761
 
