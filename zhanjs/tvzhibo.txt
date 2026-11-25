@@ -1,5 +1,4 @@
 北京频道,#genre#
-北京卫视,http://47.99.202.156:8016/daili/btv1.m3u8?v=1111vvw&line=0
 北京文艺,http://47.99.202.156:8016/daili/btv2.m3u8?v=1111vvw&line=0
 北京科教,http://47.99.202.156:8016/daili/btv3.m3u8?v=1111vvw&line=0
 北京影视,http://47.99.202.156:8016/daili/btv4.m3u8?v=1111vvw&line=0
