@@ -651,7 +651,7 @@ momo'tv,rtmp://f13h.mine.nu/sat/tv761
 随便看看,#genre#
 测试1,https://fggjgfj.prophp.org/888/huya1.php?id=11342396
 测试2,https://fggjgfj.prophp.org/888/huya2.php?id=11342396
-测试3,https://fggjgfj.prophp.org/888/999.php?id=11342396
+测试3,webview://https://fggjgfj.prophp.org/888/999.php?id=11342396
 铁齿铜牙纪晓岚,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11342396
 雪中悍刀行,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11336592
 庆余年1,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11352960
