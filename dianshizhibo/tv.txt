@@ -653,15 +653,11 @@ momo'tv,rtmp://f13h.mine.nu/sat/tv761
 雪中悍刀行,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11336592
 庆余年1,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11352960
 庆余年2,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=23740156
-雍正王朝,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=30627334
 延禧攻略,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=26355864
 如懿传,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=30080227
-士兵突击,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=30454429
 西游记1,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=26355861
 西游记2,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=20985836
-西游记TVB版,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11342386
 韦小宝,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=23650774
-陈翔六点半,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=cxldb
 神雕侠侣,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11352964
 白鹿原,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=30311504
 扫黑风暴,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11342404
@@ -674,10 +670,8 @@ momo'tv,rtmp://f13h.mine.nu/sat/tv761
 封神榜2,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=20432237
 李卫当官,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=26355788
 天龙八部,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=20985816
-权力的游戏,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=qiaowoshuoplay
 倚天屠龙记,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=21241819
 鸡毛飞上天,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=29982664
-科幻史诗,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=30080257
 梦华录,https://gh-proxy.org/https://raw.githubusercontent.com/120241400/baixiangys/main/dianshizhibo/huya.js?id=11336590
 
 音乐电台,#genre#
