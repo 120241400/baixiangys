@@ -56,7 +56,7 @@
       "key": "官方解析",
       "name": "🌟官方高清",
       "type": 1,
-      "api": "https://cj.jusj.top/api.php/provide/vod/",
+      "api": "154.219.117.232:9981/jacloudapi.php/provide/vod",
       "playUrl": "https://video.isyour.love/player/getplayer_jxMore?url=",
       "searchable": 1,
       "filterable": 0,
